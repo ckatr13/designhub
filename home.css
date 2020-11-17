@@ -402,6 +402,7 @@ nav {
     z-index: 99;
     transform: translateX(100vw);
     transition: ease-in-out .5s;
+    display: inline;
 }
 
 .mobile-link {
