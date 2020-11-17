@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1 user-scalable=no">
+    <!-- <link rel="shortcut icon" href="favicon.ico"/> -->
+    <link rel="stylesheet" href="normalize.min.css" />
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <title>Design Hub</title>
+</head>
+
+<body onload="wipe()">
+    <nav>
+        <a href="index.html"><img src="assets/design hub logo pink.png" class="logo"></a>
+        <ul>
+          <li onmouseover="menuHover3()" onmouseout="menuOut3()"><a href="index.html#our-work">Our Work</a></li>
+          <li onmouseover="menuHover2()" onmouseout="menuOut2()"><a href="members.html">Members</a></li>
+          <li onmouseover="menuHover()" onmouseout="menuOut()"><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger-button" id="hamburger-button" onclick="displayMenu()"><a>&#9776;</a></div>
+        <div id="x" onclick="hideMenu()">X</div>
+        <svg id="line">
+          <line x1="0" y1="0" x2="100" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
+        </svg>
+        <svg id="line2">
+          <line x1="0" y1="0" x2="100" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
+        </svg>
+        <svg id="line3">
+          <line x1="0" y1="0" x2="100" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
+        </svg>
+      </nav>
+
+      <div class="mobile-menu hide" id="mobile-menu" onclick="hideMenu()">
+        <a class="mobile-link"href="index.html#our-work">Our Work</a>
+        <a class="mobile-link" href="members.html">Members</a>
+        <a class="mobile-link" href="contact.html">Contact</a>
+      </div>
+
+      <div id="wipe-on"></div>
+
+    <div class="iframe-container">
+      <iframe id="contact"
+          title="Inline Frame Example"
+          width="310px"
+          height="480px"
+          scrolling="no"
+          src="https://ruthdial.wixsite.com/mysite/contact">
+      </iframe>
+    </div>
+    
+
+    <footer>
+        <h4>© 2020 by Designhub</h4>
+      </footer>
+      <script src="home.js" type="text/javascript"></script>
+
+</body>
+</html>
