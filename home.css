@@ -415,7 +415,7 @@ nav {
     transition: ease-in-out .5s;
     margin-left: 150px;
     height: 0px;
-    display: inline;
+    background-color: rgb(10, 10, 10);
 }
 
 .mobile-link:hover {
