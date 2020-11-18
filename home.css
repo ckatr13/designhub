@@ -55,6 +55,12 @@ h1 {
     display: block;
 }
 
+@media screen and (max-width: 375px) {
+    .h1 {
+        padding-top: 120px;
+    }
+}
+
 /* .br {
     line-height: 0.5em;
     padding-top: 16px;
@@ -1196,7 +1202,6 @@ li {
 @media screen and (max-width: 862px) {
     .no-margin {
         float: left;
-        width: 100%;
     }
  }
 
