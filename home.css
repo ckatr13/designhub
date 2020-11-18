@@ -11,14 +11,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;900&display=swap');
 
 html {
     height: 100%;
     box-sizing: border-box;
     /* font-family: "Avenir Light", sans-serif; */
     font-family: "Montserrat", sans-serif;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 body {
@@ -125,7 +125,7 @@ h3 {
     margin-right: 60px;
     font-size: 18px;
     line-height: 2;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 @media screen and (max-device-width: 1366px) {
@@ -149,7 +149,7 @@ h3 {
 
 h4 {
     font-size: 24px;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 
@@ -158,7 +158,7 @@ h5 {
     letter-spacing: .4em;
     font-size: 12px;
     margin: 0px;
-    font-weight: 100;
+    font-weight: 200;
     height: 10px;
     width: 60px;
 }
@@ -171,7 +171,7 @@ h5 {
 
 h6 {
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 200;
     width: 100%;
     height: 0px;
     margin-left: 40px;
@@ -212,7 +212,7 @@ b {
 
 p {
     line-height: 2em;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 @media screen and (max-width: 963px) {
@@ -998,7 +998,7 @@ ul {
 li {
     display: inline;
     padding: 29px 20px;
-    font-weight: 300;
+    font-weight: 400;
     color: rgb(92, 92, 92);
 }
 
@@ -1051,7 +1051,7 @@ li {
     -o-transition: color 300ms ease 0ms;
     font-size: 18px;
     color: rgb(92, 92, 92);
-    font-weight: 300;
+    font-weight: 400;
 }
 
 @media screen and (max-width: 963px) {
@@ -1158,7 +1158,7 @@ li {
 
 .white-h2 {
     color: white;
-    font-weight: 100;
+    font-weight: 200;
     margin-left: 140px;
     line-height: 1.5em;
     margin-top: -20px;
