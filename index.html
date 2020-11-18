@@ -39,7 +39,7 @@
     <div class="mobile-menu" id="mobile-menu">
       <div id="x" onclick="hideMenu()">X</div>
       <a onmouseover="line1()" onmouseout="line1Out()" class="mobile-link" id="link1" href="index.html">Home</a>
-      <a onmouseover="line2()" onmouseout="line2Out()" class="mobile-link" href="our-work.html">Our Work</a>
+      <a onmouseover="line2()" onmouseout="line2Out()" class="mobile-link" href="our-work.html">Portfolio</a>
       <a onmouseover="line3()" onmouseout="line3Out()" class="mobile-link" href="#">Services</a>
       <a onmouseover="line4()" onmouseout="line4Out()" class="mobile-link" href="members.html">Members</a>
       <a onmouseover="line5()" onmouseout="line5Out()" class="mobile-link" href="members.html">Clients</a>
@@ -108,11 +108,14 @@
       </div>
     </section>
 
-    <header id="header">
+    <header class="first-header" id="header">
       <div class="header-left">
         <h2>Award-Winning Design</h2>
+        <svg class="svg2" id="line">
+          <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
+        </svg>
         <p class="header-p">We are a full service design studio. Specializing in news and network branding,
-          we are uniquely qualified to understand and identify your needs, bringing your network greater brand
+          we are uniquely qualified to identify your needs and bring your network bran awareness and growth.
           awareness and growth.
         </p>
         <a class="link__arrowed" href="contact.html" target="_self" rel="noopener noreferrer">CONTACT US <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
@@ -124,7 +127,9 @@
     </a>
       </div>
       <div class="header-right">
-        <h2 id="services">SERVICES</h2>
+        <div id="services">
+          <h3 class="black">SERVICES</h3>
+        </div>
         <ul>
           <li class="service-list">Branding</li>
           <li class="service-list">Broadcast Design</li>

@@ -11,7 +11,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;900&display=swap');
 
 html {
     height: 100%;
@@ -111,6 +111,8 @@ h1 {
 h2 {
     font-size: 32px;
     font-weight: 300;
+    margin: 0;
+    margin-left: 5px;
 }
 
 @media screen and (max-width: 963px) {
@@ -295,7 +297,24 @@ nav {
     width: 36px;
     /* margin-top: -90px; */
     transition: ease-in-out 0.5s;
+    -webkit-transition: ease-in-out 0.5s;
     float: right;
+}
+
+.svg2 {
+    height: 8px;
+    width: 36px;
+    transition: ease-in-out 0.5s;
+    -webkit-transition: ease-in-out 0.5s;
+    float: left;
+}
+
+.svg3 {
+    height: 8px;
+    width: 36px;
+    transition: ease-in-out 0.5s;
+    -webkit-transition: ease-in-out 0.5s;
+    float: left;
 }
 
 /* @media screen and (max-width: 669px) {
@@ -313,6 +332,8 @@ nav {
 #line {
     /* left: calc(100% - 116px); */
     left: 140px;
+    transition: ease-in-out 0.5s;
+    -webkit-transition: ease-in-out 0.5s;
 }
 
 /* @media screen and (max-width: 1184px) {
@@ -960,6 +981,10 @@ header {
     }
 }
 
+.first-header {
+    padding-top: 80px;
+}
+
 .header-left {
     margin-left: 140px;
     margin-right: 120px;
@@ -992,13 +1017,13 @@ header {
 
 .header-p {
     color: rgb(92, 92, 92);
-
+    margin-top: 53px;
 }
 
 ul {
     margin: 0px;
     padding: 0px;
-    padding-top: 90px;
+    margin-top: 90px;
 }
 
 li {
@@ -1035,6 +1060,7 @@ li {
 
 #services {
     position: absolute;
+    margin-top: 8px;
 }
 
 #more-button {
@@ -1100,6 +1126,8 @@ li {
     color: #fe6858;
 }
 
+
+
 /* 7. Our Work Page Styles
 ======================================== */
 
@@ -1124,8 +1152,9 @@ li {
 }
 
 .black {
-    background-color: rgb(0, 0, 0, .85);
-    z-index: 1;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    font-weight: 400;
 }
 
 .our-work-header-left {
@@ -1210,6 +1239,7 @@ li {
     float: right;
     margin-right: 140px;
     width: 258px;
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 862px) {

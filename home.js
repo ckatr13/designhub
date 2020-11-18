@@ -48,7 +48,7 @@ const nav = document.getElementById("nav");
 
 document.addEventListener('scroll', () => {
   if (window.scrollY >= (target.getBoundingClientRect().top + 600)) {
-    nav.style.backgroundColor = "rgba(0, 0, 0, 0.85)";
+    nav.style.backgroundColor = "rgba(18, 18, 18, 1)";
     // a.style.color = "white";
     // a2.style.color = "white";
     // a3.style.color = "white";
@@ -292,7 +292,7 @@ function line1() {
 }
 
 function line2() {
-  document.getElementById("line3").style.width = "166px"
+  document.getElementById("line3").style.width = "146px"
 }
 
 function line3() {
