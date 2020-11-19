@@ -35,24 +35,20 @@ body {
 ======================================== */
 h1 {
     font-size: 48px;
-    /* font-family: "Poppins", sans-serif; */
-    /* letter-spacing: 10px; */
-    /* font-weight: 900; */
     color: white;
     font-weight: 300;
     margin: 0px;
-    /* display: inline-block; */
     overflow: hidden;
-    width: 398px;
 }
 
 .h1 {
-    /* padding-top: 200px; */
     margin-left: 140px;
-    /* margin-right: 120px; */
-    /* width: max-content; */
     overflow: hidden;
     display: block;
+}
+
+.h1-home {
+    width: 398px;
 }
 
 /* @media screen and (max-width: 375px) {
@@ -79,18 +75,21 @@ h1 {
 @media screen and (max-device-width: 1366px) {
     h1 {
         font-size: 62px !important;
+    }
+
+    .h1-home {
         width: 518px !important;
     }
 }
 
 @media screen and (max-width: 1100px) {
-    h1 {
+    .h1-home {
         width: 270px
     }
 }
 
 @media screen and (max-width: 990px) {
-    h1 {
+    .h1-home {
         width: 398px !important;
     }
 }
@@ -105,6 +104,9 @@ h1 {
 @media screen and (max-width: 669px) {
     h1 {
         font-size: 42px !important;
+    }
+
+    .h1-home {
         width: 232px !important;
     }
 }
@@ -112,6 +114,9 @@ h1 {
 @media screen and (max-width: 429px) {
     h1 {
         font-size: 32px !important;
+    }
+
+    .h1-home {
         width: 176px !important;
     }
 
@@ -714,10 +719,18 @@ button:focus {
     }
 }
 
+video {
+    border: none;
+    /* max-width: 1000px; */
+}
+
+.video {
+    width: 100%;
+}
+
 .project-photo {
     width: 100%;
     height: 100%;
-    z-index: -1;
 }
 
 .bottom-header {
@@ -730,20 +743,59 @@ footer {
     color: white;
     background-color: rgb(18, 18, 18);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
+
+#favicon-foot {
+    margin-top: 16px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.fav-foot{
+    width: 100px;
+} 
 
 @media screen and (max-width: 600px) {
     footer {
         padding-left: 0px;
+        justify-content: center;
+    }
+
+    #favicon-foot {
+        display: none;
     }
 }
 
-@media screen and (max-width: 394px) {
+.footer-flex {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    min-width: 413px;
+}
+
+@media screen and (max-width: 600px) {
+    .footer-flex {
+        min-width: unset;
+        width: 413px;
+    }
+}
+
+.right-footer {
+    margin-left: 20px;
+}
+
+#quick-links {
+    margin-left: 20px;
+}
+
+
+/* @media screen and (max-width: 394px) {
     .right-footer {
         margin-left: -20px;
     }
-}
+} */
 
 span {
     position: absolute;
@@ -764,6 +816,7 @@ span {
 .footer-links {
     padding: 0px;
     margin: 0px;
+    margin-right: 20px;
 }
 
 .footer-menu {
@@ -799,6 +852,12 @@ span {
     padding: 10px;
     transition: ease-in-out .5s;
     opacity: 1;
+}
+
+@media screen and (max-width: 374px) {
+    .social-media  {
+        margin-top: 4px;
+    }
 }
 
 .hide2 {
@@ -1479,17 +1538,47 @@ li {
 }
 
 .project-grid {
-    grid-template-columns: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: white;
+    margin: 0;
+}
+
+.project-grid2 {
+    grid-template-columns: repeat(1, 1fr);
     background-color: white;
     margin: 0;
 }
 
 .project-detail {
+    width: 25vw;
+    height: 100%;
+    /* margin: 6px auto;
+    display: flex;
+    justify-content: center; */
+}
+
+.project-detail2 {
     width: 100vw;
     margin: 6px auto;
     display: flex;
     justify-content: center;
 }
+
+.proj-a {
+    padding: 0px;
+}
+
+/* .bar {
+    height: 40px;
+    width: 25%;
+}
+
+.zoom {
+    position: absolute;
+    width: 20px;
+    margin-left: 80px;
+    margin-top: -36px;
+} */
 
 .img-top {
     width: 100%;
@@ -1505,9 +1594,31 @@ iframe {
     display: block;
 }
 
-/* .iframe-container {
+.iframe-container {
+    height: 360px;
+    width: 300px;
+}
 
+@media screen and (max-width: 900px) {
+    .iframe-container {
+        margin-right: 20px;
+    }
+}
+
+/* @media screen and (max-width: 1024px) {
+    .iframe-container {
+        margin-left: 20px;
+    }
 } */
+
+@media screen and (max-width: 600px) {
+    .iframe-container {
+        display: flex; 
+        justify-content: center;
+        height: 358px;
+        width: 100%;
+    }
+}
 
 #contact {
     border-width: 0px;
@@ -1515,6 +1626,7 @@ iframe {
 
 .contact-info {
     height: 500px;
+    max-height: 100vh;
     background-color: rgb(18, 18, 18);
     width: 100%;
     display: flex;
@@ -1525,13 +1637,61 @@ iframe {
 .contact-h2 {
     margin: 0px;
     margin-left: 100px;
+    margin-right: 20px;
     color: white;
-    width: calc(100% - 100px);
+    width: calc(100% - 120px);
     line-height: 1.5em;
+}
+
+@media screen and (max-width: 1024px) {
+    .contact-h2 {
+        margin-left: 80px;
+        margin-right: 140px;
+        width: calc(100% - 220px);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contact-h2 {
+        margin-right: 100px;
+        width: calc(100% - 180px);
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .contact-h2 {
+        margin-left: 60px;
+        margin-right: 60px;
+        width: calc(100% - 120px);
+    }
 }
 
 .favicon {
     width: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+    .favicon {
+        margin-left: 140px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .favicon {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .favicon {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .favicon {
+        display: none;
+    }
 }
 
 .contact-top {
@@ -1542,6 +1702,22 @@ iframe {
 .contact-left {
     height: 358px;
     width: 500px;
+}
+
+@media screen and (max-width: 900px) {
+    .contact-left {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contact-left {
+        width: calc(100% - 40px);
+        height: 210px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
 }
 
 .contact-h3 {
@@ -1569,9 +1745,28 @@ iframe {
     background-color: white;
 }
 
+@media screen and (max-width: 600px) {
+    .contact-page {
+        display: block;
+        height: 650px;
+    }
+}
+
 .contact-space {
     width: 120px;
     height: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .contact-space {
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contact-space {
+        display: none;
+    }
 }
 
 .social {
