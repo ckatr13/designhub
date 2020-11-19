@@ -528,7 +528,7 @@ nav {
     opacity: 0;
     transition: ease-in-out .5s;
     margin-left: 150px;
-    height: 10px;
+    height: 0px;
     font-weight: 400;
 }
 
