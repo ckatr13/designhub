@@ -529,6 +529,7 @@ nav {
     transition: ease-in-out .5s;
     margin-left: 150px;
     height: 10px;
+    font-weight: 400;
 }
 
 @media screen and (max-width: 450px) {
@@ -558,27 +559,27 @@ nav {
 }
 
 #link2 {
-    width: 186px;
+    width: 188px;
 }
 
 #link3 {
-    width: 180px;
+    width: 182px;
 }
 
 #link4 {
-    width: 206px;
+    width: 208px;
 }
 
 #link5 {
-    width: 158px;
+    width: 160px;
 }
 
 #link6 {
-    width: 136px;
+    width: 138px;
 }
 
 #link7 {
-    width: 176px;
+    width: 178px;
 }
 
 
