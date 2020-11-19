@@ -121,7 +121,7 @@ function slide(wrapper, items) {
       items.addEventListener('transitionend', checkIndex);
 
       function fn () {
-        window.setInterval(function () { shiftSlide(1)}, 4000);
+        window.setInterval(function () { shiftSlide(1)}, 5000);
         // setTimeout(function () { shiftSlide(1)}, 2000)
       };
 
