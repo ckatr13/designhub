@@ -38,56 +38,64 @@
     <div class="wipe" id="wipe"></div>
     <div class="mobile-menu" id="mobile-menu">
       <div id="x" onclick="hideMenu()">X</div>
-      <a onmouseover="line1()" onmouseout="line1Out()" class="mobile-link" id="link1" href="index.html">Home</a>
-      <a onmouseover="line2()" onmouseout="line2Out()" class="mobile-link" href="our-work.html">Portfolio</a>
-      <a onmouseover="line3()" onmouseout="line3Out()" class="mobile-link" href="#">Services</a>
-      <a onmouseover="line4()" onmouseout="line4Out()" class="mobile-link" href="members.html">Members</a>
-      <a onmouseover="line5()" onmouseout="line5Out()" class="mobile-link" href="members.html">Clients</a>
-      <a onmouseover="line6()" onmouseout="line6Out()" class="mobile-link" href="#">News</a>
-      <a onmouseover="line7()" onmouseout="line7Out()" class="mobile-link" href="contact.html">Contact</a>
-      <svg class="menu-lines" id="line2">
-        <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
-      </svg>
-      <svg class="menu-lines" id="line3">
-        <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
-      </svg>
-      <svg class="menu-lines" id="line4">
-        <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
-      </svg>
-      <svg class="menu-lines" id="line5">
-        <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
-      </svg>
-      <svg class="menu-lines" id="line6">
-        <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
-      </svg>
-      <svg class="menu-lines" id="line7">
-        <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
-      </svg>
-      <svg class="menu-lines" id="line8">
-        <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
-      </svg>
+        <div class="mobile-link-container">
+        <a class="mobile-link" id="link1" href="index.html">Home
+        <br><svg class="menu-lines" id="line2">
+          <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
+        </svg></a>
+        <a class="mobile-link" id="link2" href="our-work.html">Portfolio
+        <br><svg class="menu-lines" id="line3">
+          <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
+        </svg></a>
+        <a class="mobile-link" id="link3" href="#">Services
+        <br><svg class="menu-lines" id="line4">
+          <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
+        </svg></a>
+        <a class="mobile-link" id="link4" href="members.html">Members
+        <br><svg class="menu-lines" id="line5">
+          <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
+        </svg></a>
+        <a class="mobile-link" id="link5" href="members.html">Clients
+        <br><svg class="menu-lines" id="line6">
+          <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
+        </svg></a>
+        <a class="mobile-link" id="link6" href="#">News
+        <br><svg class="menu-lines" id="line7">
+          <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
+        </svg></a>
+        <a class="mobile-link" id="link7" href="contact.html">Contact
+        <br><svg class="menu-lines" id="line8">
+          <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
+        </svg></a>
+      </div>
+      <div class="scroll-container" id="menu-scroll">
+        <div class="scroll" id="scroll2">
+          <h5>Scroll</h5>
+        </div>
+        <img class="arrow" id="arrow2" src="assets/Line.png">
+      </div>
     </div>
 
     <div class="wipe" id="wipe-start"></div>
     <div class="wipe" id="wipe-start2"></div>
     <section class="hero">
       <div class="hero-section left-hero">
-        <div class="h1">
-          <h1>Designhub</h1>
-          <h1 class="br">Branding Studio
-            <br><svg class="svg" id="line">
-              <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
-            </svg>
-          </h1>
+        <div class="center">
+          <div class="h1">
+            <h1>Designhub</h1>
+            <h1 class="br">Branding Studio
+              <br><svg class="svg" id="line">
+                <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
+              </svg>
+            </h1>
+          </div>
+          <h3>We are a team of award-winning designers, committed to creating dynamic brands for the broadcast industry.</h3>
         </div>
-        
-        
-        <h3>We are a team of award-winning designers, committed to creating dynamic brands for the broadcast industry.</h3>
         <div class="scroll-container">
-          <div id="scroll">
+          <div class="scroll" id="scroll1">
             <h5>Scroll</h5>
           </div>
-          <img id="arrow" src="assets/Line.png">
+          <img class="arrow" id="arrow1" src="assets/Line.png">
         </div>
       </div>
       <div class="hero-section right-hero">
@@ -231,6 +239,7 @@
             <li><a class="footer-menu" href="our-work.html">Our Work</a></li>
             <li><a class="footer-menu" href="#">Services</a></li>
             <li><a class="footer-menu" href="members.html">Members</a></li>
+            <li><span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=oRJznL4Xng9X5hOaw3lDiviBzlcLZn4U3SYz73DMTBuQUoDeh3THG5FG0c7U"></script></span></li>
           </ul>
           <ul class="footer-links">
             <li><a class="footer-menu" href="members.html">Clients</a></li>
@@ -238,7 +247,6 @@
             <li><a class="footer-menu" href="contact.html">Contact</a></li>
           </ul>
         </div>
-        <span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=oRJznL4Xng9X5hOaw3lDiviBzlcLZn4U3SYz73DMTBuQUoDeh3THG5FG0c7U"></script></span>
       </div>
       <div class="right-footer">
         <h6>STAY CONNECTED</h6>
@@ -252,7 +260,7 @@
         </a>
         <p class="copywrite">© 2020 by Designhub</p>
       </div>
-      <div class="iframe-footer">
+      <!-- <div class="iframe-footer">
         <iframe id="contact-footer"
             title="Inline Frame"
             width="900px"
@@ -260,7 +268,7 @@
             scrolling="no"
             src="https://ruthdial.wixsite.com/mysite/copy-of-contactme">
         </iframe>
-      </div>
+      </div> -->
     </footer>
     <script src="home.js" type="text/javascript"></script>
   </body>

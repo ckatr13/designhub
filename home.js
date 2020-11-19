@@ -269,10 +269,10 @@ window.addEventListener('load', wipeOn);
 
 function bringInScroll() {
   setTimeout(function () {
-    document.getElementById("scroll").style.opacity = "1";
+    document.getElementById("scroll1").style.opacity = "1";
   }, 250);
   setTimeout(function () {
-    document.getElementById("arrow").style.opacity = "1";
+    document.getElementById("arrow1").style.opacity = "1";
   }, 500);
 }
 
@@ -287,72 +287,38 @@ function hideMenu() {
     delayHideMenu();
 }
 
-function line1() {
-  document.getElementById("line2").style.width = "110px"
+function underlineIn(e) {
+  var targ;
+  if (!e) var e = window.event;
+  if (e.target) targ = e.target;
+  else if (e.srcElement) targ = e.srcElement;
+  if (targ.nodeType == 3) // defeat Safari bug
+      targ = targ.parentNode;
+  // console.log(targ.id);
+  if (targ.className == "mobile-link") {
+    document.getElementById(targ.id).childNodes[2].style.width = "100%";
+  }
 }
 
-function line2() {
-  document.getElementById("line3").style.width = "146px"
+function underlineOut(e) {
+  var targ;
+  if (!e) var e = window.event;
+  if (e.target) targ = e.target;
+  else if (e.srcElement) targ = e.srcElement;
+  if (targ.nodeType == 3)
+      targ = targ.parentNode;
+  if (targ.className == "mobile-link") {
+    document.getElementById(targ.id).childNodes[2].style.width = "0%";
+  }
 }
 
-function line3() {
-  document.getElementById("line4").style.width = "136px"
+document.onmouseover = function(e) {
+  underlineIn(e);
 }
 
-function line4() {
-  document.getElementById("line5").style.width = "164px"
+document.onmouseout = function(e) {
+  underlineOut(e);
 }
-
-function line5() {
-  document.getElementById("line6").style.width = "116px"
-}
-
-function line6() {
-  document.getElementById("line7").style.width = "94px"
-}
-
-function line7() {
-  document.getElementById("line8").style.width = "134px"
-}
-
-function line1Out() {
-  document.getElementById("line2").style.width = "0px"
-}
-
-function line2Out() {
-  document.getElementById("line3").style.width = "0px"
-}
-
-function line3Out() {
-  document.getElementById("line4").style.width = "0px"
-}
-
-function line4Out() {
-  document.getElementById("line5").style.width = "0px"
-}
-
-function line5Out() {
-  document.getElementById("line6").style.width = "0px"
-}
-
-function line6Out() {
-  document.getElementById("line7").style.width = "0px"
-}
-
-function line7Out() {
-  document.getElementById("line8").style.width = "0px"
-}
-
-// document.getElementById("link1").addEventListener("hover", line1());
-
-
-// window.addEventListener('click' , function(e){   
-//     if (!document.getElementById('hamburger-button').contains(e.target)){
-//       hideMenu();
-//     } else {
-//         displayMenu();
-//     }
-//   });
 
 function socialMediaHover() {
   document.getElementById("white").classList.remove("hide2");
