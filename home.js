@@ -47,7 +47,7 @@ const nav = document.getElementById("nav");
 // const a3 = document.getElementById("a3");
 
 document.addEventListener('scroll', () => {
-  if (window.scrollY >= (target.getBoundingClientRect().top + 600)) {
+  if (window.scrollY >= (target.getBoundingClientRect().top + 500)) {
     nav.style.backgroundColor = "rgba(18, 18, 18, 1)";
     // a.style.color = "white";
     // a2.style.color = "white";
@@ -334,6 +334,22 @@ function socialMediaHover2() {
 
 function socialMediaOut2() {
   document.getElementById("white2").classList.add("hide2");
+}
+
+function socialMediaHover3() {
+  document.getElementById("black").classList.remove("hide2");
+}
+
+function socialMediaOut3() {
+  document.getElementById("black").classList.add("hide2");
+}
+
+function socialMediaHover4() {
+  document.getElementById("black2").classList.remove("hide2");
+}
+
+function socialMediaOut4() {
+  document.getElementById("black2").classList.add("hide2");
 }
 
 
