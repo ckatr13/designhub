@@ -47,7 +47,7 @@ const nav = document.getElementById("nav");
 // const a3 = document.getElementById("a3");
 
 document.addEventListener('scroll', () => {
-  if (window.scrollY >= (target.getBoundingClientRect().top + 500)) {
+  if (window.scrollY >= (target.getBoundingClientRect().top + 200)) {
     nav.style.backgroundColor = "rgba(18, 18, 18, 1)";
     // a.style.color = "white";
     // a2.style.color = "white";
@@ -179,18 +179,30 @@ const aj = document.getElementById("aj");
 const arVr = document.getElementById("ar-vr");
 
 function showProject1() {
-    bloomberg.classList.remove("hide");
-    aj.classList.add("hide");
-    arVr.classList.add("hide");
+  
+  const bloomberg = document.getElementById("bloomberg");
+  const aj = document.getElementById("aj");
+  const arVr = document.getElementById("ar-vr");
+  bloomberg.classList.remove("hide");
+  aj.classList.add("hide");
+  arVr.classList.add("hide");
 }
 
 function showProject2() {
+
+  const bloomberg = document.getElementById("bloomberg");
+  const aj = document.getElementById("aj");
+  const arVr = document.getElementById("ar-vr");  
     bloomberg.classList.add("hide");
     aj.classList.remove("hide");
     arVr.classList.add("hide");
 }
 
 function showProject3() {
+
+  const bloomberg = document.getElementById("bloomberg");
+  const aj = document.getElementById("aj");
+  const arVr = document.getElementById("ar-vr");
     bloomberg.classList.add("hide");
     aj.classList.add("hide");
     arVr.classList.remove("hide");
@@ -203,7 +215,7 @@ function validate(){
         document.getElementById("member-portfolio").classList.remove("hide");
         document.getElementById("login").style.display = "none";
         return false;
-    } else{
+  } else{
         alert("The password you entered was incorrect");
         return false;
     }

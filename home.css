@@ -627,7 +627,7 @@ button:focus {
     grid-template-rows: auto;
     grid-template-columns: repeat(3, 1fr);
     width: 100vw;
-    margin-top: 80px;
+    padding-top: 80px;
 }
 
 .space {
@@ -683,6 +683,10 @@ button:focus {
     overflow: hidden;
 }
 
+.fix {
+    margin-top: -96px;
+}
+
 .project-column-2 {
     width: 50vw;
 }
@@ -730,7 +734,12 @@ video {
 
 .project-photo {
     width: 100%;
-    height: 100%;
+    height: auto;
+    display: block;
+}
+
+.proj-a {
+    padding: 0px;
 }
 
 .bottom-header {
@@ -1826,12 +1835,15 @@ iframe {
 .login {
     display: flex;
     justify-content: center;
+    background-color: gray;
+    padding-top: calc(50vh - (181px/2));
+    padding-bottom: calc(50vh - (181px/2));
 }
 
 form {
     border: 3px solid #f1f1f1;
     width: 50%;
-    margin-top: 80px;
+    background-color: white;
 }
 
 @media screen and (max-width: 862px) {
@@ -1847,10 +1859,11 @@ input[type=text], input[type=password] {
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
+  font-weight: 400;
 }
 
 .button {
-  background-color: #4CAF50;
+  background-color: #4d834f;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -1883,9 +1896,11 @@ span.psw {
   }
 }
 
-
-
-
+#member-portfolio {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: rgb(18, 18, 18);
+}
 
 
 
