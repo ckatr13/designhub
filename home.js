@@ -123,8 +123,12 @@ function slide(wrapper, items) {
 
       function fn () {
         let startSlide = setInterval(function () { shiftSlide(1)}, 5000);
+        let windowWidth = window.innerWidth; 
           window.onresize = function () {
-          location.reload()
+            if (window.innerWidth != windowWidth) {
+              windowWidth = window.innerWidth;
+              location.reload()
+            }
         }
       };
 
