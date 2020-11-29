@@ -1608,6 +1608,7 @@ li {
 
 .services-info {
     margin: 0px 60px;
+    width: initial;
 }
 
 @media screen and (max-width: 870px) {
@@ -1695,6 +1696,7 @@ li {
 
 .logos {
     width: 100%;
+    display: block;
 }
 
 .caption {

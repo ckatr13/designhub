@@ -58,8 +58,8 @@
     <div class="wipe" id="wipe-start2"></div>
 
     <main>
-        <header class="project-header services-header">
-            <div class="services-info">
+        <header class="project-header services-header parallax" id="parallax">
+            <div class="services-info parallax parallax-active" data-rellax-speed="5">
                 <h1 class="h3">Who We Are</h1><br>
                 <p class="white">The principals of Designhub have had a long-term friendship. Collaborating together
                     for over 20 years, we started Designhub 3 years ago to be part of the modern creative 
@@ -69,6 +69,13 @@
                 </p>
             </div>
         </header>
+        <!-- <div class="parallax" id="parallax">
+            <div class="parallax parallax-active" data-rellax-speed="5">
+                <div>
+                    <img class="img-top" src="assets/download (1).png" />
+                </div>
+            </div>  
+        </div> -->
         <article class="project-header services">
             <section class="service">
                 <img src="assets/08 (1).jpg" class="services-img">
@@ -258,5 +265,9 @@
         </div>
       </footer>
       <script src="home.js" type="text/javascript"></script>
+      <script src="./node_modules/rellax/rellax.min.js"></script>
+      <script>
+        var rellax = new Rellax('.parallax-active');
+    </script>
     </body>
   </html>
