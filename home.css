@@ -1643,7 +1643,7 @@ li {
 @media screen and (max-width: 870px) {
     .services {
         grid-template-columns: 100%;
-        margin-left: 20px;
+        padding-left: 20px;
         margin-right: 20px;
     }
 }
