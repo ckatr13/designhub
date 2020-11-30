@@ -1805,7 +1805,7 @@ li {
 
 .project-detail2 {
     width: 100vw;
-    margin: 6px auto;
+    /* margin: 6px auto; */
     display: flex;
     justify-content: center;
 }
