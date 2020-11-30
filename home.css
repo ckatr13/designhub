@@ -1806,8 +1806,8 @@ li {
 .project-detail2 {
     width: 100%;
     /* margin: 6px auto; */
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
 
 .proj-a {
