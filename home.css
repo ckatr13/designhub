@@ -1286,9 +1286,15 @@ header {
     margin-left: 144px;
 }
 
-@media screen and (max-device-width: 1366px) {
+@media screen and (max-width: 429px) {
     #intro {
-        margin-right: 180px;
+        margin-left: 110px;
+    }
+}
+
+@media screen and (min-device-width: 1025px) and (max-device-width: 1366px) {
+    #intro {
+        margin-right: 310px;
     }
 }
 
