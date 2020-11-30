@@ -1411,9 +1411,10 @@ li {
 ======================================== */
 
 .our-work-header {
-    height: 450px;
-    padding-top: 80px;
-    background-color: rgb(18, 18, 18);
+    height: 500px;
+    /* background-color: rgb(18, 18, 18); */
+    background-image: url(assets/services.jpg);
+    background-size: cover;
     display: flex;
 }
 
@@ -1438,7 +1439,9 @@ li {
 
 .our-work-header-left {
     width: 60%;
-    margin-right: 60px;
+    padding-right: 60px;
+    padding-top: 80px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.5));
 }
 
 @media screen and (max-width: 862px) {
@@ -1456,6 +1459,8 @@ li {
 
 .our-work-header-right {
     width: 40%;
+    padding-top: 80px;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 1) , rgba(0, 0, 0, 0.5));
 }
 
 @media screen and (max-width: 862px) {
@@ -1873,7 +1878,9 @@ iframe {
 .contact-info {
     height: 500px;
     max-height: 100vh;
-    background-color: rgb(18, 18, 18);
+    /* background-color: rgb(18, 18, 18); */
+    background-image: url(assets/services.jpg);
+    background-size: cover;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -1882,35 +1889,35 @@ iframe {
 
 .contact-h2 {
     margin: 0px;
-    margin-left: 100px;
-    margin-right: 20px;
+    /* margin-left: 100px;
+    margin-right: 20px; */
     color: white;
-    width: calc(100% - 120px);
+    /* width: calc(100% - 120px); */
     line-height: 1.5em;
 }
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     .contact-h2 {
         margin-left: 80px;
         margin-right: 140px;
         width: calc(100% - 220px);
     }
-}
+} */
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
     .contact-h2 {
         margin-right: 100px;
         width: calc(100% - 180px);
     }
-}
+} */
 
-@media screen and (max-width: 650px) {
+/* @media screen and (max-width: 650px) {
     .contact-h2 {
         margin-left: 60px;
         margin-right: 60px;
         width: calc(100% - 120px);
     }
-}
+} */
 
 .favicon {
     /* width: 80px; */
@@ -1963,10 +1970,13 @@ iframe {
 
 .contact-heading {
     z-index: 0;
-    margin-left: -320px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* text-align: center; */
+    /* margin-left: -320px; */
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .contact-left {
         width: calc(100% - 40px);
         height: 210px;
@@ -1974,7 +1984,7 @@ iframe {
         margin-right: 20px;
         margin-top: 20px;
     }
-}
+} */
 
 /* .contact-top {
     display: flex;
