@@ -393,6 +393,10 @@ function fillCircle() {
     document.getElementById("project-item6").style.color = "gray";
     document.getElementById("circle7").classList.remove("circle");
     document.getElementById("project-item7").style.color = "gray";
+    document.getElementById("circle8").classList.remove("circle");
+    document.getElementById("project-item8").style.color = "gray";
+    document.getElementById("circle9").classList.remove("circle");
+    document.getElementById("project-item9").style.color = "gray";
 
     document.getElementById("all-projects").classList.remove("hide");
     setTimeout(function () {document.getElementById("all-projects").style.opacity = "1"}, 0);
@@ -402,12 +406,16 @@ function fillCircle() {
     document.getElementById("election").style.opacity = "0"
     document.getElementById("entertainment").classList.add("hide");
     document.getElementById("entertainment").style.opacity = "0";
+    document.getElementById("corporate").classList.add("hide");
+    document.getElementById("corporate").style.opacity = "0";
     document.getElementById("non-profit").classList.add("hide");
     document.getElementById("non-profit").style.opacity = "0";
     document.getElementById("branding").classList.add("hide");
     document.getElementById("branding").style.opacity = "0";
     document.getElementById("sports").classList.add("hide");
     document.getElementById("sports").style.opacity = "0";
+    document.getElementById("photography").classList.add("hide");
+    document.getElementById("photography").style.opacity = "0";
 }
 
 function fillCircle2() {
@@ -425,6 +433,10 @@ function fillCircle2() {
     document.getElementById("project-item6").style.color = "gray";
     document.getElementById("circle7").classList.remove("circle");
     document.getElementById("project-item7").style.color = "gray";
+    document.getElementById("circle8").classList.remove("circle");
+    document.getElementById("project-item8").style.color = "gray";
+    document.getElementById("circle9").classList.remove("circle");
+    document.getElementById("project-item9").style.color = "gray";
 
     document.getElementById("news").classList.remove("hide");
     setTimeout(function () {document.getElementById("news").style.opacity = "1"}, 0);
@@ -434,12 +446,16 @@ function fillCircle2() {
     document.getElementById("election").style.opacity = "0"
     document.getElementById("entertainment").classList.add("hide");
     document.getElementById("entertainment").style.opacity = "0";
+    document.getElementById("corporate").classList.add("hide");
+    document.getElementById("corporate").style.opacity = "0";
     document.getElementById("non-profit").classList.add("hide");
     document.getElementById("non-profit").style.opacity = "0";
     document.getElementById("branding").classList.add("hide");
     document.getElementById("branding").style.opacity = "0";
     document.getElementById("sports").classList.add("hide");
     document.getElementById("sports").style.opacity = "0";
+    document.getElementById("photography").classList.add("hide");
+    document.getElementById("photography").style.opacity = "0";
 }
 
 function fillCircle3() {
@@ -457,6 +473,10 @@ function fillCircle3() {
   document.getElementById("project-item6").style.color = "gray";
   document.getElementById("circle7").classList.remove("circle");
   document.getElementById("project-item7").style.color = "gray";
+  document.getElementById("circle8").classList.remove("circle");
+  document.getElementById("project-item8").style.color = "gray";
+  document.getElementById("circle9").classList.remove("circle");
+  document.getElementById("project-item9").style.color = "gray";
 
   document.getElementById("election").classList.remove("hide");
   setTimeout(function () {document.getElementById("election").style.opacity = "1"}, 0);
@@ -466,12 +486,16 @@ function fillCircle3() {
   document.getElementById("news").style.opacity = "0";
   document.getElementById("entertainment").classList.add("hide");
   document.getElementById("entertainment").style.opacity = "0";
+  document.getElementById("corporate").classList.add("hide");
+  document.getElementById("corporate").style.opacity = "0";
   document.getElementById("non-profit").classList.add("hide");
   document.getElementById("non-profit").style.opacity = "0";
   document.getElementById("branding").classList.add("hide");
   document.getElementById("branding").style.opacity = "0";
   document.getElementById("sports").classList.add("hide");
   document.getElementById("sports").style.opacity = "0";
+  document.getElementById("photography").classList.add("hide");
+  document.getElementById("photography").style.opacity = "0";
 }
 
 function fillCircle4() {
@@ -489,6 +513,10 @@ function fillCircle4() {
   document.getElementById("project-item6").style.color = "gray";
   document.getElementById("circle7").classList.remove("circle");
   document.getElementById("project-item7").style.color = "gray";
+  document.getElementById("circle8").classList.remove("circle");
+  document.getElementById("project-item8").style.color = "gray";
+  document.getElementById("circle9").classList.remove("circle");
+  document.getElementById("project-item9").style.color = "gray";
 
   document.getElementById("entertainment").classList.remove("hide");
   setTimeout(function () {document.getElementById("entertainment").style.opacity = "1"}, 0);
@@ -498,12 +526,16 @@ function fillCircle4() {
   document.getElementById("news").style.opacity = "0";
   document.getElementById("election").classList.add("hide");
   document.getElementById("election").style.opacity = "0";
+  document.getElementById("corporate").classList.add("hide");
+  document.getElementById("corporate").style.opacity = "0";
   document.getElementById("non-profit").classList.add("hide");
   document.getElementById("non-profit").style.opacity = "0";
   document.getElementById("branding").classList.add("hide");
   document.getElementById("branding").style.opacity = "0";
   document.getElementById("sports").classList.add("hide");
   document.getElementById("sports").style.opacity = "0";
+  document.getElementById("photography").classList.add("hide");
+  document.getElementById("photography").style.opacity = "0";
 }
 
 function fillCircle5() {
@@ -521,21 +553,29 @@ function fillCircle5() {
   document.getElementById("project-item6").style.color = "gray";
   document.getElementById("circle7").classList.remove("circle");
   document.getElementById("project-item7").style.color = "gray";
+  document.getElementById("circle8").classList.remove("circle");
+  document.getElementById("project-item8").style.color = "gray";
+  document.getElementById("circle9").classList.remove("circle");
+  document.getElementById("project-item9").style.color = "gray";
 
-  document.getElementById("non-profit").classList.remove("hide");
-  setTimeout(function () {document.getElementById("non-profit").style.opacity = "1"}, 0);
+  document.getElementById("corporate").classList.remove("hide");
+  setTimeout(function () {document.getElementById("corporate").style.opacity = "1"}, 0);
   document.getElementById("all-projects").classList.add("hide");
   document.getElementById("all-projects").style.opacity = "0"
   document.getElementById("news").classList.add("hide");
-  document.getElementById("news").style.opacity = "0"
+  document.getElementById("news").style.opacity = "0";
   document.getElementById("election").classList.add("hide");
   document.getElementById("election").style.opacity = "0";
   document.getElementById("entertainment").classList.add("hide");
   document.getElementById("entertainment").style.opacity = "0";
+  document.getElementById("non-profit").classList.add("hide");
+  document.getElementById("non-profit").style.opacity = "0";
   document.getElementById("branding").classList.add("hide");
   document.getElementById("branding").style.opacity = "0";
   document.getElementById("sports").classList.add("hide");
   document.getElementById("sports").style.opacity = "0";
+  document.getElementById("photography").classList.add("hide");
+  document.getElementById("photography").style.opacity = "0";
 }
 
 function fillCircle6() {
@@ -553,9 +593,13 @@ function fillCircle6() {
   document.getElementById("project-item5").style.color = "gray";
   document.getElementById("circle7").classList.remove("circle");
   document.getElementById("project-item7").style.color = "gray";
+  document.getElementById("circle8").classList.remove("circle");
+  document.getElementById("project-item8").style.color = "gray";
+  document.getElementById("circle9").classList.remove("circle");
+  document.getElementById("project-item9").style.color = "gray";
 
-  document.getElementById("branding").classList.remove("hide");
-  setTimeout(function () {document.getElementById("branding").style.opacity = "1"}, 0);
+  document.getElementById("non-profit").classList.remove("hide");
+  setTimeout(function () {document.getElementById("non-profit").style.opacity = "1"}, 0);
   document.getElementById("all-projects").classList.add("hide");
   document.getElementById("all-projects").style.opacity = "0"
   document.getElementById("news").classList.add("hide");
@@ -564,10 +608,14 @@ function fillCircle6() {
   document.getElementById("election").style.opacity = "0";
   document.getElementById("entertainment").classList.add("hide");
   document.getElementById("entertainment").style.opacity = "0";
-  document.getElementById("non-profit").classList.add("hide");
-  document.getElementById("non-profit").style.opacity = "0";
+  document.getElementById("corporate").classList.add("hide");
+  document.getElementById("corporate").style.opacity = "0";
+  document.getElementById("branding").classList.add("hide");
+  document.getElementById("branding").style.opacity = "0";
   document.getElementById("sports").classList.add("hide");
   document.getElementById("sports").style.opacity = "0";
+  document.getElementById("photography").classList.add("hide");
+  document.getElementById("photography").style.opacity = "0";
 }
 
 function fillCircle7() {
@@ -585,6 +633,50 @@ function fillCircle7() {
   document.getElementById("project-item5").style.color = "gray";
   document.getElementById("circle6").classList.remove("circle");
   document.getElementById("project-item6").style.color = "gray";
+  document.getElementById("circle8").classList.remove("circle");
+  document.getElementById("project-item8").style.color = "gray";
+  document.getElementById("circle9").classList.remove("circle");
+  document.getElementById("project-item9").style.color = "gray";
+
+  document.getElementById("branding").classList.remove("hide");
+  setTimeout(function () {document.getElementById("branding").style.opacity = "1"}, 0);
+  document.getElementById("all-projects").classList.add("hide");
+  document.getElementById("all-projects").style.opacity = "0"
+  document.getElementById("news").classList.add("hide");
+  document.getElementById("news").style.opacity = "0"
+  document.getElementById("election").classList.add("hide");
+  document.getElementById("election").style.opacity = "0";
+  document.getElementById("entertainment").classList.add("hide");
+  document.getElementById("entertainment").style.opacity = "0";
+  document.getElementById("corporate").classList.add("hide");
+  document.getElementById("corporate").style.opacity = "0";
+  document.getElementById("non-profit").classList.add("hide");
+  document.getElementById("non-profit").style.opacity = "0";
+  document.getElementById("sports").classList.add("hide");
+  document.getElementById("sports").style.opacity = "0";
+  document.getElementById("photography").classList.add("hide");
+  document.getElementById("photography").style.opacity = "0";
+}
+
+function fillCircle8() {
+  document.getElementById("circle8").classList.add("circle");
+  document.getElementById("project-item8").style.color = "white";
+  document.getElementById("circle").classList.remove("circle");
+  document.getElementById("project-item1").style.color = "gray";
+  document.getElementById("circle2").classList.remove("circle");
+  document.getElementById("project-item2").style.color = "gray";
+  document.getElementById("circle3").classList.remove("circle");
+  document.getElementById("project-item3").style.color = "gray";
+  document.getElementById("circle4").classList.remove("circle");
+  document.getElementById("project-item4").style.color = "gray";
+  document.getElementById("circle5").classList.remove("circle");
+  document.getElementById("project-item5").style.color = "gray";
+  document.getElementById("circle6").classList.remove("circle");
+  document.getElementById("project-item6").style.color = "gray";
+  document.getElementById("circle7").classList.remove("circle");
+  document.getElementById("project-item7").style.color = "gray";
+  document.getElementById("circle9").classList.remove("circle");
+  document.getElementById("project-item9").style.color = "gray";
 
   document.getElementById("sports").classList.remove("hide");
   setTimeout(function () {document.getElementById("sports").style.opacity = "1"}, 0);
@@ -596,8 +688,52 @@ function fillCircle7() {
   document.getElementById("election").style.opacity = "0";
   document.getElementById("entertainment").classList.add("hide");
   document.getElementById("entertainment").style.opacity = "0";
+  document.getElementById("corporate").classList.add("hide");
+  document.getElementById("corporate").style.opacity = "0";
   document.getElementById("non-profit").classList.add("hide");
   document.getElementById("non-profit").style.opacity = "0";
   document.getElementById("branding").classList.add("hide");
   document.getElementById("branding").style.opacity = "0";
+  document.getElementById("photography").classList.add("hide");
+  document.getElementById("photography").style.opacity = "0";
+}
+
+function fillCircle9() {
+  document.getElementById("circle9").classList.add("circle");
+  document.getElementById("project-item9").style.color = "white";
+  document.getElementById("circle").classList.remove("circle");
+  document.getElementById("project-item1").style.color = "gray";
+  document.getElementById("circle2").classList.remove("circle");
+  document.getElementById("project-item2").style.color = "gray";
+  document.getElementById("circle3").classList.remove("circle");
+  document.getElementById("project-item3").style.color = "gray";
+  document.getElementById("circle4").classList.remove("circle");
+  document.getElementById("project-item4").style.color = "gray";
+  document.getElementById("circle5").classList.remove("circle");
+  document.getElementById("project-item5").style.color = "gray";
+  document.getElementById("circle6").classList.remove("circle");
+  document.getElementById("project-item6").style.color = "gray";
+  document.getElementById("circle7").classList.remove("circle");
+  document.getElementById("project-item7").style.color = "gray";
+  document.getElementById("circle8").classList.remove("circle");
+  document.getElementById("project-item8").style.color = "gray";
+
+  document.getElementById("photography").classList.remove("hide");
+  setTimeout(function () {document.getElementById("photography").style.opacity = "1"}, 0);
+  document.getElementById("all-projects").classList.add("hide");
+  document.getElementById("all-projects").style.opacity = "0"
+  document.getElementById("news").classList.add("hide");
+  document.getElementById("news").style.opacity = "0"
+  document.getElementById("election").classList.add("hide");
+  document.getElementById("election").style.opacity = "0";
+  document.getElementById("entertainment").classList.add("hide");
+  document.getElementById("entertainment").style.opacity = "0";
+  document.getElementById("corporate").classList.add("hide");
+  document.getElementById("corporate").style.opacity = "0";
+  document.getElementById("non-profit").classList.add("hide");
+  document.getElementById("non-profit").style.opacity = "0";
+  document.getElementById("branding").classList.add("hide");
+  document.getElementById("branding").style.opacity = "0";
+  document.getElementById("sports").classList.add("hide");
+  document.getElementById("sports").style.opacity = "0";
 }

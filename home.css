@@ -68,10 +68,6 @@ h1 {
     padding-top: 16px;
 } */
 
-.left-hero {
-    width: 100%;
-}
-
 @media screen and (max-device-width: 1366px) {
     h1 {
         font-size: 62px !important;
@@ -1026,9 +1022,11 @@ span {
 }
 
 .left-hero {
-    background-color: rgb(18, 18, 18);
+    /* background-color: rgb(18, 18, 18); */
+    background-image: url(assets/designhub\ logo\ 7v.jpg);
     display: flex;
     align-items: center;
+    background-size: cover;
 }
 
 .scroll-container {
@@ -1284,6 +1282,16 @@ header {
     margin-top: 53px;
 }
 
+#intro {
+    margin-left: 144px;
+}
+
+@media screen and (max-device-width: 1366px) {
+    #intro {
+        margin-right: 140px;
+    }
+}
+
 ul {
     margin: 0px;
     padding: 0px;
@@ -1524,7 +1532,7 @@ li {
 }
 
 .project-list {
-    float: right;
+    /* float: right; */
     padding: 10px 0px;
     width: 107px;
     /* margin-right: 140px; */
@@ -1533,7 +1541,7 @@ li {
 }
 
 .project-list:hover {
-    color: white;
+    color: white !important;
 }
 
 .circle {
