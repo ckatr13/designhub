@@ -773,7 +773,7 @@ video {
 .project-photo {
     width: 100%;
     /* height: auto; */
-    /* display: block; */
+    display: block;
 }
 
 .proj-a {
