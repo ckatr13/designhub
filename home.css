@@ -1292,7 +1292,7 @@ header {
     }
 }
 
-@media screen and (min-device-width: 1025px) and (max-device-width: 1366px) {
+@media screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
     #intro {
         margin-right: 310px;
     }
