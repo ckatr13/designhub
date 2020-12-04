@@ -15,7 +15,7 @@
     <title>Design Hub</title> 
   </head>
 
-  <body id="body">
+  <body id="body" onload="wipeOn()">
     <nav id="nav">
       <a href="index.html"><img src="assets/design hub logo white.png" class="logo"></a>
       <div class="hamburger-button" id="hamburger-button" onclick="displayMenu()"><a class="ham">&#9776;</a></div>
@@ -827,7 +827,7 @@
   <script src="./node_modules/yall-js/dist/yall.min.js"></script>
   <script>
     document.addEventListener("DOMContentLoaded", yall);
-    document.addEventListener("DOMContentLoaded", function () {setTimeout(wipeOn, 500)});
+    // document.addEventListener("DOMContentLoaded", function () {setTimeout(wipeOn, 500)});
   </script>
 </body>
 </html>
