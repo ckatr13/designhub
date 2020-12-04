@@ -174,7 +174,7 @@
 <main class="portfolio-grid" id="all-projects">
 
     <div class="project">
-        <img class="project-photo lazy" data-src="assets/frame_23.jpg">
+        <img class="project-photo" src="assets/frame_23.jpg">
           <a class="proj-a" href="krgv.html">
             <div class="project-title-box">
               <h4 class="project-title">KRGV News Package</h4>
@@ -182,7 +182,7 @@
           </a>
     </div>
     <div class="project">
-      <img class="project-photo lazy" data-src="assets/INSIGHTEC_STYLE_FRAME_WIP2_c.jpg">
+      <img class="project-photo" src="assets/INSIGHTEC_STYLE_FRAME_WIP2_c.jpg">
         <a class="proj-a" href="insightec.html">
           <div class="project-title-box">
             <h4 class="project-title">INSIGHTEC</h4>
@@ -190,7 +190,7 @@
         </a>
   </div>
   <div class="project">
-    <img class="project-photo lazy" data-src="assets/09 (6).jpg">
+    <img class="project-photo" src="assets/09 (6).jpg">
       <a class="proj-a" href="alhuura.html">
         <div class="project-title-box">
           <h4 class="project-title">Alhurra Package Concept</h4>
@@ -826,8 +826,8 @@
   <script src="home.js" type="text/javascript"></script>
   <script src="./node_modules/yall-js/dist/yall.min.js"></script>
   <script>
-    document.addEventListener("DOMContentLoaded", yall);
-    // document.addEventListener("DOMContentLoaded", function () {setTimeout(wipeOn, 500)});
+    // document.addEventListener("DOMContentLoaded", yall);
+    document.addEventListener("DOMContentLoaded", lazyLoader);
   </script>
 </body>
 </html>
