@@ -139,7 +139,7 @@ function slide(wrapper, items) {
 
     }
 
-    slide(slider, sliderItems);
+    // slide(slider, sliderItems);
 
 // const img1 = document.getElementById("img1");
 // const img2 = document.getElementById("img2");
@@ -181,9 +181,9 @@ function slide(wrapper, items) {
 // }
 
 
-function wipe() {
-    document.getElementById("wipe-on").style.width = "0px"
-}
+// function wipe() {
+//     document.getElementById("wipe-on").style.width = "0px"
+// }
 
 const bloomberg = document.getElementById("bloomberg");
 const aj = document.getElementById("aj");
@@ -288,7 +288,7 @@ function wipeOn() {
   }, 1200);
 }
 
-window.addEventListener('load', wipeOn);
+// window.addEventListener('load', wipeOn);
 
 function bringInScroll() {
   setTimeout(function () {
@@ -816,4 +816,13 @@ function fillCircle10() {
   document.getElementById("sports").style.opacity = "0";
   document.getElementById("photography").classList.add("hide");
   document.getElementById("photography").style.opacity = "0";
+}
+
+
+function setWidth() {
+    const e = document.getElementsByClassName("project-detail2");
+    const width = document.getElementById("photo1").offsetWidth;
+    for (var i = 0; i < e.length; i++) {
+      e[i].style.height = width / 1.77777778 + "px";
+    }
 }
