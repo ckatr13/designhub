@@ -848,6 +848,14 @@ function setWidth() {
     }
 }
 
+function setWidth2() {
+  const e = document.getElementsByClassName("project-photo");
+  const width = document.getElementById("photo1").offsetWidth;
+  for (var i = 0; i < e.length; i++) {
+    e[i].style.height = width / 1.77777778 + "px";
+  }
+}
+
 function inViewport(e) {
   var top = e.offsetTop;
   var left = e.offsetLeft;
@@ -879,8 +887,8 @@ function lazyload () {
       let scrollTop = window.pageYOffset;
       lazyloadImages.forEach(function(img) {
           if(inViewport(img)) {
-            img.src = img.dataset.src;
-            img.classList.remove('lazy');
+              img.src = img.dataset.src;
+              img.classList.remove('lazy');
           } else if (document.getElementById('slides')) {
             if (document.getElementById('slides').offsetLeft > window.innerWidth) {
               img.src = img.dataset.src;
