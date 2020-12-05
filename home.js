@@ -421,6 +421,8 @@ function fillCircle() {
     document.getElementById("photography").style.opacity = "0";
     document.getElementById("ar-vr").classList.add("hide");
     document.getElementById("ar-vr").style.opacity = "0";
+
+    lazyload();
 }
 
 function fillCircle2() {
@@ -465,6 +467,8 @@ function fillCircle2() {
     document.getElementById("photography").style.opacity = "0";
     document.getElementById("ar-vr").classList.add("hide");
     document.getElementById("ar-vr").style.opacity = "0";
+
+    lazyload();
 }
 
 function fillCircle3() {
@@ -509,6 +513,8 @@ function fillCircle3() {
   document.getElementById("photography").style.opacity = "0";
   document.getElementById("ar-vr").classList.add("hide");
   document.getElementById("ar-vr").style.opacity = "0";
+
+  lazyload();
 }
 
 function fillCircle4() {
@@ -553,6 +559,8 @@ function fillCircle4() {
   document.getElementById("photography").style.opacity = "0";
   document.getElementById("ar-vr").classList.add("hide");
   document.getElementById("ar-vr").style.opacity = "0";
+
+  lazyload();
 }
 
 function fillCircle5() {
@@ -597,6 +605,8 @@ function fillCircle5() {
   document.getElementById("photography").style.opacity = "0";
   document.getElementById("ar-vr").classList.add("hide");
   document.getElementById("ar-vr").style.opacity = "0";
+
+  lazyload();
 }
 
 function fillCircle6() {
@@ -641,6 +651,8 @@ function fillCircle6() {
   document.getElementById("photography").style.opacity = "0";
   document.getElementById("ar-vr").classList.add("hide");
   document.getElementById("ar-vr").style.opacity = "0";
+
+  lazyload();
 }
 
 function fillCircle7() {
@@ -685,6 +697,8 @@ function fillCircle7() {
   document.getElementById("photography").style.opacity = "0";
   document.getElementById("ar-vr").classList.add("hide");
   document.getElementById("ar-vr").style.opacity = "0";
+
+  lazyload();
 }
 
 function fillCircle8() {
@@ -729,6 +743,8 @@ function fillCircle8() {
   document.getElementById("photography").style.opacity = "0";
   document.getElementById("ar-vr").classList.add("hide");
   document.getElementById("ar-vr").style.opacity = "0";
+
+  lazyload();
 }
 
 function fillCircle9() {
@@ -773,6 +789,8 @@ function fillCircle9() {
   document.getElementById("sports").style.opacity = "0";
   document.getElementById("ar-vr").classList.add("hide");
   document.getElementById("ar-vr").style.opacity = "0";
+
+  lazyload();
 }
 
 function fillCircle10() {
@@ -817,6 +835,8 @@ function fillCircle10() {
   document.getElementById("sports").style.opacity = "0";
   document.getElementById("photography").classList.add("hide");
   document.getElementById("photography").style.opacity = "0";
+
+  lazyload();
 }
 
 
