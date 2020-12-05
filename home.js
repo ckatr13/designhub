@@ -848,6 +848,26 @@ function setWidth() {
     }
 }
 
+function inViewport(e) {
+  var top = e.offsetTop;
+  var left = e.offsetLeft;
+  var width = e.offsetWidth;
+  var height = e.offsetHeight;
+
+  while(e.offsetParent) {
+    e = e.offsetParent;
+    top += e.offsetTop;
+    left += e.offsetLeft;
+  }
+
+  return (
+    top < (window.pageYOffset + window.innerHeight) 
+    // left < (window.pageXOffset + window.innerWidth)  &&
+    // (top + height) > window.pageYOffset &&
+    // (left + width) > window.pageXOffset
+  );
+}
+
 function lazyload () {
   var lazyloadImages = document.querySelectorAll("img.lazy");  
   var lazyloadThrottleTimeout;  
@@ -858,10 +878,15 @@ function lazyload () {
   lazyloadThrottleTimeout = setTimeout(function() {
       let scrollTop = window.pageYOffset;
       lazyloadImages.forEach(function(img) {
-          if(img.offsetTop < (window.innerHeight + scrollTop) || document.getElementById('slides').offsetLeft > window.innerWidth) {
+          if(inViewport(img)) {
             img.src = img.dataset.src;
             img.classList.remove('lazy');
-          } 
+          } else if (document.getElementById('slides')) {
+            if (document.getElementById('slides').offsetLeft > window.innerWidth) {
+              img.src = img.dataset.src;
+              img.classList.remove('lazy');
+            }
+          }
       });
       if(lazyloadImages.length == 0) { 
         document.removeEventListener("scroll", lazyload);
