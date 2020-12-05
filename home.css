@@ -783,7 +783,7 @@ video {
     /* height: auto; */
     display: block;
     opacity: 0;
-    transition: 1s ease-in-out .25s;
+    transition: 1s ease-in-out;
 }
 
 .proj-a {
