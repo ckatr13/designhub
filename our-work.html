@@ -208,11 +208,11 @@
     <div class="project">
       <img class="project-photo lazy" id="photo5" data-src="assets/MLS9.jpg">
         <a class="proj-a" href="fox-major-league-soccer.html">
-        <div class="project-title-box">
-          <h4 class="project-title">FOX Major League Soccer Package</h4>
-        </div>
-      </a>
-    </div>
+          <div class="project-title-box">
+            <h4 class="project-title">FOX Major League Soccer Package</h4>
+          </div>
+        </a>
+      </div>
     <div class="project">
       <img class="project-photo lazy" id="photo6" data-src="assets/08 (1).jpg">
         <a class="proj-a" href="ktbs.html">
@@ -824,8 +824,10 @@
     </div>
   </footer>
   <script src="home.js" type="text/javascript"></script>
+  <script src="./node_modules/yall-js/dist/yall.min.js"></script>
   <script>
-    document.addEventListener("DOMContentLoaded", lazyLoader);
+    // document.addEventListener("DOMContentLoaded", lazyLoader);
+    document.addEventListener("DOMContentLoaded", yall);
     document.addEventListener("DOMContentLoaded", setWidth2);
         window.onresize = function () {
           setWidth2();
