@@ -1759,6 +1759,7 @@ li {
 .logos {
     width: 100%;
     display: block;
+    background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(127, 127, 127));
 }
 
 .caption {
