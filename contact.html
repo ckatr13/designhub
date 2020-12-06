@@ -58,7 +58,7 @@
         <div class="scroll" id="scroll2">
           <h5>Scroll</h5>
         </div>
-        <img class="arrow" id="arrow2" src="assets/Line.png">
+        <img class="arrow lazy" id="arrow2" data-src="assets/Line.png" alt="Arrow Icon">
       </div>
     </div>
     </div>
@@ -92,12 +92,12 @@
       </div>
       <div class="contact-space"></div>
       <div class="iframe-container">
-        <iframe id="contact"
+        <iframe class="lazy" id="contact"
             title="contact form"
             width="300px"
             height="358px"
             scrolling="no"
-            src="https://ruthdial.wixsite.com/mysite/copy-of-contact-1">
+            data-src="https://ruthdial.wixsite.com/mysite/copy-of-contact-1">
         </iframe>
       </div>
     </section>
@@ -122,19 +122,19 @@
         <div class="right-footer">
           <h6>STAY CONNECTED</h6>
           <a class="social" href="https://linkedin.com" onmouseover="socialMediaHover()" onmouseout="socialMediaOut()">
-            <img class="social-media" src="assets/linkedin grey.png">
-            <img class="social-media hide2" id="white" src="assets/linkedin.png">
+            <img class="social-media lazy" data-src="assets/linkedin grey.png" alt="LinkedIn Logo">
+            <img class="social-media hide2 lazy" id="white" data-src="assets/linkedin.png" alt="LinkedIn Logo">
           </a>
           <a class="social" href="https://pinterest.com" onmouseover="socialMediaHover2()" onmouseout="socialMediaOut2()">
-            <img class="social-media social-media-2" src="assets/pinterestgrey.png">
-            <img class="social-media social-media-2 hide2" id="white2" src="assets/pinterest.png">
+            <img class="social-media social-media-2 lazy" data-src="assets/pinterestgrey.png" alt="Pinterest Logo">
+            <img class="social-media social-media-2 hide2 lazy" id="white2" data-src="assets/pinterest.png" alt="Pinterest Logo">
           </a>
           <p class="copywrite">© 2020 by Designhub</p>
         </div>
       </div>
 
       <div class="contact-top" id="favicon-foot">
-        <img class="fav-foot" src="assets/contact.png">
+        <img class="fav-foot lazy" data-src="assets/contact.png" alt="">
       </div>
 
       <!-- <div class="iframe-footer">
@@ -148,6 +148,19 @@
       </div> -->
     </footer>
     <script src="home.js" type="text/javascript"></script>
-
+    <script src="./node_modules/yall-js/dist/yall.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        yall({
+          events: {
+            load: function (event) {
+              if(!event.target.classList.contains("hide2")) {
+                event.target.style.opacity = "1";
+              }
+            }
+          }
+        });
+      });
+    </script>
 </body>
 </html>

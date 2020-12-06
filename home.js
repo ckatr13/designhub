@@ -135,8 +135,8 @@ function slide(wrapper, items) {
 
       window.addEventListener('load', fn);
 
-      console.log(slideSize);
-      console.log(items.style.left);
+      // console.log(slideSize);
+      // console.log(items.style.left);
 
     }
 
@@ -843,7 +843,7 @@ function setHeight() {
   } 
 
   id.style.height = window.innerWidth / 1.77777778 + "px";
-  
+
   for (var i = 0; i < a.length; i++) {
     a[i].style.height = width2 / 1.77777778 + "px";
   } 
