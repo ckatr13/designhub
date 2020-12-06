@@ -924,6 +924,7 @@ span {
 
 .hide2, .hide3 {
     opacity: 0;
+    transition: 1s ease-in-out;
 }
 
 .social-media-2 {
