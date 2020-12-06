@@ -833,15 +833,12 @@ function fillCircle10() {
 function setHeight() {
   const e = document.getElementsByClassName("project-photo");
   const a = document.getElementsByClassName("project-photo2");
-  const id = document.getElementById("big-photo");
   let width =  window.innerWidth / 4;
   let width2 = window.innerWidth;
 
   for (var i = 0; i < e.length; i++) {
     e[i].style.height = width / 1.77777778 + "px";
   } 
-
-  id.style.height = window.innerWidth / 1.77777778 + "px";
 
   for (var i = 0; i < a.length; i++) {
     a[i].style.height = width2 / 1.77777778 + "px";
