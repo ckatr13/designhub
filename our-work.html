@@ -174,7 +174,7 @@
 <main class="portfolio-grid" id="all-projects">
 
     <div class="project">
-        <img class="project-photo lazy" id="photo1" data-src="assets/frame_23.jpg">
+        <img class="project-photo lazy" id="top-photo" data-src="assets/frame_23.jpg">
           <a class="proj-a" href="krgv.html">
             <div class="project-title-box">
               <h4 class="project-title">KRGV News Package</h4>
@@ -826,23 +826,18 @@
   <script src="home.js" type="text/javascript"></script>
   <script src="./node_modules/yall-js/dist/yall.min.js"></script>
   <script>
-    // document.addEventListener("DOMContentLoaded", lazyLoader);
-    // document.addEventListener("DOMContentLoaded", yall);
     document.addEventListener("DOMContentLoaded", function () {
-  yall({
-    events: {
-      // The object key is sent as the first argument to `addEventListener`,
-      // which is the event. The corresponding value can be the callback if you
-      // don't want to send any options to `addEventListener`.
-      load: function (event) {
-          event.target.style.opacity = "1";
-      }
-    }
-  });
-});
-    document.addEventListener("DOMContentLoaded", setWidth2);
+      yall({
+        events: {
+          load: function (event) {
+              event.target.style.opacity = "1";
+          }
+        }
+      });
+    });
+    document.addEventListener("DOMContentLoaded", setHeight2);
         window.onresize = function () {
-          setWidth2();
+          setHeight2();
         };
   </script>
 </body>

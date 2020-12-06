@@ -197,7 +197,7 @@ function showProject1() {
   const arVr = document.getElementById("ar-vr");
   bloomberg.classList.remove("hide");
   aj.classList.add("hide");
-  arVr.classList.add("hide");
+  // arVr.classList.add("hide");
 }
 
 function showProject2() {
@@ -207,7 +207,7 @@ function showProject2() {
   const arVr = document.getElementById("ar-vr");  
     bloomberg.classList.add("hide");
     aj.classList.remove("hide");
-    arVr.classList.add("hide");
+    // arVr.classList.add("hide");
 }
 
 // function showProject3() {
@@ -421,8 +421,6 @@ function fillCircle() {
     document.getElementById("photography").style.opacity = "0";
     document.getElementById("ar-vr").classList.add("hide");
     document.getElementById("ar-vr").style.opacity = "0";
-
-    lazyload();
 }
 
 function fillCircle2() {
@@ -467,8 +465,6 @@ function fillCircle2() {
     document.getElementById("photography").style.opacity = "0";
     document.getElementById("ar-vr").classList.add("hide");
     document.getElementById("ar-vr").style.opacity = "0";
-
-    lazyload();
 }
 
 function fillCircle3() {
@@ -513,8 +509,6 @@ function fillCircle3() {
   document.getElementById("photography").style.opacity = "0";
   document.getElementById("ar-vr").classList.add("hide");
   document.getElementById("ar-vr").style.opacity = "0";
-
-  lazyload();
 }
 
 function fillCircle4() {
@@ -559,8 +553,6 @@ function fillCircle4() {
   document.getElementById("photography").style.opacity = "0";
   document.getElementById("ar-vr").classList.add("hide");
   document.getElementById("ar-vr").style.opacity = "0";
-
-  lazyload();
 }
 
 function fillCircle5() {
@@ -605,8 +597,6 @@ function fillCircle5() {
   document.getElementById("photography").style.opacity = "0";
   document.getElementById("ar-vr").classList.add("hide");
   document.getElementById("ar-vr").style.opacity = "0";
-
-  lazyload();
 }
 
 function fillCircle6() {
@@ -651,8 +641,6 @@ function fillCircle6() {
   document.getElementById("photography").style.opacity = "0";
   document.getElementById("ar-vr").classList.add("hide");
   document.getElementById("ar-vr").style.opacity = "0";
-
-  lazyload();
 }
 
 function fillCircle7() {
@@ -697,8 +685,6 @@ function fillCircle7() {
   document.getElementById("photography").style.opacity = "0";
   document.getElementById("ar-vr").classList.add("hide");
   document.getElementById("ar-vr").style.opacity = "0";
-
-  lazyload();
 }
 
 function fillCircle8() {
@@ -743,8 +729,6 @@ function fillCircle8() {
   document.getElementById("photography").style.opacity = "0";
   document.getElementById("ar-vr").classList.add("hide");
   document.getElementById("ar-vr").style.opacity = "0";
-
-  lazyload();
 }
 
 function fillCircle9() {
@@ -789,8 +773,6 @@ function fillCircle9() {
   document.getElementById("sports").style.opacity = "0";
   document.getElementById("ar-vr").classList.add("hide");
   document.getElementById("ar-vr").style.opacity = "0";
-
-  lazyload();
 }
 
 function fillCircle10() {
@@ -835,77 +817,104 @@ function fillCircle10() {
   document.getElementById("sports").style.opacity = "0";
   document.getElementById("photography").classList.add("hide");
   document.getElementById("photography").style.opacity = "0";
-
-  lazyload();
 }
 
 
-function setWidth() {
-    const e = document.getElementsByClassName("project-detail2");
-    const width = document.getElementById("photo1").offsetWidth;
-    for (var i = 0; i < e.length; i++) {
-      e[i].style.height = width / 1.77777778 + "px";
-    }
-}
+// function setHeight() {
+//     const e = document.getElementsByClassName("project-photo2");
+//     let width = document.getElementById("photo1").offsetWidth;
 
-function setWidth2() {
+//     for (var i = 0; i < e.length; i++) {
+//       e[i].style.height = width / 1.77777778 + "px";
+//     } 
+
+//     setHeight2()
+// }
+
+function setHeight() {
   const e = document.getElementsByClassName("project-photo");
-  const width = document.getElementById("photo1").offsetWidth;
+  const a = document.getElementsByClassName("project-photo2");
+  const id = document.getElementById("big-photo");
+  let width =  window.innerWidth / 4;
+  let width2 = window.innerWidth;
+
   for (var i = 0; i < e.length; i++) {
     e[i].style.height = width / 1.77777778 + "px";
-  }
-}
+  } 
 
-function inViewport(e) {
-  var top = e.offsetTop;
-  var left = e.offsetLeft;
-  var width = e.offsetWidth;
-  var height = e.offsetHeight;
-
-  while(e.offsetParent) {
-    e = e.offsetParent;
-    top += e.offsetTop;
-    left += e.offsetLeft;
-  }
-
-  return (
-    top < (window.pageYOffset + window.innerHeight) 
-    // left < (window.pageXOffset + window.innerWidth)  &&
-    // (top + height) > window.pageYOffset &&
-    // (left + width) > window.pageXOffset
-  );
-}
-
-function lazyload () {
-  var lazyloadImages = document.querySelectorAll("img.lazy");  
-  var lazyloadThrottleTimeout;  
-  if(lazyloadThrottleTimeout) {
-    clearTimeout(lazyloadThrottleTimeout);
-  }    
+  id.style.height = window.innerWidth / 1.77777778 + "px";
   
-  lazyloadThrottleTimeout = setTimeout(function() {
-      let scrollTop = window.pageYOffset;
-      lazyloadImages.forEach(function(img) {
-          if(inViewport(img)) {
-              img.src = img.dataset.src;
-              img.classList.remove('lazy');
-          } else if (document.getElementById('slides')) {
-            if (document.getElementById('slides').offsetLeft > window.innerWidth) {
-              img.src = img.dataset.src;
-              img.classList.remove('lazy');
-            }
-          }
-      });
-      if(lazyloadImages.length == 0) { 
-        document.removeEventListener("scroll", lazyload);
-        window.removeEventListener("resize", lazyload);
-        window.removeEventListener("orientationChange", lazyload);
-      }
-  }, 20);
+  for (var i = 0; i < a.length; i++) {
+    a[i].style.height = width2 / 1.77777778 + "px";
+  } 
 }
 
- function lazyLoader() {  
-  document.addEventListener("scroll", lazyload);
-  window.addEventListener("resize", lazyload);
-  window.addEventListener("orientationChange", lazyload);
+function setHeight2() {
+    const e = document.getElementsByClassName("project-photo");
+    let width = document.getElementById("top-photo").offsetWidth;
+    for (var i = 0; i < e.length; i++) {
+      e[i].style.height = width / 1.77777778 + "px";
+    } 
 }
+
+
+
+
+// function setBigPhotoHeight() {
+//   document.getElementById("big-photo").style.height = window.innerWidth / 1.77777778 + "px";
+// }
+
+// function inViewport(e) {
+//   var top = e.offsetTop;
+//   var left = e.offsetLeft;
+//   var width = e.offsetWidth;
+//   var height = e.offsetHeight;
+
+//   while(e.offsetParent) {
+//     e = e.offsetParent;
+//     top += e.offsetTop;
+//     left += e.offsetLeft;
+//   }
+
+//   return (
+//     top < (window.pageYOffset + window.innerHeight) 
+//     // left < (window.pageXOffset + window.innerWidth)  &&
+//     // (top + height) > window.pageYOffset &&
+//     // (left + width) > window.pageXOffset
+//   );
+// }
+
+// function lazyload () {
+//   var lazyloadImages = document.querySelectorAll("img.lazy");  
+//   var lazyloadThrottleTimeout;  
+//   if(lazyloadThrottleTimeout) {
+//     clearTimeout(lazyloadThrottleTimeout);
+//   }    
+  
+//   lazyloadThrottleTimeout = setTimeout(function() {
+//       let scrollTop = window.pageYOffset;
+//       lazyloadImages.forEach(function(img) {
+//           if(inViewport(img)) {
+//               img.src = img.dataset.src;
+//               img.classList.remove('lazy');
+//               img.style.opacity = "1";
+//           } else if (document.getElementById('slides')) {
+//             if (document.getElementById('slides').offsetLeft > window.innerWidth) {
+//               img.src = img.dataset.src;
+//               img.classList.remove('lazy');
+//             }
+//           }
+//       });
+//       if(lazyloadImages.length == 0) { 
+//         document.removeEventListener("scroll", lazyload);
+//         window.removeEventListener("resize", lazyload);
+//         window.removeEventListener("orientationChange", lazyload);
+//       }
+//   }, 20);
+// }
+
+//  function lazyLoader() {  
+//   document.addEventListener("scroll", lazyload);
+//   window.addEventListener("resize", lazyload);
+//   window.addEventListener("orientationChange", lazyload);
+// }
