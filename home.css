@@ -922,7 +922,7 @@ span {
     }
 }
 
-.hide2 {
+.hide2, .hide3 {
     opacity: 0;
 }
 
