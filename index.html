@@ -286,7 +286,9 @@
             yall({
               events: {
                 load: function (event) {
-                    event.target.style.opacity = "1";
+                  if(!event.target.classList.contains("hide2")) {
+                      event.target.style.opacity = "1";
+                  }
                 }
               }
             });
