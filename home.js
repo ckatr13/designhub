@@ -92,7 +92,7 @@ function slide(wrapper, items) {
           if (dir == 1) {
             items.style.left = (posInitial - slideSize) + "px";
             // items.style.transform = `translateX((${posInitial} - ${slideSize}) + px)`;
-            console.log((posInitial - slideSize) + "px");
+            // console.log((posInitial - slideSize) + "px");
             index++;      
           } else if (dir == -1) {
             items.style.left = (posInitial + slideSize) + "px";
