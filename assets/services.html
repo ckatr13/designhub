@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1 user-scalable=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="manifest" href="assets/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="normalize.min.css" />
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <title>Design Hub</title> 
+  </head>
+
+  <body id="body" onload="wipeOn()">
+    <nav id="nav">
+      <a href="index.html"><img src="assets/design hub logo white.png" class="logo"></a>
+      <div class="hamburger-button" id="hamburger-button" onclick="displayMenu()"><a class="ham">&#9776;</a></div>
+    </nav>
+
+    <div class="wipe" id="wipe"></div>
+    <div class="mobile-menu" id="mobile-menu">
+      <div id="x" onclick="hideMenu()">X</div>
+        <div class="mobile-link-container">
+        <a class="mobile-link" id="link1" href="index.html">Home
+        <br><svg class="menu-lines" id="line2">
+          <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
+        </svg></a>
+        <a class="mobile-link" id="link2" href="our-work.html">Portfolio
+        <br><svg class="menu-lines" id="line3">
+          <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
+        </svg></a>
+        <a class="mobile-link" id="link3" href="services.html">Services
+        <br><svg class="menu-lines" id="line4">
+          <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
+        </svg></a>
+        <a class="mobile-link" id="link4" href="members.html">Members
+        <br><svg class="menu-lines" id="line5">
+          <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
+        </svg></a>
+        <a class="mobile-link" id="link7" href="contact.html">Contact
+        <br><svg class="menu-lines" id="line8">
+          <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
+        </svg></a>
+      </div>
+      <div class="scroll-container" id="menu-scroll">
+        <div class="scroll" id="scroll2">
+          <h5>Scroll</h5>
+        </div>
+        <img class="arrow hide3 lazy" id="arrow2" data-src="assets/Line.png" alt="Arrow Icon">
+      </div>
+    </div>
+
+    <div class="wipe" id="wipe-start"></div>
+    <div class="wipe" id="wipe-start2"></div>
+
+    <main>
+        <header class="project-header services-header parallax" id="parallax">
+            <div class="services-info parallax parallax-active" data-rellax-speed="5">
+                <h1 class="h3">Who We Are</h1><br>
+                <p class="white">The principals of Designhub have had a long-term friendship. Collaborating together
+                    for over 20 years, we started Designhub 3 years ago to be part of the modern creative 
+                    landscape of the news broadcast world. We push ourselves to be different and strive to create 
+                    something that will be impactful for your brand. No project is too big
+                    or too small. To us, everything is a creative challenge.
+                </p>
+            </div>
+        </header>
+        <!-- <div class="parallax" id="parallax">
+            <div class="parallax parallax-active" data-rellax-speed="5">
+                <div>
+                    <img class="img-top" src="assets/download (1).png" />
+                </div>
+            </div>  
+        </div> -->
+        <article class="project-header services">
+            <section class="service">
+              <div class="services-img-placeholder">
+                <img data-src="assets/08 (1).jpg" class="services-img hide3 lazy" alt="ABC6 News Design">
+              </div>
+                <h2 class="services-img fix">News Design</h2><br>
+                <p class="services-img">We know news. Our extensive background in local news has made us the "go-to" experts. 
+                    We understand how to communicate your ideas through visuals that strengthen your brand and
+                    compel viewership. Our technical knowledge with graphic formatting and will make every re-brand
+                    painless and fast. If you need the graphics delivered in different formats such as VizRT or Chyron
+                    we have that capability. No matter what your budget is, we can make it work by offering selections from our syndicated packages for an attractive price.</p>
+                    <a class="link__arrowed" href="our-work.html" target="_self" rel="noopener noreferrer">MORE <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                        <g fill="none" stroke="#777" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+                          <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                          <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                        </g>
+                      </svg>
+                  </a>
+            </section>
+            <section class="service">
+              <div class="services-img-placeholder">
+                <img data-src="assets/INSIGHTEC_STYLE_FRAME_WIP2_c.jpg" class="services-img hide3 lazy" alt="Insightec Design">
+              </div>
+                <h2 class="services-img fix">Corporate Design</h2><br>
+                <p class="services-img">Our full, cross platform design service for print, web and animation 
+                    can help develop a strong visual identity for your company or product.</p>
+                <a class="link__arrowed" href="more-health.html" target="_self" rel="noopener noreferrer">MORE 
+                    <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                    <g fill="none" stroke="#777" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+                        <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                        <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                    </g>
+                    </svg>
+                </a>
+            </section>
+            <section class="service">
+              <div class="services-img-placeholder">
+                <img data-src="assets/IMG_3407.jpeg" class="services-img hide3 lazy" alt="BON Design">
+              </div>
+                <h2 class="services-img fix">Brand Identity</h2><br>
+                <p class="services-img">We provide a full design service to creatively communicate your 
+                    message through color, style, typography and animation. Extensively researching the 
+                    market and design trends, we explore and experiment until we create a style that is 
+                    uniquely yours.</p>
+                <a class="link__arrowed" href="our-work.html" target="_self" rel="noopener noreferrer">MORE 
+                    <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                    <g fill="none" stroke="#777" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+                        <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                        <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                    </g>
+                    </svg>
+                </a>
+            </section>
+            <section class="service">
+              <div class="services-img-placeholder">
+                <img data-src="assets/PastedImage-1.jpg" class="services-img hide3 lazy" alt="Website">
+              </div>
+                <h2 class="services-img fix">UX/UI Web Design & Development</h2><br>
+                <p class="services-img">We provide a wide range of Web design and development services 
+                  including UX design, user-experience and market research, UI design, visual design, graphic design, 
+                  email campaigns, and technical front-end development coding using popular front-end frameworks including:
+                  html, css, javascript, react.js, and more.</p>
+                <a class="link__arrowed" href="our-work.html" target="_self" rel="noopener noreferrer">MORE 
+                    <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                    <g fill="none" stroke="#777" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+                        <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                        <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                    </g>
+                    </svg>
+                </a>
+            </section>
+            <section class="service">
+              <div class="services-img-placeholder">
+                <img data-src="assets/IMG_3251.jpeg" class="services-img hide3 lazy" alt="FOX Sports Design">
+              </div>
+                <h2 class="services-img fix">Sports Design</h2><br>
+                <p class="services-img">We create modern brand platforms that will significantly upgrade the visual identity of your 
+                    sports network or team. We provide dynamic animation and informational graphics, both digital as well as virtual 
+                    and augmented.</p>
+                <a class="link__arrowed" href="our-work.html" target="_self" rel="noopener noreferrer">MORE <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                    <g fill="none" stroke="#777" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+                        <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                        <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                    </g>
+                    </svg>
+                </a>
+            </section>
+            <section class="service">
+              <div class="services-img-placeholder">
+                <img data-src="assets/IMG_3599.jpeg" class="services-img hide3 lazy" alt="Set Design">
+              </div>
+                <h2 class="services-img fix">Virtural and Augmented Reality Set Design</h2><br>
+                <p class="services-img">Regardless of your studio size, Designhub can create a virtual 
+                    space that can look expansive and impressive.
+                    We work with many formats and understand how to build sets that are responsive and 
+                    visually interesting.</p>
+                <a class="link__arrowed" href="our-work.html" target="_self" rel="noopener noreferrer">MORE 
+                    <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                    <g fill="none" stroke="#777" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+                        <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                        <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                    </g>
+                    </svg>
+                </a>
+            </section>
+            <section class="service">
+              <div class="services-img-placeholder">
+                <img data-src="assets/IMG_3350.jpeg" class="services-img hide3 lazy" alt="Regis and Kelly Design">
+              </div>
+                <h2 class="services-img fix">Photography and Film Shoots</h2><br>
+                <p class="services-img">Designhub has extensive experience with film and HD shoots, locally and internationally.</p>
+                <a class="link__arrowed" href="our-work.html" target="_self" rel="noopener noreferrer">MORE 
+                    <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                    <g fill="none" stroke="#777" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+                        <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                        <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                    </g>
+                    </svg>
+                </a>
+            </section>
+            <section class="service">
+              <div class="services-img-placeholder">
+                <img data-src="assets/IMG_3195.jpeg" class="services-img hide3 lazy" alt="Al Jazeera Election Design">
+              </div>
+                <h2 class="services-img fix">Election Design</h2><br>
+                <p class="services-img">Our team at Designhub can cover every aspect of your election 
+                    package design. From statistics, animation, to augmented graphics and virtual sets, 
+                    we strive to make our packages modern and easy for the viewer to read
+                    and understand. </p>
+                <a class="link__arrowed" href="more-health.html" target="_self" rel="noopener noreferrer">MORE 
+                    <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                    <g fill="none" stroke="#777" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+                        <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                        <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                    </g>
+                    </svg>
+                </a>
+            </section>
+            <section class="service">
+              <div class="services-img-placeholder">
+                <img data-src="assets/IMG_3605.jpeg" class="services-img hide3 lazy" alt="The Price is Right Design">
+              </div>
+                <h2 class="services-img fix">Entertainment Design</h2><br>
+                <p class="services-img">Working closely with your team, we develop signature concepts including 
+                    patterns, textures and animations that express your own brand identity as well as the 
+                    audience culture.</p>
+                <a class="link__arrowed" href="more-health.html" target="_self" rel="noopener noreferrer">MORE 
+                    <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                    <g fill="none" stroke="#777" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+                        <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                        <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                    </g>
+                    </svg>
+                </a>
+            </section>
+            <section class="service">
+              <div class="services-img-placeholder">
+                <img data-src="assets/download (7).jpg" class="services-img hide3 lazy" alt="More Health Animation">
+              </div>
+                <h2 class="services-img fix">Cell Animation</h2><br>
+                <p class="services-img">Our long partnership with an incredible animation team gives us the ability to create 
+                    amazing, stylized cell animation. If you have a story that needs to be told in a way that only cell 
+                    animation can achieve, we are here to plan your next commercial or short film.</p>
+                <a class="link__arrowed" href="more-health.html" target="_self" rel="noopener noreferrer">MORE 
+                    <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                    <g fill="none" stroke="#777" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+                        <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                        <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                    </g>
+                    </svg>
+                </a>
+            </section>
+            <!-- <ul class="services-info">
+                <li class="li serv"><h3 class="h3 services">WHAT WE DO</h3></li><br>
+                <li class="li serv">News Design</li>
+                <li class="li serv">Sports Design</li>
+                <li class="li serv">Brand Identity</li>
+                <li class="li serv">Web UX/UI and Development</li>
+                <li class="li serv">Virtual and Augmented Reality Set Design</li>
+                <li class="li serv">Photography/filmshoots</li>
+                <li class="li serv">Animation</li>
+            </ul> -->
+        </article>
+        <section class="logos">
+            <div class="clients">
+                <h2 class='reg-font'>Select clients we have worked with:</h2>
+            </div>
+            <img class="logos hide3 lazy" data-src="assets/logos.jpg" alt="Client Logos">
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-flex">
+          <div id=quick-links>
+            <h6>QUICK LINKS</h6>
+            <div class=footer-links-container>
+              <ul class="footer-links">
+                <li><a class="footer-menu" href="index.html">Home</a></li>
+                <li><a class="footer-menu" href="our-work.html">Portfolio</a></li>
+                <li><a class="footer-menu" href="#">Services</a></li>
+                <li><span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=oRJznL4Xng9X5hOaw3lDiviBzlcLZn4U3SYz73DMTBuQUoDeh3THG5FG0c7U"></script></span></li>
+              </ul>
+              <ul class="footer-links">
+                <li><a class="footer-menu" href="members.html">Members</a></li>
+                <li><a class="footer-menu" href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="right-footer">
+            <h6>STAY CONNECTED</h6>
+            <a class="social" href="https://linkedin.com" onmouseover="socialMediaHover()" onmouseout="socialMediaOut()">
+              <img class="social-media lazy hide3" data-src="assets/linkedin grey.png" alt="LinkedIn Logo">
+              <img class="social-media hide2 lazy" id="white" data-src="assets/linkedin.png" alt="LinkedIn Logo">
+            </a>
+            <a class="social" href="https://pinterest.com" onmouseover="socialMediaHover2()" onmouseout="socialMediaOut2()">
+              <img class="social-media social-media-2 hide3 lazy" data-src="assets/pinterestgrey.png" alt="Pinterest Logo">
+              <img class="social-media social-media-2 hide2 lazy" id="white2" data-src="assets/pinterest.png" alt="Pinterest Logo">
+            </a>
+            <p class="copywrite">© 2020 by Designhub</p>
+          </div>
+        </div>
+  
+        <div class="contact-top" id="favicon-foot">
+          <img class="fav-foot hide3 lazy" data-src="assets/contact.png" alt="">
+        </div>
+      </footer>
+      <script src="home.js" type="text/javascript"></script>
+      <script src="./node_modules/rellax/rellax.min.js"></script>
+      <script src="./node_modules/yall-js/dist/yall.min.js"></script>
+      <script>
+        var rellax = new Rellax('.parallax-active');
+        document.addEventListener("DOMContentLoaded", function () {
+                yall({
+                events: {
+                    load: function (event) {
+                        if(!event.target.classList.contains("hide2")) {
+                            event.target.style.opacity = "1";
+                        }
+                    }
+                }
+                });
+            });
+      </script>
+    </body>
+  </html>

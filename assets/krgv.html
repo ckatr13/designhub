@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1 user-scalable=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="normalize.min.css" />
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <title>Design Hub</title> 
+  </head>
+
+  <body id="body" onload="wipeOn()">
+    <nav id="nav">
+      <a href="index.html"><img src="assets/design hub logo white.png" class="logo"></a>
+      <div class="hamburger-button" id="hamburger-button" onclick="displayMenu()"><a class="ham">&#9776;</a></div>
+    </nav>
+
+    <div class="wipe" id="wipe"></div>
+    <div class="mobile-menu" id="mobile-menu">
+      <div id="x" onclick="hideMenu()">X</div>
+      <div class="mobile-link-container">
+        <a onmouseover="underlineIn()" onmouseout="underlineOut()" class="mobile-link" id="link1" href="index.html">Home
+        <br><svg class="menu-lines" id="line2">
+          <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
+        </svg></a>
+        <a onmouseover="underlineIn()" onmouseout="underlineOut()" class="mobile-link" id="link2" href="our-work.html">Portfolio
+        <br><svg class="menu-lines" id="line3">
+          <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
+        </svg></a>
+        <a onmouseover="underlineIn()" onmouseout="underlineOut()" class="mobile-link" id="link3" href="services.html">Services
+        <br><svg class="menu-lines" id="line4">
+          <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
+        </svg></a>
+        <a onmouseover="underlineIn()" onmouseout="underlineOut()" class="mobile-link" id="link4" href="members.html">Members
+        <br><svg class="menu-lines" id="line5">
+          <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
+        </svg></a>
+        <!-- <a onmouseover="underlineIn()" onmouseout="underlineOut()" class="mobile-link" id="link5" href="members.html">Clients
+        <br><svg class="menu-lines" id="line6">
+          <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
+        </svg></a> -->
+        <!-- <a onmouseover="underlineIn()" onmouseout="underlineOut()" class="mobile-link" id="link6" href="#">News
+        <br><svg class="menu-lines" id="line7">
+          <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
+        </svg></a> -->
+        <a onmouseover="underlineIn()" onmouseout="underlineOut()" class="mobile-link" id="link7" href="contact.html">Contact
+        <br><svg class="menu-lines" id="line8">
+          <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
+        </svg></a>
+      </div>
+      <div class="scroll-container" id="menu-scroll">
+        <div class="scroll" id="scroll2">
+          <h5>Scroll</h5>
+        </div>
+        <img class="arrow hide3 lazy" id="arrow2" data-src="assets/Line.png" alt="arrow icon">
+      </div>
+    </div>
+
+    <div class="wipe" id="wipe-start"></div>
+    <div class="wipe" id="wipe-start2"></div>
+    <main>
+        <div class="parallax" id="parallax">
+            <div class="parallax parallax-active" data-rellax-speed="5">
+                <div>
+                    <img class="img-top show" src="assets/frame_23.jpg" alt="KRGV Graphic"/>
+                </div>
+            </div>  
+        </div>
+        <header class="project-header" id="header">
+          <div class="caption caption1">
+              <h2><b>KRGV PACKAGE</b></h2>
+              <svg class="svg2">
+                  <line x1="0" y1="0" x2="390" y2="0" style="stroke:#fe6858;;stroke-width:8;" />
+                </svg>
+                <br>
+              <h3 class="h3">PACKAGE REDESIGN</h3>
+              <p>KRGV wanted us to refresh their graphics package with a newer, flat approach. 
+                Using dynamic wipes against the bold colors, we created a package that was 
+                vibrant and energetic.</p>
+          </div>
+          <div class="caption caption2">
+              <h3 class="h3"><b>CLIENT</b></h3>
+              <h4 class="h4">KRGV</h4>
+              <br>
+              <ul class="ul">
+                <li class="li"><h3 class="h3"><b>WHAT WE DID</b></h3></li>
+                  <li class="li">CONCEPT</li>
+                  <li class="li">DESIGN</li>
+                  <li class="li">ANIMATION</li>
+              </ul>
+          </div>
+      </header>
+        <section class="portfolio-grid project-grid">
+            <div class="project project-detail">
+              <img class="project-photo lazy" data-src="assets/frame_14.jpg" alt="KRGV Graphic">
+              <a class="proj-a" href="#photo1">
+                <div class="project-title-box gray"></div>
+              </a>
+            </div>
+            <div class="project project-detail">
+                <img class="project-photo lazy" data-src="assets/frame_23.jpg" alt="KRGV Graphic">
+                <a class="proj-a" href="#photo2">
+                  <div class="project-title-box gray"></div>
+                </a>
+            </div>
+            <div class="project project-detail">
+                <img class="project-photo lazy" data-src="assets/frame_33.jpg" alt="KRGV Graphic">
+                <a class="proj-a" href="#photo3">
+                  <div class="project-title-box gray"></div>
+                </a>
+            </div>
+            <div class="project project-detail">
+                <img class="project-photo lazy" data-src="assets/frame_43.jpg" alt="KRGV Graphic">
+                <a class="proj-a" href="#photo4">
+                  <div class="project-title-box gray"></div>
+                </a>
+            </div>
+            <div class="project project-detail">
+                <img class="project-photo lazy" data-src="assets/frame_59.jpg" alt="KRGV Graphic">
+                <a class="proj-a" href="#photo5">
+                  <div class="project-title-box gray"></div>
+                </a>
+            </div>
+            <div class="project project-detail">
+                <img class="project-photo lazy" data-src="assets/frame_72.jpg" alt="KRGV Graphic">
+                <a class="proj-a" href="#photo6">
+                  <div class="project-title-box gray"></div>
+                </a>
+            </div>
+            <div class="project project-detail">
+                <img class="project-photo lazy" data-src="assets/frame_90.jpg" alt="KRGV Graphic">
+                <a class="proj-a" href="#photo7">
+                  <div class="project-title-box gray"></div>
+                </a>
+            </div>
+            <div class="project project-detail">
+                <img class="project-photo lazy" data-src="assets/frame_106.jpg" alt="KRGV Graphic">
+                <a class="proj-a" href="#photo8">
+                  <div class="project-title-box gray"></div>
+                </a>
+            </div>
+            <div class="project project-detail">
+                <img class="project-photo lazy" data-src="assets/frame_299.jpg" alt="KRGV Graphic">
+                <a class="proj-a" href="#photo9">
+                  <div class="project-title-box gray"></div>
+                </a>
+            </div>
+            <div class="project project-detail">
+                <img class="project-photo lazy" data-src="assets/frame_335.jpg" alt="KRGV Graphic">
+                <a class="proj-a" href="#photo10">
+                  <div class="project-title-box gray"></div>
+                </a>
+            </div>
+            <div class="project project-detail">
+                <img class="project-photo lazy" data-src="assets/frame_387.jpg" alt="KRGV Graphic">
+                <a class="proj-a" href="#photo11">
+                  <div class="project-title-box gray"></div>
+                </a>
+            </div>
+            <div class="project project-detail">
+                <img class="project-photo lazy" data-src="assets/frame_260.jpg" alt="KRGV Graphic">
+                <a class="proj-a" href="#photo12">
+                  <div class="project-title-box gray"></div>
+                </a>
+            </div>
+            <div class="project project-detail">
+                <img class="project-photo lazy" data-src="assets/frame_157.jpg" alt="KRGV Graphic">
+                <a class="proj-a" href="#photo13">
+                  <div class="project-title-box gray"></div>
+                </a>
+            </div>
+            <div class="project project-detail">
+                <img class="project-photo lazy" data-src="assets/frame_202.jpg" alt="KRGV Graphic">
+                <a class="proj-a" href="#photo14">
+                  <div class="project-title-box gray"></div>
+                </a>
+            </div>
+            <div class="project project-detail">
+                <img class="project-photo lazy" data-src="assets/frame_237.jpg" alt="KRGV Graphic">
+                <a class="proj-a" href="#photo15">
+                  <div class="project-title-box gray"></div>
+                </a>
+            </div>
+            <div class="project project-detail">
+                <img class="project-photo lazy" data-src="assets/frame_329.jpg" alt="KRGV Graphic">
+                <a class="proj-a" href="#photo16">
+                  <div class="project-title-box gray"></div>
+                </a>
+            </div>
+            <div class="project project-detail">
+                <img class="project-photo lazy" data-src="assets/frame_372.jpg" alt="KRGV Graphic">
+                <a class="proj-a" href="#photo17">
+                  <div class="project-title-box gray"></div>
+                </a>
+            </div>
+            <div class="project project-detail">
+                <img class="project-photo lazy" data-src="assets/frame_100.jpg" alt="KRGV Graphic">
+                <a class="proj-a" href="#photo18">
+                  <div class="project-title-box gray"></div>
+                </a>
+            </div>
+            <div class="project project-detail">
+                <img class="project-photo lazy" data-src="assets/frame_332.jpg" alt="KRGV Graphic">
+                <a class="proj-a" href="#photo19">
+                  <div class="project-title-box gray"></div>
+                </a>
+            </div>
+            <div class="project project-detail">
+                <img class="project-photo lazy" data-src="assets/frame_0 (1).jpg" alt="KRGV Graphic">
+                <a class="proj-a" href="#photo20">
+                  <div class="project-title-box gray"></div>
+                </a>
+            </div>
+        </section>
+
+        <section class="portfolio-grid project-grid2">
+          <div class="project project-detail2 video">
+            <!-- <iframe src="https://player.vimeo.com/video/480127504" width="100%" height="560px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
+            <video width="100%" height="auto" controls alt="KRGV Morining News Open">
+              <source src="assets/News Open Morning.m4v" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="project project-detail2">
+            <video width="100%" height="auto" controls alt="KRGV Anchor Open">
+              <source src="assets/Anchor Open.m4v" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+              <!-- <iframe src="https://player.vimeo.com/video/480128450" width="100%" height="560px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
+          </div>
+          <div class="project project-detail2">
+            <video width="100%" height="auto" controls alt="KRGV Topical Open">
+              <source src="assets/Topical Open-1.m4v" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+              <!-- <iframe src="https://player.vimeo.com/video/480129536" width="100%" height="560px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
+          </div>
+          <div class="project project-detail2">
+            <video width="100%" height="auto" controls alt="KRGV Fullscreen">
+              <source src="assets/Krgv Fullscreen)-1.m4v" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+              <!-- <iframe src="https://player.vimeo.com/video/480129276" width="100%" height="560px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
+          </div>
+          <div class="project project-detail2">
+            <video width="100%" height="auto" controls alt="KRGV Breaking News">
+              <source src="assets/Breaking News-1.m4v" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+              <!-- <iframe src="https://player.vimeo.com/video/480128948" width="100%" height="560px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
+          </div>
+          <div class="project project-detail2">
+            <video width="100%" height="auto" controls alt="KRGV OTS Example">
+              <source src="assets/Ots Example (1)-1.m4v" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+              <!-- <iframe src="https://player.vimeo.com/video/480145596" width="100%" height="560px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
+          </div>
+          <div class="project project-detail2" id="photo1">
+              <img class="project-photo2 lazy" data-src="assets/frame_14.jpg" alt="KRGV Graphic">
+          </div>
+          <div class="project project-detail2" id="photo2">
+              <img class="project-photo2 lazy" data-src="assets/frame_23.jpg" alt="KRGV Graphic">
+          </div>
+          <div class="project project-detail2" id="photo3">
+              <img class="project-photo2 lazy" data-src="assets/frame_33.jpg" alt="KRGV Graphic">
+          </div>
+          <div class="project project-detail2" id="photo4">
+              <img class="project-photo2 lazy" data-src="assets/frame_43.jpg" alt="KRGV Graphic">
+          </div>
+          <div class="project project-detail2" id="photo5">
+              <img class="project-photo2 lazy" data-src="assets/frame_59.jpg" alt="KRGV Graphic">
+          </div>
+          <div class="project project-detail2" id="photo6">
+              <img class="project-photo2 lazy" data-src="assets/frame_72.jpg" alt="KRGV Graphic">
+          </div>
+          <div class="project project-detail2" id="photo7">
+              <img class="project-photo2 lazy" data-src="assets/frame_90.jpg" alt="KRGV Graphic">
+          </div>
+          <div class="project project-detail2" id="photo8">
+              <img class="project-photo2 lazy" data-src="assets/frame_106.jpg" alt="KRGV Graphic">
+          </div>
+          <div class="project project-detail2" id="photo9">
+              <img class="project-photo2 lazy" data-src="assets/frame_299.jpg" alt="KRGV Graphic">
+          </div>
+          <div class="project project-detail2" id="photo10">
+              <img class="project-photo2 lazy" data-src="assets/frame_335.jpg" alt="KRGV Graphic">
+          </div>
+          <div class="project project-detail2" id="photo11">
+              <img class="project-photo2 lazy" data-src="assets/frame_387.jpg" alt="KRGV Graphic">
+          </div>
+          <div class="project project-detail2" id="photo12">
+              <img class="project-photo2 lazy" data-src="assets/frame_260.jpg" alt="KRGV Graphic">
+          </div>
+          <div class="project project-detail2" id="photo13">
+              <img class="project-photo2 lazy" data-src="assets/frame_157.jpg" alt="KRGV Graphic">
+          </div>
+          <div class="project project-detail2" id="photo14">
+              <img class="project-photo2 lazy" data-src="assets/frame_202.jpg" alt="KRGV Graphic">
+          </div>
+          <div class="project project-detail2" id="photo15">
+              <img class="project-photo2 lazy" data-src="assets/frame_237.jpg" alt="KRGV Graphic">
+          </div>
+          <div class="project project-detail2" id="photo16">
+              <img class="project-photo2 lazy" data-src="assets/frame_329.jpg" alt="KRGV Graphic">
+          </div>
+          <div class="project project-detail2" id="photo17">
+              <img class="project-photo2 lazy" data-src="assets/frame_372.jpg" alt="KRGV Graphic">
+          </div>
+          <div class="project project-detail2" id="photo18">
+              <img class="project-photo2 lazy" data-src="assets/frame_100.jpg" alt="KRGV Graphic">
+          </div>
+          <div class="project project-detail2" id="photo19">
+              <img class="project-photo2 lazy" data-src="assets/frame_332.jpg" alt="KRGV Graphic">
+          </div>
+          <div class="project project-detail2" id="photo20">
+              <img class="project-photo2 lazy" data-src="assets/frame_0 (1).jpg" alt="KRGV Graphic">
+          </div>
+      </section>
+        <div class="space"></div>
+    </main>
+    <footer>
+      <div class="footer-flex">
+        <div id=quick-links>
+          <h6>QUICK LINKS</h6>
+          <div class=footer-links-container>
+            <ul class="footer-links">
+              <li><a class="footer-menu" href="index.html">Home</a></li>
+              <li><a class="footer-menu" href="our-work.html">Portfolio</a></li>
+              <li><a class="footer-menu" href="services.html">Services</a></li>
+              <li><span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=oRJznL4Xng9X5hOaw3lDiviBzlcLZn4U3SYz73DMTBuQUoDeh3THG5FG0c7U"></script></span></li>
+            </ul>
+            <ul class="footer-links">
+              <li><a class="footer-menu" href="members.html">Members</a></li>
+              <li><a class="footer-menu" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="right-footer">
+          <h6>STAY CONNECTED</h6>
+          <a class="social" href="https://linkedin.com" onmouseover="socialMediaHover()" onmouseout="socialMediaOut()">
+            <img class="social-media hide3 lazy" data-src="assets/linkedin grey.png" alt="linkedIn Logo">
+            <img class="social-media hide2 lazy" id="white" data-src="assets/linkedin.png" alt="linkedIn Logo">
+          </a>
+          <a class="social" href="https://pinterest.com" onmouseover="socialMediaHover2()" onmouseout="socialMediaOut2()">
+            <img class="social-media social-media-2 hide3 lazy" data-src="assets/pinterestgrey.png" alt="Pinterest Logo">
+            <img class="social-media social-media-2 hide2 lazy" id="white2" data-src="assets/pinterest.png" alt="Pinterest Logo">
+          </a>
+          <p class="copywrite">© 2020 by Designhub</p>
+        </div>
+      </div>
+
+      <div class="contact-top" id="favicon-foot">
+        <img class="fav-foot hide3 lazy" data-src="assets/contact.png" alt="">
+      </div>
+    </footer>
+    <script src="./node_modules/rellax/rellax.min.js"></script>
+    <script src="home.js" type="text/javascript"></script>
+    <script src="./node_modules/yall-js/dist/yall.min.js"></script>
+    <script>
+        var rellax = new Rellax('.parallax-active');
+        document.addEventListener("DOMContentLoaded", function () {
+                yall({
+                events: {
+                  load: function (event) {
+                    if(!event.target.classList.contains("hide2")) {
+                      event.target.style.opacity = "1";
+                      }
+                    }
+                  }
+                });
+            });
+        document.addEventListener("DOMContentLoaded", setHeight);
+        window.onresize = function () {
+          setHeight();
+        };
+    </script>
+  </body>
+</html>
