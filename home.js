@@ -861,7 +861,7 @@ function setHeight2() {
 
 function setHeight3() {
   const e = document.getElementsByClassName("project-photo");
-  let width = window.innerWidth / 2;
+  let width = document.getElementById("top-photo");
   for (var i = 0; i < e.length; i++) {
     e[i].style.height = width / 1.77777778 + "px";
   } 
