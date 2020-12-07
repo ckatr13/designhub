@@ -264,12 +264,16 @@ function delayHide() {
 }
 
 function animateLineOut() {
-  document.getElementById("line").style.width = "100%";
+  if(document.getElementById("line") !== null) {
+    document.getElementById("line").style.width = "100%";
+  }
 }
 
 function animateLineIn() {
-  document.getElementById("line").style.width = "36px";
-  document.getElementById("line").style.float = "left";
+  if(document.getElementById("line") !== null) {
+    document.getElementById("line").style.width = "36px";
+    document.getElementById("line").style.float = "left";
+  }
 }
 
 function wipeOn() {
@@ -291,12 +295,14 @@ function wipeOn() {
 // window.addEventListener('load', wipeOn);
 
 function bringInScroll() {
-  setTimeout(function () {
-    document.getElementById("scroll1").style.opacity = "1";
-  }, 250);
-  setTimeout(function () {
-    document.getElementById("arrow1").style.opacity = "1";
-  }, 500);
+  if(document.getElementById("scroll1") !== null) { 
+    setTimeout(function () {
+      document.getElementById("scroll1").style.opacity = "1";
+    }, 250);
+    setTimeout(function () {
+      document.getElementById("arrow1").style.opacity = "1";
+    }, 500);
+  }
 }
 
 
