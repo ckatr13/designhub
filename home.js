@@ -853,12 +853,12 @@ function setHeight() {
 
 function setHeight2() {
   const e = document.getElementsByClassName("project-photo");
-  if(window.innerWidth > 862) {
+  if (window.innerWidth > 862) {
     let width = window.innerWidth / 3;
     for (var i = 0; i < e.length; i++) {
       e[i].style.height = width / 1.77777778 + "px";
     } 
-  } else if(window.innerWidth <= 862 && window.innerWidth > 429) {
+  } else if (window.innerWidth <= 862 && window.innerWidth > 429) {
     let width = window.innerWidth / 2;
     for (var i = 0; i < e.length; i++) {
       e[i].style.height = width / 1.77777778 + "px";
@@ -874,7 +874,7 @@ function setHeight2() {
 
 function setHeight3() {
   const e = document.getElementsByClassName("project-photo");
-  if(window.innerWidth > 429) {
+  if (window.innerWidth > 429) {
     let width = window.innerWidth / 2;
     for (var i = 0; i < e.length; i++) {
       e[i].style.height = width / 1.77777778 + "px";
