@@ -2093,6 +2093,8 @@ iframe {
     .contact-page {
         display: block;
         height: 650px;
+        margin-top: -20px;
+        padding-top: 20px;
     }
 }
 
