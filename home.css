@@ -303,7 +303,7 @@ nav {
     /* display: none; */
     float: right;
     padding: 14px 20px;
-    margin-right: 40px;
+    /* margin-right: 40px; */
     z-index: 100;
     font-size: 12px;
 }
@@ -320,13 +320,14 @@ nav {
 
 #x {
     padding: 4px 20px;
-    margin-right: 46px;
+    margin-right: 26px;
     cursor: pointer;
     position: absolute;
     right: 0;
     /* margin-top: -90px; */
     color: white;
     top: 20px;
+    font-size: 28px;
 }
 
 .svg {
