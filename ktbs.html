@@ -3,27 +3,44 @@
   <head>
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1 user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="manifest" href="assets/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="normalize.min.css" />
     <link rel="stylesheet" type="text/css" href="home.css">
-    <title>Design Hub</title> 
+    <meta name="description" content="Designhub is a team of award-winning designers who specialize in broadcast animation, network branding, news design, web design and development, and graphic design for clients worldwide. We can provide VizRT, XPression, and Chyron formatting for all your packages if needed.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Designhub | Graphic Design Agency America | Broadcast Design Agency America | News Design Agency America | Branding Design Agency America | Network Branding | Graphic Designer Agency | Animation Agency | Graphic designers | Broadcast designers | Graphic Designer | Broadcast Designer | Graphic Design Studios | Broadcast Design Studios | Print Design Agency | Corporate Design | Web Design | UX Design | UI Design | Web Development | Design Agency | Design Agencies | Logo Design | Branding | Animation | Branding Agency | Branding Agencies | Best Graphic Design | Best Broadcast Design | Best Web Design | Graphic Design Companies | Design Agencies | Graphic Design studios | Broadcast Design studios | American Design Agency | Graphic Design studios | Chyron Integration | XPression Integration | VizRT Integration | Designhub">
+    <meta property="og:description" content="Designhub is a team of award-winning designers who specialize in broadcast animation, network branding, news design, web design and development, and graphic design for clients worldwide. We can provide VizRT, XPression, and Chyron formatting for all your packages if needed.">
+    <meta property="og:url" content="https://designhub.tv/">
+    <meta property="og:site_name" content="Designhub">
+    <meta property="og:image" content="https://designhub.tv/assets/IMG_3185.jpeg" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EXC2W9QCWS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-EXC2W9QCWS');
+    </script>
+    <title>Designhub | Graphic Design Agency America | Broadcast Design Agency America | News Design Agency America | Branding Design Agency America | Network Branding | Graphic Designer Agency | Animation Agency | Graphic designers | Broadcast designers | Graphic Designer | Broadcast Designer | Graphic Design Studios | Broadcast Design Studios | Print Design Agency | Corporate Design | Web Design | UX Design | UI Design | Web Development | Design Agency | Design Agencies | Logo Design | Branding | Animation | Branding Agency | Branding Agencies | Best Graphic Design | Best Broadcast Design | Best Web Design | Graphic Design Companies | Design Agencies | Graphic Design studios | Broadcast Design studios | American Design Agency | Graphic Design studios | Chyron Integration | XPression Integration | VizRT Integration | Designhub</title> 
   </head>
 
   <body id="body" onload="wipeOn()">
     <nav id="nav">
       <a href="index.html"><img src="assets/design hub logo white.png" class="logo"></a>
-      <div class="hamburger-button" id="hamburger-button" onclick="displayMenu()"><a class="ham">&#9776;</a></div>
+      <div class="hamburger-button" id="hamburger-button" style="display: block"><a class="ham">&#9776;</a></div>
     </nav>
 
     <div class="wipe" id="wipe"></div>
     <div class="mobile-menu" id="mobile-menu">
-      <div id="x" onclick="hideMenu()">X</div>
+      <div id="x">X</div>
       <div class="mobile-link-container">
         <a onmouseover="underlineIn()" onmouseout="underlineOut()" class="mobile-link" id="link1" href="index.html">Home
         <br><svg class="menu-lines" id="line2">
@@ -201,11 +218,11 @@
         </div>
         <div class="right-footer">
           <h6>STAY CONNECTED</h6>
-          <a class="social" href="https://linkedin.com" onmouseover="socialMediaHover()" onmouseout="socialMediaOut()">
+          <a class="social" id="linkedin" href="https://linkedin.com"></a>
             <img class="social-media hide3 lazy" data-src="assets/linkedin grey.png" alt="LinkedIn Logo">
             <img class="social-media hide2 lazy" id="white" data-src="assets/linkedin.png" alt="LinkedIn Logo">
           </a>
-          <a class="social" href="https://pinterest.com" onmouseover="socialMediaHover2()" onmouseout="socialMediaOut2()">
+          <a class="social" href="https://pinterest.com">
             <img class="social-media social-media-2 hide3 lazy" data-src="assets/pinterestgrey.png" alt="Pinterest Logo">
             <img class="social-media social-media-2 hide2 lazy" id="white2" data-src="assets/pinterest.png" alt="Pinterest Logo">
           </a>

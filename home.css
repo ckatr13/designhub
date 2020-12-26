@@ -9,8 +9,8 @@
 /* 1. Global Styles
 ======================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap');
 
 
@@ -305,7 +305,6 @@ nav {
 } */
 
 .hamburger-button {
-    /* display: none; */
     float: right;
     padding: 14px 20px;
     /* margin-right: 40px; */
@@ -811,6 +810,7 @@ footer {
     background-color: rgb(18, 18, 18);
     display: flex;
     justify-content: flex-start;
+    overflow-X: hidden;
 }
 
 #favicon-foot {
@@ -822,9 +822,10 @@ footer {
 
 .fav-foot{
     height: 100%;
+    margin-left: 20px;
 } 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     footer {
         padding-left: 0px;
         justify-content: center;
@@ -833,6 +834,10 @@ footer {
     #favicon-foot {
         display: none;
     }
+}
+
+@media screen and (max-width: 700px) {
+    
 }
 
 .footer-flex {
@@ -894,7 +899,7 @@ span {
     margin-top: 0px;
     display: block;
     cursor: pointer;
-    color: rgb(122, 117, 117);
+    color: gray;
     transition: .25s ease-in-out;
     height: 0px;
     padding-left: 0px;
@@ -908,6 +913,8 @@ span {
 @media screen and (max-width: 412px) {
     .footer-menu {
         font-size: 12px;
+        /* padding-bottom: 10px; */
+        padding-top: 38px;
     }
 }
 
@@ -939,7 +946,7 @@ span {
 
 .copywrite {
     font-size: 14px;
-    color: rgb(92, 92, 92);
+    color: gray;
     margin-top: 80px;
 }
 
@@ -1369,12 +1376,12 @@ li {
     margin-top: 8px;
 }
 
-#more-button {
+#more-button, .more-buttom {
     margin-top: 8px;
 }
 
 @media screen and (max-width: 963px) {
-    #more-button {
+    #more-button, .more-buttom {
         top: 1344px;
     }
 }
@@ -1602,13 +1609,14 @@ li {
     padding-right: 10px;
 }
 
-#project-item1 {
+/* #project-item1 {
     color: white;
-}
+} */
 
-#project-item1, #project-item2, #project-item3, #project-item4 {
+#project-item1 {
     width: 150px;
     padding-right: 10px;
+    color: white;
 }
 
 
@@ -2120,7 +2128,7 @@ iframe {
     }
 }
 
-.social {
+.social, .social-contact {
     padding-bottom: 0px;
 }
 
@@ -2219,6 +2227,7 @@ input[type=text], input[type=password] {
 
 .container {
   padding: 16px;
+  background-color: white;
 }
 
 span.psw {
