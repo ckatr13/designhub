@@ -263,6 +263,11 @@ p {
     }
 }
 
+video {
+    width: 100%;
+    height: auto;
+}
+
 /* 3. Navigation Styles
 ======================================== */
 
@@ -1371,7 +1376,7 @@ li {
     }
 }
 
-#services {
+#services-home {
     position: absolute;
     margin-top: 8px;
 }
