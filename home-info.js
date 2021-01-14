@@ -68,7 +68,7 @@ fillHomeProjects(homepageProjectDisplay);
 
 
 
-
+export { default } from './home-info.js';  
 
 
 
