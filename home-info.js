@@ -1,4 +1,4 @@
-import { Objects } from './objects'; 
+import { Objects } from './objects.js'; 
 
 function fillHomeProjects(objArr) {
     function makeEl(resolve, reject) {
@@ -63,7 +63,7 @@ function fillHomeProjects(objArr) {
 
 const homepageProjectDisplay = [Objects.aJElectionProject, Objects.alhuuraProject, Objects.insightecProject, Objects.foxsocProject, 
     Objects.ktbsProject, Objects.foxProject, Objects.alWatanProject, Objects.snProject];
-    
+
 fillHomeProjects(homepageProjectDisplay);
 
 
