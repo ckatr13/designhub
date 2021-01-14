@@ -1,4 +1,4 @@
-import { Objects } from './objects.mjs'; 
+import { * as Objects } from './objects.mjs'; 
 
 function fillHomeProjects(objArr) {
     function makeEl(resolve, reject) {

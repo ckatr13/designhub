@@ -637,5 +637,5 @@ const  aljazeeraProject = new Project(34, ajnbHref, ajnbCategory, ajnbTitle, ajn
 
 const secretProjects = [bloombergProject, aljazeeraProject]
 
-export { default as Objects } from './objects.mjs';  
+export * from './objects.mjs';  
 
