@@ -3,7 +3,7 @@ import * as Objects from './objects.mjs';
 function fillHomeProjects(objArr) {
     function makeEl(resolve, reject) {
         if (document.getElementById("homeProjectGrid")) {
-            console.log(Objects.aJElectionProject);
+            console.log(Objects);
             objArr.forEach(function(el, i) {
                 const newDiv = document.createElement("div");
                 const newImg = document.createElement("img");
