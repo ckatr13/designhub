@@ -3,7 +3,7 @@ import * as Objects from './objects.mjs';
 function createProjectList() {
     function group(i, category) {
         const projectArray = Objects.projectArray;
-        console.log(projectArray);
+        console.log(Objects.projectArray);
         const newDiv = document.createElement("div");
         const newImg = document.createElement("img");
         const newA = document.createElement("a");
