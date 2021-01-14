@@ -15,7 +15,7 @@ class Project {
     }
 }
 
-const aJHref = "2020-general-election.html",
+export const aJHref = "2020-general-election.html",
       aJCategory = ["election"],
       aJTitle = "AL JAZEERA USA ELECTION COVERAGE",
       aJName = "PACKAGE DESIGN CONCEPT",
@@ -33,7 +33,7 @@ const aJHref = "2020-general-election.html",
       "assets/IMG_3208.jpeg", "assets/IMG_3209.jpeg"],
       aJVideoArr = ["assets/Ajelection-1.m4v"];
 
-const aJElectionProject = new Project(1, aJHref, aJCategory, aJTitle, aJName, aJPhoto, aJClient, aJDesc, aJServices, aJAlt, aJImages, aJVideoArr);
+export const aJElectionProject = new Project(1, aJHref, aJCategory, aJTitle, aJName, aJPhoto, aJClient, aJDesc, aJServices, aJAlt, aJImages, aJVideoArr);
 
 const alArabHref = "al-arab.html",
       alArabCategory = ["branding"],
@@ -639,4 +639,3 @@ const secretProjects = [bloombergProject, aljazeeraProject]
 
 export * from './objects.mjs';  
 
-export {aJElectionProject} from './objects.mjs';
