@@ -23,6 +23,7 @@ function fillSecretInfo(projObj, projObj2) {
 }
 
 function loadSecretImages(projObj, projObj2) {
+    console.log(Objects.bloombergProject);
     function makeEl(resolve, reject) {
         if(document.getElementById("overviewGrid")) {
 
