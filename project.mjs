@@ -24,7 +24,7 @@ function fillInfo(projObj) {
     })
 }
 
-export function imgLoops(projObj) {
+export default function imgLoops(projObj) {
     projObj.imgArr.forEach(function(el, i) {
         const newImg = document.createElement("img");
         const newDiv = document.createElement("div");
