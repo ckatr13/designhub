@@ -3,6 +3,7 @@ import * as Objects from './objects.mjs';
 function createProjectList() {
     function group(i, category) {
         const projectArray = Objects.projectArray;
+        console.log(projectArray);
         const newDiv = document.createElement("div");
         const newImg = document.createElement("img");
         const newA = document.createElement("a");
@@ -28,7 +29,7 @@ function createProjectList() {
     }
 
     function makeEl(resolve, reject) {
-        if(Objects.projectArray) {
+        if(projectArray) {
             projectArray.forEach(function(el, i) {
                 group(i, "all-projects");
             });
