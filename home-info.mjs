@@ -1,8 +1,9 @@
-import  * as Objects  from './objects.mjs'; 
+import * as Objects from './objects.mjs'; 
 
 function fillHomeProjects(objArr) {
     function makeEl(resolve, reject) {
         if (document.getElementById("homeProjectGrid")) {
+            console.log(Objects.aJElectionProject);
             objArr.forEach(function(el, i) {
                 const newDiv = document.createElement("div");
                 const newImg = document.createElement("img");
@@ -65,6 +66,7 @@ const homepageProjectDisplay = [Objects.aJElectionProject, Objects.alhuuraProjec
     Objects.ktbsProject, Objects.foxProject, Objects.alWatanProject, Objects.snProject];
 
 fillHomeProjects(homepageProjectDisplay);
+
 
 
 
