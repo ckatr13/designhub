@@ -639,3 +639,4 @@ const secretProjects = [bloombergProject, aljazeeraProject]
 
 export * from './objects.mjs';  
 
+export {aJElectionProject} from './objects.mjs';
