@@ -1,4 +1,4 @@
-function fillInfo(projObj) {
+export default function fillInfo(projObj) {
     const title = document.createTextNode(projObj.title);
     document.getElementById("title").appendChild(title);
 

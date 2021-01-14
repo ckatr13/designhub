@@ -1,8 +1,7 @@
 import * as Objects from './objects.mjs'; 
-import imgLoops from './project.mjs';
+import {fillInfo, imgLoops} from './project.mjs';
 
 function fillSecretInfo(projObj, projObj2) {
-    console.log(Objects.bloombergProject);
     fillInfo(projObj);
     const title2 = document.createTextNode(projObj2.title);
     document.getElementById("title2").appendChild(title2);
