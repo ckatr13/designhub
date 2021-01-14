@@ -28,7 +28,7 @@ function createProjectList() {
     }
 
     function makeEl(resolve, reject) {
-        if(projectArray) {
+        if(Objects.projectArray) {
             projectArray.forEach(function(el, i) {
                 group(i, "all-projects");
             });
