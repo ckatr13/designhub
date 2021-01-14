@@ -1,6 +1,8 @@
 import * as Objects from './objects.mjs'; 
 import {fillInfo, imgLoops} from './project.mjs';
 
+const secretProjects = Objects.secretProjects;
+
 function fillSecretInfo(projObj, projObj2) {
     fillInfo(projObj);
     const title2 = document.createTextNode(projObj2.title);
