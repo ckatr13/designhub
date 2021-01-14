@@ -1,4 +1,4 @@
-export default function fillInfo(projObj) {
+export function fillInfo(projObj) {
     const title = document.createTextNode(projObj.title);
     document.getElementById("title").appendChild(title);
 
@@ -24,7 +24,7 @@ export default function fillInfo(projObj) {
     })
 }
 
-export default function imgLoops(projObj) {
+export function imgLoops(projObj) {
     projObj.imgArr.forEach(function(el, i) {
         const newImg = document.createElement("img");
         const newDiv = document.createElement("div");
