@@ -15,7 +15,7 @@ class Project {
     }
 }
 
-export const aJHref = "2020-general-election.html",
+const aJHref = "2020-general-election.html",
       aJCategory = ["election"],
       aJTitle = "AL JAZEERA USA ELECTION COVERAGE",
       aJName = "PACKAGE DESIGN CONCEPT",
@@ -51,7 +51,7 @@ const alArabHref = "al-arab.html",
       "assets/IMG_3457.jpeg", "assets/IMG_3458.jpeg", "assets/IMG_3459.jpeg"],
       alArabVideos = [];
 
-const alArabProject = new Project(2, alArabHref, alArabCategory, alArabTitle, alArabName, alArabPhoto, alArabClient, alArabDesc, alArabServices, alArabAlt, alArabImages, alArabVideos);
+export const alArabProject = new Project(2, alArabHref, alArabCategory, alArabTitle, alArabName, alArabPhoto, alArabClient, alArabDesc, alArabServices, alArabAlt, alArabImages, alArabVideos);
 
 const alWatanHref = "al-watan.html",
       alWatanCategory = ["news", "photography"],
@@ -72,7 +72,7 @@ const alWatanHref = "al-watan.html",
       "assets/IMG_3307.jpeg"],
       alWatanVideos = ["assets/v_AL_WATAN.mp4"];
 
-const alWatanProject = new Project(3, alWatanHref, alWatanCategory, alWatanTitle, alWatanName, alWatanPhoto, alWatanClient, alWatanDesc, alWatanServices, alWatanAlt, alWatanImages, alWatanVideos);
+export const alWatanProject = new Project(3, alWatanHref, alWatanCategory, alWatanTitle, alWatanName, alWatanPhoto, alWatanClient, alWatanDesc, alWatanServices, alWatanAlt, alWatanImages, alWatanVideos);
 
 const alhuuraHref = "alhuura.html",
       alhuuraCategory = ["branding"],
@@ -90,7 +90,7 @@ const alhuuraHref = "alhuura.html",
       "assets/IMG_3225.jpeg", "assets/IMG_3226.jpeg", "assets/IMG_3227.jpeg", "assets/IMG_3228.jpeg"],
       alhuuraVideos = [];
 
-const alhuuraProject = new Project(4, alhuuraHref, alhuuraCategory, alhuuraTitle, alhuuraName, alhuuraPhoto, alhuuraClient, alhuuraDesc, alhuuraServices, alhuuraAlt, alhuuraImages, alhuuraVideos);
+export const alhuuraProject = new Project(4, alhuuraHref, alhuuraCategory, alhuuraTitle, alhuuraName, alhuuraPhoto, alhuuraClient, alhuuraDesc, alhuuraServices, alhuuraAlt, alhuuraImages, alhuuraVideos);
 
 const apHref = "ap.html",
       apCategory = ["news"],
@@ -106,7 +106,7 @@ const apHref = "ap.html",
       "assets/IMG_3387.jpeg"],
       apVideos = ["assets/Associated Press.mp4"];
 
-const apProject = new Project(5, apHref, apCategory, apTitle, apName, apPhoto, apClient, apDesc, apServices, apAlt, apImages, apVideos);
+export const apProject = new Project(5, apHref, apCategory, apTitle, apName, apPhoto, apClient, apDesc, apServices, apAlt, apImages, apVideos);
 
 const arvrHref = "ar-vr.html",
       arvrCategory = ["ar-vr"],
@@ -127,7 +127,7 @@ const arvrHref = "ar-vr.html",
       "assets/IMG_3601.jpeg", "assets/IMG_3602.jpeg", "assets/IMG_3603.jpeg", "assets/IMG_3604.jpeg"],
       arvrVideos = [];
 
-const arvrProject = new Project(6, arvrHref, arvrCategory, arvrTitle, arvrName, arvrPhoto, arvrClient, arvrDesc, arvrServices, arvrAlt, arvrImages, arvrVideos);
+export const arvrProject = new Project(6, arvrHref, arvrCategory, arvrTitle, arvrName, arvrPhoto, arvrClient, arvrDesc, arvrServices, arvrAlt, arvrImages, arvrVideos);
 
 const atHref = "arab-telemedia.html",
       atCategory = ["branding"],
@@ -154,7 +154,7 @@ const atHref = "arab-telemedia.html",
       "assets/IMG_3691.jpeg", "assets/IMG_3692.jpeg", "assets/IMG_3693.jpeg"],
       atVideos = ["assets/Arab Telemedia.mp4"];
 
-const atProject = new Project(7, atHref, atCategory, atTitle, atName, atPhoto, atClient, atDesc, atServices, atAlt, atImages, atVideos);
+export const atProject = new Project(7, atHref, atCategory, atTitle, atName, atPhoto, atClient, atDesc, atServices, atAlt, atImages, atVideos);
 
 const bonHref = "blue-ocean-network.html",
       bonCategory = ["branding", "news"],
@@ -169,7 +169,7 @@ const bonHref = "blue-ocean-network.html",
       "assets/IMG_3409.jpeg", "assets/IMG_3410.jpeg", "assets/IMG_3411.jpeg", "assets/IMG_3412.jpeg"],
       bonVideos = ["assets/Blue Ocean Network Package Design.mp4"];
 
-const bonProject = new Project(8, bonHref, bonCategory, bonTitle, bonName, bonPhoto, bonClient, bonDesc, bonServices, bonAlt, bonImages, bonVideos);
+export const bonProject = new Project(8, bonHref, bonCategory, bonTitle, bonName, bonPhoto, bonClient, bonDesc, bonServices, bonAlt, bonImages, bonVideos);
 
 const buyHref = "byu-sports.html",
       buyCategory = ["sports"],
@@ -185,7 +185,7 @@ const buyHref = "byu-sports.html",
       "assets/IMG_3404.jpeg"],
       buyVideos = [];
 
-const buyProject = new Project(9, buyHref, buyCategory, buyTitle, buyName, buyPhoto, buyClient, buyDesc, buyServices, buyAlt, buyImages, buyVideos);
+export const buyProject = new Project(9, buyHref, buyCategory, buyTitle, buyName, buyPhoto, buyClient, buyDesc, buyServices, buyAlt, buyImages, buyVideos);
 
 const expHref = "experimental.html",
       expCategory = ["none"],
@@ -202,7 +202,7 @@ const expHref = "experimental.html",
       "assets/scene 3323 test.jpg"],
       expVideos = [];
 
-const expProject = new Project(10, expHref, expCategory, expTitle, expName, expPhoto, expClient, expDesc, expServices, expAlt, expImages, expVideos);
+export const expProject = new Project(10, expHref, expCategory, expTitle, expName, expPhoto, expClient, expDesc, expServices, expAlt, expImages, expVideos);
 
 const facadeHref = "facade-georgian-group.html",
       facadeCategory = ["corporate"],
@@ -218,7 +218,7 @@ const facadeHref = "facade-georgian-group.html",
       "assets/FACADE_tgas (0-00-21-01).jpg", "assets/FACADE_tgas (0-00-25-20).jpg"],
       facadeVideos = ["assets/Facade Tgas-1.m4v"];
 
-const facadeProject = new Project(11, facadeHref, facadeCategory, facadeTitle, facadeName, facadePhoto, facadeClient, facadeDesc, facadeServices, facadeAlt, facadeImages, facadeVideos);
+export const facadeProject = new Project(11, facadeHref, facadeCategory, facadeTitle, facadeName, facadePhoto, facadeClient, facadeDesc, facadeServices, facadeAlt, facadeImages, facadeVideos);
 
 const foxsocHref = "fox-major-league-soccer.html",
       foxsocCategory = ["sports"],
@@ -235,7 +235,7 @@ const foxsocHref = "fox-major-league-soccer.html",
       "assets/IMG_3250.jpeg", "assets/IMG_3251.jpeg", "assets/IMG_3252.jpeg"],
       foxsocVideos = [];
 
-const foxsocProject = new Project(12, foxsocHref, foxsocCategory, foxsocTitle, foxsocName, foxsocPhoto, foxsocClient, foxsocDesc, foxsocServices, foxsocAlt, foxsocImages, foxsocVideos);
+export const foxsocProject = new Project(12, foxsocHref, foxsocCategory, foxsocTitle, foxsocName, foxsocPhoto, foxsocClient, foxsocDesc, foxsocServices, foxsocAlt, foxsocImages, foxsocVideos);
 
 const foxboxHref = "fox-premier-boxing.html",
       foxboxCategory = ["sports"],
@@ -250,7 +250,7 @@ const foxboxHref = "fox-premier-boxing.html",
       "assets/IMG_3360.jpeg", "assets/IMG_3361.jpeg", "assets/IMG_3362.jpeg"],
       foxboxVideos = [];
 
-const foxboxProject = new Project(13, foxboxHref, foxboxCategory, foxboxTitle, foxboxName, foxboxPhoto, foxboxClient, foxboxDesc, foxboxServices, foxboxAlt, foxboxImages, foxboxVideos);
+export const foxboxProject = new Project(13, foxboxHref, foxboxCategory, foxboxTitle, foxboxName, foxboxPhoto, foxboxClient, foxboxDesc, foxboxServices, foxboxAlt, foxboxImages, foxboxVideos);
 
 const foxHref = "fox-syndicated-package.html",
       foxCategory = ["news"],
@@ -267,7 +267,7 @@ const foxHref = "fox-syndicated-package.html",
       "assets/IMG_3270.jpeg"],
       foxVideos = ["assets/FOX Syndicated Package.mp4"];
 
-const foxProject = new Project(14, foxHref, foxCategory, foxTitle, foxName, foxPhoto, foxClient, foxDesc, foxServices, foxAlt, foxImages, foxVideos);
+export const foxProject = new Project(14, foxHref, foxCategory, foxTitle, foxName, foxPhoto, foxClient, foxDesc, foxServices, foxAlt, foxImages, foxVideos);
 
 const insightecHref = "insightec.html",
       insightecCategory = ["corporate"],
@@ -283,7 +283,7 @@ const insightecHref = "insightec.html",
       "assets/INSIGHTEC_8th_frame_WIP19.jpg"],
       insightecVideos = [];
 
-const insightecProject = new Project(15, insightecHref, insightecCategory, insightecTitle, insightecName, insightecPhoto, insightecClient, insightecDesc, insightecServices, insightecAlt, insightecImages, insightecVideos);
+export const insightecProject = new Project(15, insightecHref, insightecCategory, insightecTitle, insightecName, insightecPhoto, insightecClient, insightecDesc, insightecServices, insightecAlt, insightecImages, insightecVideos);
 
 const krgvHref = "krgv.html",
       krgvCategory = ["news"],
@@ -303,7 +303,7 @@ const krgvHref = "krgv.html",
       krgvVideos = ["assets/News Open Morning.m4v", "assets/Anchor Open.m4v", "assets/Topical Open-1.m4v",
       "assets/Krgv Fullscreen)-1.m4v", "assets/Breaking News-1.m4v", "assets/Ots Example (1)-1.m4v"];
 
-const krgvProject = new Project(16, krgvHref, krgvCategory, krgvTitle, krgvName, krgvPhoto, krgvClient, krgvDesc, krgvServices, krgvAlt, krgvImages, krgvVideos);
+export const krgvProject = new Project(16, krgvHref, krgvCategory, krgvTitle, krgvName, krgvPhoto, krgvClient, krgvDesc, krgvServices, krgvAlt, krgvImages, krgvVideos);
 
 const ktbsHref = "ktbs.html",
       ktbsCategory = ["news"],
@@ -319,7 +319,7 @@ const ktbsHref = "ktbs.html",
       ktbsVideos = ["assets/Ktbs Open-1.m4v", "assets/FIRST NEWS FRANCHISE REV.mp4",
       "assets/KTBS SPORT FRANCHISE (3).mp4"];
 
-const ktbsProject = new Project(17, ktbsHref, ktbsCategory, ktbsTitle, ktbsName, ktbsPhoto, ktbsClient, ktbsDesc, ktbsServices, ktbsAlt, ktbsImages, ktbsVideos);
+export const ktbsProject = new Project(17, ktbsHref, ktbsCategory, ktbsTitle, ktbsName, ktbsPhoto, ktbsClient, ktbsDesc, ktbsServices, ktbsAlt, ktbsImages, ktbsVideos);
 
 const kxanHref = "kxan.html",
       kxanCategory = ["news"],
@@ -334,7 +334,7 @@ const kxanHref = "kxan.html",
       "assets/IMG_3378.jpeg", "assets/IMG_3379.jpeg"],
       kxanVideos = ["assets/KXAN Package Design  Silver Promax Award.mp4"];
 
-const kxanProject = new Project(18, kxanHref, kxanCategory, kxanTitle, kxanName, kxanPhoto, kxanClient, kxanDesc, kxanServices, kxanAlt, kxanImages, kxanVideos);
+export const kxanProject = new Project(18, kxanHref, kxanCategory, kxanTitle, kxanName, kxanPhoto, kxanClient, kxanDesc, kxanServices, kxanAlt, kxanImages, kxanVideos);
 
 const mhHref = "more-health.html",
       mhCategory = ["non-profit"],
@@ -349,7 +349,7 @@ const mhHref = "more-health.html",
       "assets/IMG_3434.jpeg", "assets/IMG_3435.jpeg", ],
       mhVideos = ["assets/Magidragon Final Jan24-1.m4v"];
 
-const mhProject = new Project(19, mhHref, mhCategory, mhTitle, mhName, mhPhoto, mhClient, mhDesc, mhServices, mhAlt, mhImages, mhVideos);
+export const mhProject = new Project(19, mhHref, mhCategory, mhTitle, mhName, mhPhoto, mhClient, mhDesc, mhServices, mhAlt, mhImages, mhVideos);
 
 const nflHref = "nfl.html",
       nflCategory = ["sports"],
@@ -364,7 +364,7 @@ const nflHref = "nfl.html",
       "assets/IMG_3439.jpeg", "assets/IMG_3440.jpeg", "assets/IMG_3441.jpeg"],
       nflVideos = [];
 
-const nflProject = new Project(20, nflHref, nflCategory, nflTitle, nflName, nflPhoto, nflClient, nflDesc, nflServices, nflAlt, nflImages, nflVideos);
+export const nflProject = new Project(20, nflHref, nflCategory, nflTitle, nflName, nflPhoto, nflClient, nflDesc, nflServices, nflAlt, nflImages, nflVideos);
 
 const ocsHref = "orlando-city-soccer.html",
       ocsCategory = ["sports"],
@@ -383,7 +383,7 @@ const ocsHref = "orlando-city-soccer.html",
       "assets/IMG_3628.jpeg", "assets/IMG_3629.jpeg", "assets/IMG_3630.jpeg", "assets/IMG_3625.jpeg"],
       ocsVideos = ["assets/Orlando City Soccer Package.mp4"];
 
-const ocsProject = new Project(21, ocsHref, ocsCategory, ocsTitle, ocsName, ocsPhoto, ocsClient, ocsDesc, ocsServices, ocsAlt, ocsImages, ocsVideos);
+export const ocsProject = new Project(21, ocsHref, ocsCategory, ocsTitle, ocsName, ocsPhoto, ocsClient, ocsDesc, ocsServices, ocsAlt, ocsImages, ocsVideos);
 
 const pac12Href = "pac12-basketball.html",
       pac12Category = ["sports"],
@@ -398,7 +398,7 @@ const pac12Href = "pac12-basketball.html",
       "assets/IMG_3374.jpeg"],
       pac12Videos = [];
 
-const pac12Project = new Project(22, pac12Href, pac12Category, pac12Title, pac12Name, pac12Photo, pac12Client, pac12Desc, pac12Services, pac12Alt, pac12Images, pac12Videos);
+export const pac12Project = new Project(22, pac12Href, pac12Category, pac12Title, pac12Name, pac12Photo, pac12Client, pac12Desc, pac12Services, pac12Alt, pac12Images, pac12Videos);
 
 const rkHref = "regis-and-kelly.html",
       rkCategory = ["entertainment", "photography"],
@@ -413,7 +413,7 @@ const rkHref = "regis-and-kelly.html",
       "assets/IMG_3347.jpeg", "assets/IMG_3348.jpeg", "assets/IMG_3349.jpeg", "assets/IMG_3350.jpeg"],
       rkVideos = ["assets/Regis and Kelly.mp4"];
 
-const rkProject = new Project(23, rkHref, rkCategory, rkTitle, rkName, rkPhoto, rkClient, rkDesc, rkServices, rkAlt, rkImages, rkVideos);
+export const rkProject = new Project(23, rkHref, rkCategory, rkTitle, rkName, rkPhoto, rkClient, rkDesc, rkServices, rkAlt, rkImages, rkVideos);
 
 const snHref = "somos-noticias.html",
       snCategory = ["news"],
@@ -428,7 +428,7 @@ const snHref = "somos-noticias.html",
       "assets/IMG_3311.jpeg", "assets/IMG_3312.jpeg", "assets/IMG_3313.jpeg", "assets/IMG_3314.jpeg"],
       snVideos = ["assets/somos_open).mp4", "assets/Somos Short Open-1.m4v"];
 
-const snProject = new Project(24, snHref, snCategory, snTitle, snName, snPhoto, snClient, snDesc, snServices, snAlt, snImages, snVideos);
+export const snProject = new Project(24, snHref, snCategory, snTitle, snName, snPhoto, snClient, snDesc, snServices, snAlt, snImages, snVideos);
 
 const sepHref = "syndicated-election-package.html",
       sepCategory = ["election"],
@@ -448,7 +448,7 @@ const sepHref = "syndicated-election-package.html",
       "assets/2 BOX EXAMPLE.mp4", "assets/BACKGROUND CHYRON LOOP 2(Converted).mp4",
       "assets/OTS EXAMPLE (1).mp4", "assets/Lowerthird example.mp4"];
 
-const sepProject = new Project(25, sepHref, sepCategory, sepTitle, sepName, sepPhoto, sepClient, sepDesc, sepServices, sepAlt, sepImages, sepVideos);
+export const sepProject = new Project(25, sepHref, sepCategory, sepTitle, sepName, sepPhoto, sepClient, sepDesc, sepServices, sepAlt, sepImages, sepVideos);
 
 const spHref = "syndicated-package.html.",
       spCategory = ["news"],
@@ -464,7 +464,7 @@ const spHref = "syndicated-package.html.",
       "assets/IMG_3395.jpeg", "assets/IMG_3396.jpeg"],
       spVideos = [];
 
-const spProject = new Project(26, spHref, spCategory, spTitle, spName, spPhoto, spClient, spDesc, spServices, spAlt, spImages, spVideos);
+export const spProject = new Project(26, spHref, spCategory, spTitle, spName, spPhoto, spClient, spDesc, spServices, spAlt, spImages, spVideos);
 
 const tpirHref = "the-price-is-right.html",
       tpirCategory = ["entertainment"],
@@ -479,7 +479,7 @@ const tpirHref = "the-price-is-right.html",
       "assets/IMG_3608.jpeg"],
       tpirVideos = [];
 
-const tpirProject = new Project(27, tpirHref, tpirCategory, tpirTitle, tpirName, tpirPhoto, tpirClient, tpirDesc, tpirServices, tpirAlt, tpirImages, tpirVideos);
+export const tpirProject = new Project(27, tpirHref, tpirCategory, tpirTitle, tpirName, tpirPhoto, tpirClient, tpirDesc, tpirServices, tpirAlt, tpirImages, tpirVideos);
 
 const trtHref = "trt1.html",
       trtCategory = ["branding", "news"],
@@ -504,7 +504,7 @@ const trtHref = "trt1.html",
       "assets/Evening Single Show.mp4", "assets/Evening Mortise.mp4", "assets/TRT-News Package.mp4", 
       "assets/TRT-NewsFranchise-HD.mp4"];
 
-const trtProject = new Project(28, trtHref, trtCategory, trtTitle, trtName, trtPhoto, trtClient, trtDesc, trtServices, trtAlt, trtImages, trtVideos);
+export const trtProject = new Project(28, trtHref, trtCategory, trtTitle, trtName, trtPhoto, trtClient, trtDesc, trtServices, trtAlt, trtImages, trtVideos);
 
 const unHref = "univision-news.html",
       unCategory = ["news"],
@@ -521,7 +521,7 @@ const unHref = "univision-news.html",
       "assets/IMG_3430.jpeg"],
       unVideos = [];
 
-const unProject = new Project(29, unHref, unCategory, unTitle, unName, unPhoto, unClient, unDesc, unServices, unAlt, unImages, unVideos);
+export const unProject = new Project(29, unHref, unCategory, unTitle, unName, unPhoto, unClient, unDesc, unServices, unAlt, unImages, unVideos);
 
 const usHref = "univision.html",
       usCategory = ["sports"],
@@ -536,7 +536,7 @@ const usHref = "univision.html",
       "assets/IMG_3416.jpeg", "assets/IMG_3417.jpeg", "assets/IMG_3418.jpeg"],
       usVideos = [];
 
-const usProject = new Project(30, usHref, usCategory, usTitle, usName, usPhoto, usClient, usDesc, usServices, usAlt, usImages, usVideos);
+export const usProject = new Project(30, usHref, usCategory, usTitle, usName, usPhoto, usClient, usDesc, usServices, usAlt, usImages, usVideos);
 
 const wfmjHref = "wfmj.html",
       wfmjCategory = ["news"],
@@ -551,7 +551,7 @@ const wfmjHref = "wfmj.html",
       "assets/IMG_3354.jpeg", "assets/IMG_3355.jpeg", "assets/IMG_3356.jpeg"],
       wfmjVideos = ["assets/CHRISTA rejoin3.mp4"];
 
-const wfmjProject = new Project(31, wfmjHref, wfmjCategory, wfmjTitle, wfmjName, wfmjPhoto, wfmjClient, wfmjDesc, wfmjServices, wfmjAlt, wfmjImages, wfmjVideos);
+export const wfmjProject = new Project(31, wfmjHref, wfmjCategory, wfmjTitle, wfmjName, wfmjPhoto, wfmjClient, wfmjDesc, wfmjServices, wfmjAlt, wfmjImages, wfmjVideos);
 
 const wlsHref = "wls.html",
       wlsCategory = ["news", "photography"],
@@ -567,9 +567,9 @@ const wlsHref = "wls.html",
       "assets/IMG_3370.jpeg"],
       wlsVideos = [];
 
-const wlsProject = new Project(32, wlsHref, wlsCategory, wlsTitle, wlsName, wlsPhoto, wlsClient, wlsDesc, wlsServices, wlsAlt, wlsImages, wlsVideos);
+export const wlsProject = new Project(32, wlsHref, wlsCategory, wlsTitle, wlsName, wlsPhoto, wlsClient, wlsDesc, wlsServices, wlsAlt, wlsImages, wlsVideos);
 
-const projectArray = [krgvProject, insightecProject, alhuuraProject, facadeProject, foxsocProject,
+export const projectArray = [krgvProject, insightecProject, alhuuraProject, facadeProject, foxsocProject,
     ktbsProject, arvrProject, foxProject, alWatanProject, snProject, trtProject, rkProject, 
     aJElectionProject, sepProject, wfmjProject, foxboxProject, wlsProject, pac12Project, 
     kxanProject, apProject, spProject, buyProject, bonProject, usProject, unProject, mhProject,
@@ -612,7 +612,7 @@ const bloombergHref = "#project1",
       "assets/Bloomberg Weather Opener.mp4", "assets/Bloomberg Menu Board 3stories.mp4", 
       "assets/Bloomberg Business Bg Loop.mp4", "assets/Bloomberg Promo Board.mp4"];
 
-const bloombergProject = new Project(33, bloombergHref, bloombergCategory, bloombergTitle, bloombergName, bloombergPhoto, bloombergClient, bloombergDesc, bloombergServices, bloombergAlt, bloombergImages, bloombergVideos);
+export const bloombergProject = new Project(33, bloombergHref, bloombergCategory, bloombergTitle, bloombergName, bloombergPhoto, bloombergClient, bloombergDesc, bloombergServices, bloombergAlt, bloombergImages, bloombergVideos);
 
 const ajnbHref = "#project2",
       ajnbCategory = ["news"],
@@ -633,9 +633,8 @@ const ajnbHref = "#project2",
       "assets/AJ News PHONER INFO to MAP.mp4.mp4", "assets/AJ News Inshow 3 BOX.mp4", 
       "assets/AJ News PHONER INFO.mp4", "assets/AJ News STINGER.mp4.mp4"];
 
-const  aljazeeraProject = new Project(34, ajnbHref, ajnbCategory, ajnbTitle, ajnbName, ajnbPhoto, ajnbClient, ajnbDesc, ajnbServices, ajnbAlt, ajnbImages, ajnbVideos);
+export const aljazeeraProject = new Project(34, ajnbHref, ajnbCategory, ajnbTitle, ajnbName, ajnbPhoto, ajnbClient, ajnbDesc, ajnbServices, ajnbAlt, ajnbImages, ajnbVideos);
 
-const secretProjects = [bloombergProject, aljazeeraProject]
+export const secretProjects = [bloombergProject, aljazeeraProject]
 
-export * from './objects.mjs';  
 
