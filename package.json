@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "home.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "lozad": "^1.16.0",
     "rellax": "^1.12.1",
     "yall-js": "^3.2.0"
   }
