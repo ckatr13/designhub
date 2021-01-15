@@ -15,7 +15,7 @@ function createProjectList() {
         newImg.setAttribute('data-src', projectArray[i].photo);
         newImg.alt = projectArray[i].alt;
         newA.className = "proj-a";
-        newA.href = projectArray[i].href;
+        newA.href = projectArray[i].href + "#some_id";
         newDiv2.className = "project-title-box";
         newH4.className = "project-title";
 

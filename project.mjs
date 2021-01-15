@@ -118,5 +118,7 @@ export function loadImages(projObj) {
     })
 }
 
-loadImages(Objects.aJElectionProject);
-fillInfo(Objects.aJElectionProject);
+if (window.location.hash === '#some_id') {
+    loadImages(Objects.aJElectionProject);
+    fillInfo(Objects.aJElectionProject);
+  }
