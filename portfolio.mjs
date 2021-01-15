@@ -14,14 +14,14 @@ function createProjectList() {
         const newA = document.createElement("a");
         const newDiv2 = document.createElement("div2");
         const newH4 = document.createElement("h4");
-        const h4Text = document.createTextNode("krgv" + " " + projectArray[i].name);
+        const h4Text = document.createTextNode(projectArray[i].title + " " + projectArray[i].name);
 
         newDiv.className = "project";
         newImg.className = "project-photo lazy"
         newImg.setAttribute('data-src', projectArray[i].photo);
         newImg.alt = projectArray[i].alt;
         newA.className = "proj-a";
-        newA.href = projectArray[0].href + hashArray[i];
+        newA.href = "krgv" + hashArray[i];
         newDiv2.className = "project-title-box";
         newH4.className = "project-title";
 
