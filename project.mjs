@@ -117,3 +117,6 @@ export function loadImages(projObj) {
         console.log(rejectionReason);
     })
 }
+
+loadImages(Objects.aJElectionProject);
+fillInfo(Objects.aJElectionProject);
