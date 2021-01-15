@@ -118,7 +118,7 @@ export function loadImages(projObj) {
     })
 }
 
-Objects.projectArray.forEach(function() {
+Objects.projectArray.forEach(function(el, i) {
     if (window.location.hash === Objects.projectArray[i].hash) {
         loadImages(Objects.projectArray[i]);
         fillInfo(Objects.projectArray[i]);
