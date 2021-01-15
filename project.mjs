@@ -1,4 +1,4 @@
-export import * as Objects from './objects.mjs'; 
+import * as Objects from './objects.mjs'; 
 
 export function fillInfo(projObj) {
     const title = document.createTextNode(projObj.title);
