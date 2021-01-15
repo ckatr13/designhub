@@ -162,16 +162,16 @@
     <script src="./node_modules/rellax/rellax.min.js"></script>
     <script src="home.js" type="text/javascript"></script>
     <script src="objects.mjs" type="module"></script>
-    <script src="project.mjs" type="module">
-      import * as Project from "./project.mjs"
-    </script>
+    <script src="project.mjs" type="module"></script>
     <script src="./node_modules/yall-js/dist/yall.min.js"></script>
     <script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
     <script>
+        import * as Project from "./project.mjs"
+        import * as Objects from './objects.mjs'; 
         var rellax = new Rellax('.parallax-active');
-        loadImages(aJElectionProject);
-        fillInfo(aJElectionProject);
-        console.log(aJElectionProject);
+        Project.loadImages(Objects.aJElectionProject);
+        Project.fillInfo(Objects.aJElectionProject);
+        console.log(Objects.aJElectionProject);
     </script>
   </body>
 </html>
