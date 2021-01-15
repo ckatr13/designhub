@@ -1,11 +1,5 @@
 import * as Objects from './objects.mjs';
 
-const hashArray = ['#krgv', '#insightec', '#alhuura', '#facade', '#foxsoccer', '#ktbs', '#arvr',
-    '#fox', '#al_watan', '#somos_noticias', '#trt', '#regis_and_kelly', "#aj_election", '#sep', 
-    '#wfmj', '#foxboxing', '#wls', '#pac12', '#kxan', '#ap', '#sp', '#byu', '#bon', 
-    '#univision_sports', '#univision_news', '#more_health', '#nfl', '#al_arab', '#the_price_is_right',
-    '#orlando_city_soccer', '#at', '#experimental']
-
 function createProjectList() {
     const projectArray = Objects.projectArray;
     function group(i, category) {
