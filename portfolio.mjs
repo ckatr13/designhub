@@ -14,7 +14,7 @@ function createProjectList() {
         const newA = document.createElement("a");
         const newDiv2 = document.createElement("div2");
         const newH4 = document.createElement("h4");
-        const h4Text = document.createTextNode(projectArray[i].title + " " + projectArray[i].name);
+        const h4Text = document.createTextNode(krgv + " " + projectArray[i].name);
 
         newDiv.className = "project";
         newImg.className = "project-photo lazy"
