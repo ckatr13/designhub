@@ -44,7 +44,7 @@ function loadSecretImages(projObj, projObj2) {
                 newImg.setAttribute('data-src', secretProjects[i].photo);
                 newImg.Alt = secretProjects[i].alt;
                 newA.className = "proj-a";
-                newA.href = secretProjects[i].href;
+                newA.href = secretProjects[i].hash;
                 newDiv2.className = "project-title-box";
                 newH2.className = "project-title";
             
