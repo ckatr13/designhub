@@ -1,3 +1,5 @@
+export import * as Objects from './objects.mjs'; 
+
 export function fillInfo(projObj) {
     const title = document.createTextNode(projObj.title);
     document.getElementById("title").appendChild(title);
