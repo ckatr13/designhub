@@ -1,5 +1,5 @@
 import * as Objects from './objects.mjs'; 
-import yall from './node_modules/yall-js/dist/yall.min.mjs';
+// import yall from './node_modules/yall-js/dist/yall.min.mjs';
 
 function fillHomeProjects(objArr) {
     function makeEl(resolve, reject) {
@@ -46,17 +46,17 @@ function fillHomeProjects(objArr) {
         window.onresize = function () {
           setHeight3();
         };
-        document.addEventListener("DOMContentLoaded", function () {
-            yall({
-              events: {
-                load: function (event) {
-                  if(!event.target.classList.contains("hide2")) {
-                      event.target.style.opacity = "1";
-                  }
-                }
-              }
-            });
-        });
+        // document.addEventListener("DOMContentLoaded", function () {
+        //     yall({
+        //       events: {
+        //         load: function (event) {
+        //           if(!event.target.classList.contains("hide2")) {
+        //               event.target.style.opacity = "1";
+        //           }
+        //         }
+        //       }
+        //     });
+        // });
     }).catch(function(rejectionReason) {
         console.log(rejectionReason);
     })
