@@ -1,4 +1,5 @@
 import * as Objects from './objects.mjs';
+import yall from './node_modules/yall-js/dist/yall.min.mjs';
 
 function createProjectList() {
     const projectArray = Objects.projectArray;

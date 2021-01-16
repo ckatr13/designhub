@@ -1,5 +1,6 @@
 import * as Objects from './objects.mjs'; 
 import {fillInfo, imgLoops} from './project.mjs';
+import yall from './node_modules/yall-js/dist/yall.min.mjs';
 
 const secretProjects = Objects.secretProjects;
 
