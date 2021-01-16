@@ -34,7 +34,7 @@ function fillHomeProjects(objArr) {
 
                 const newScript = document.createElement("script");
                 newScript.src = "https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver";
-                document.getElementByTagName('body').appendChild(newScript);
+                document.getElementById("body").appendChild(newScript);
             })
             resolve();
         } else {
