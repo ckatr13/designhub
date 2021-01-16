@@ -31,6 +31,10 @@ function fillHomeProjects(objArr) {
                 const div2 = a.appendChild(newDiv2);
                 const h2 = div2.appendChild(newH2);
                 h2.appendChild(newTitle);
+
+                const newScript = document.createElement("script");
+                newScript.src = "https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver";
+                document.getElementsByTagName('body').appendChild(newScript);
             })
             resolve();
         } else {
