@@ -243,6 +243,20 @@
           </footer>
         <script src="home.js" type="text/javascript"></script>
         <script src="member.mjs" type="module"></script>
+        <script src="./node_modules/yall-js/dist/yall.min.js"></script>
         <script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+                yall({
+                  events: {
+                    load: function (event) {
+                      if(!event.target.classList.contains("hide2")) {
+                          event.target.style.opacity = "1";
+                      }
+                    }
+                  }
+                });
+            });
+        </script>
   </body>
 </html>
