@@ -242,9 +242,12 @@ function toggleProjectCategory() {
         category = document.getElementsByClassName("portfolio-grid"),
         circles = document.getElementsByClassName("toggle"),
         target = window.event.target.closest(".project-list");
+        hashArray = ["#all_projects", "#news", "#election", "#entertainment", "#corporate",
+      "#branding", "#cell_animation", "#sports", "#photography", "#ar_vr"];
 
   for (i=0; i < toggleSwitch.length; i++) {
-    if (toggleSwitch[i] == target) {
+    if (toggleSwitch[i] == target ||
+      window.location.hash === hashArray[i]) {
       category[i].classList.remove("hide");
       circles[i].classList.add("circle");
       toggleSwitch[i].style.color = "white";
@@ -263,6 +266,7 @@ function toggleProjectCategory() {
     }
   })
 }
+
 
 // SETTING DEFAULT HIEGHT OF IMAGES
 
