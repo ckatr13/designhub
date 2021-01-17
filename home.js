@@ -241,7 +241,7 @@ function toggleProjectCategory() {
   const toggleSwitch = document.querySelectorAll(".project-list"),
         category = document.getElementsByClassName("portfolio-grid"),
         circles = document.getElementsByClassName("toggle"),
-        hashArray = ["#all_projects", "#news", "#election", "#entertainment", "#corporate",
+        hashArray = ["", "#news", "#election", "#entertainment", "#corporate",
       "#branding", "#cell_animation", "#sports", "#photography", "#ar_vr"];
 
   if(window.event) {
