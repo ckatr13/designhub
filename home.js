@@ -244,7 +244,7 @@ function toggleProjectCategory() {
         hashArray = ["#all_projects", "#news", "#election", "#entertainment", "#corporate",
       "#branding", "#cell_animation", "#sports", "#photography", "#ar_vr"];
 
-  if(window.event.target) {
+  if(window.event) {
     const target = window.event.target.closest(".project-list");
     for (i=0; i < toggleSwitch.length; i++) {
       if (target && toggleSwitch[i] == target) {
