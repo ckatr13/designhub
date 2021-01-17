@@ -246,7 +246,7 @@ function toggleProjectCategory() {
       "#branding", "#cell_animation", "#sports", "#photography", "#ar_vr"];
 
   for (i=0; i < toggleSwitch.length; i++) {
-    if (toggleSwitch[i] == target ||
+    if (target && toggleSwitch[i] == target ||
       window.location.hash === hashArray[i]) {
       category[i].classList.remove("hide");
       circles[i].classList.add("circle");
