@@ -242,50 +242,33 @@ function toggleProjectCategory() {
         category = document.getElementsByClassName("portfolio-grid"),
         circles = document.getElementsByClassName("toggle"),
         hashArray = ["", "#_news", "#_election", "#_entertainment", "#_corporate",
-      "#_branding", "#cell_animation", "#_sports", "#_photography", "#ar_vr"];
+          "#_branding", "#cell_animation", "#_sports", "#_photography", "#ar_vr"];
+
+  let target;
 
   if(window.event) {
-    const target = window.event.target.closest(".project-list");
-    for (i=0; i < toggleSwitch.length; i++) {
-      if (target && toggleSwitch[i] == target) {
-        category[i].classList.remove("hide");
-        circles[i].classList.add("circle");
-        toggleSwitch[i].style.color = "white";
-      } else {
-        category[i].classList.add("hide");
-        category[i].style.opacity = "0";
-        circles[i].classList.remove("circle");
-        toggleSwitch[i].style.color = "gray";
-      }
-    }
-    toggleSwitch.forEach(function(el, i) {
-      if (el == target) {
-        setTimeout(function () {
-          category[i].style.opacity = "1";
-        }, 0);
-      }
-    })
-  } else {
-    for (i=0; i < toggleSwitch.length; i++) {
-      if (window.location.hash === hashArray[i]) {
-        category[i].classList.remove("hide");
-        circles[i].classList.add("circle");
-        toggleSwitch[i].style.color = "white";
-      } else {
-        category[i].classList.add("hide");
-        category[i].style.opacity = "0";
-        circles[i].classList.remove("circle");
-        toggleSwitch[i].style.color = "gray";
-      }
-    }
-    toggleSwitch.forEach(function(el, i) {
-      if (window.location.hash === hashArray[i]) {
-        setTimeout(function () {
-          category[i].style.opacity = "1";
-        }, 0);
-      }
-    });
+    target = window.event.target.closest(".project-list");
   }
+
+    for (i=0; i < toggleSwitch.length; i++) {
+      if (toggleSwitch[i] == target || window.location.hash === hashArray[i]) {
+        category[i].classList.remove("hide");
+        circles[i].classList.add("circle");
+        toggleSwitch[i].style.color = "white";
+      } else {
+        category[i].classList.add("hide");
+        category[i].style.opacity = "0";
+        circles[i].classList.remove("circle");
+        toggleSwitch[i].style.color = "gray";
+      }
+    }
+  toggleSwitch.forEach(function(el, i) {
+    if (el == target || window.location.hash === hashArray[i]) {
+      setTimeout(function () {
+        category[i].style.opacity = "1";
+      }, 0);
+    }
+  }) 
 };
 
 
