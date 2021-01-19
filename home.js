@@ -272,6 +272,7 @@ function toggleProjectCategory() {
     toggle(toggleSwitch[i], target);
   } else {
     toggle(window.location.hash, hashArray[i]);
+  }
 };
 
 
