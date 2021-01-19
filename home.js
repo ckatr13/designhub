@@ -244,7 +244,6 @@ function toggleProjectCategory() {
         hashArray = ["", "#_news", "#_election", "#_entertainment", "#_corporate",
           "#_branding", "#cell_animation", "#_sports", "#_photography", "#ar_vr"];
 
-
   function toggle(item, arr) {
     for (i=0; i < toggleSwitch.length; i++) {
       if (item == arr[i]) {
