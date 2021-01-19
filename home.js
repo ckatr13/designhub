@@ -244,14 +244,10 @@ function toggleProjectCategory() {
         hashArray = ["", "#_news", "#_election", "#_entertainment", "#_corporate",
           "#_branding", "#cell_animation", "#_sports", "#_photography", "#ar_vr"];
 
-  let target;
 
-  if(window.event) {
-    target = window.event.target.closest(".project-list");
-  }
-
+  function toggle(var1, var2) {
     for (i=0; i < toggleSwitch.length; i++) {
-      if (toggleSwitch[i] == target || window.location.hash === hashArray[i]) {
+      if (var1 == var2) {
         category[i].classList.remove("hide");
         circles[i].classList.add("circle");
         toggleSwitch[i].style.color = "white";
@@ -262,13 +258,20 @@ function toggleProjectCategory() {
         toggleSwitch[i].style.color = "gray";
       }
     }
-  toggleSwitch.forEach(function(el, i) {
-    if (el == target || window.location.hash === hashArray[i]) {
-      setTimeout(function () {
-        category[i].style.opacity = "1";
-      }, 0);
-    }
-  }) 
+    toggleSwitch.forEach(function(el, i) {
+      if (var1 == var2) {
+        setTimeout(function () {
+          category[i].style.opacity = "1";
+        }, 0);
+      }
+    })
+  }
+
+  if(window.event) {
+    target = window.event.target.closest(".project-list");
+    toggle(toggleSwitch[i], target);
+  } else {
+    toggle(window.location.hash, hashArray[i]);
 };
 
 
