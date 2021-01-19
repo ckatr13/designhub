@@ -267,8 +267,7 @@ function toggleProjectCategory() {
   }
 
   if(window.event) {
-    target = window.event.target.closest(".project-list");
-    toggle(target, toggleSwitch);
+    toggle(window.event.target.closest(".project-list"), toggleSwitch);
   } else {
     toggle(window.location.hash, hashArray);
   }
