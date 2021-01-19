@@ -247,7 +247,7 @@ function toggleProjectCategory() {
 
   function toggle(item, arr) {
     for (i=0; i < toggleSwitch.length; i++) {
-      if (var1 == arr[i]) {
+      if (item == arr[i]) {
         category[i].classList.remove("hide");
         circles[i].classList.add("circle");
         toggleSwitch[i].style.color = "white";
