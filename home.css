@@ -710,7 +710,8 @@ button:focus {
 .project-title-box {
     height: 100%;
     width: 100%;
-    background-color: #fe6858;
+    background-image: linear-gradient(to right, #00ffde , #2965ff, #ff2929), ;
+    /* background-color: #fe6858; */
     z-index: 100;
     opacity: 0;
     transform: translateY(-100%);
