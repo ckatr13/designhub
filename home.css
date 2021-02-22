@@ -712,7 +712,7 @@ button:focus {
     width: 100%;
     background-image: linear-gradient(to right, #00ffde , #2965ff, #9a3d92);
     /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.5)); */
-    /* background-color: #fe6858; */
+    background-color: #fe6858;
     z-index: 100;
     opacity: 0;
     transform: translateY(-100%);
