@@ -50,6 +50,7 @@ h1 {
     overflow: hidden;
     display: block;
     text-align: center;
+    width: 100%;
 }
 
 /* .h1-home {
@@ -1336,6 +1337,7 @@ header {
 
 #intro {
     font-family: 'Helvetica Neue', 'sans-serif';
+    width: 100%;
 }
 
 .center {
