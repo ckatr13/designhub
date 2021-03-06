@@ -1074,6 +1074,7 @@ span {
     /* background-image: url(assets/designhub\ logo\ 7v.jpg); */
     display: flex;
     align-items: center;
+    justify-content: center;
     background-size: cover;
     width: 100vw;
     z-index: -1;
