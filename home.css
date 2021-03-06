@@ -1160,7 +1160,7 @@ span {
 .wrapper {
     position: relative;
     height: 100vh;
-    width: 50vw;
+    width: 100vw;
     z-index: 1;
 }
 
@@ -1168,12 +1168,12 @@ span {
     display: flex;
     position: relative;
     top: 0;
-    left: -50vw;
-    width: calc(50vw * 6);
+    left: -100vw;
+    width: calc(100vw * 6);
 }
 
 .clearfix {
-    width: 50vw;
+    width: 100vw;
 }
 
 .slide {
