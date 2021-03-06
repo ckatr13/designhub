@@ -36,9 +36,9 @@ body {
 /* 2. Global Typography Styles
 ======================================== */
 h1 {
-    font-size: 30px;
+    font-size: 60px;
     color: white;
-    font-family: 'Helvetica Neue';
+    font-weight: 600;
     margin: 0px;
     overflow: hidden;
 }
@@ -255,6 +255,7 @@ b {
 p {
     line-height: 2em;
     font-weight: 400;
+
 }
 
 @media screen and (max-width: 963px) {
@@ -1329,6 +1330,7 @@ header {
 
 #intro {
     margin-left: 144px;
+    font-family: 'Helvetica Neue', 'sans-serif';
 }
 
 @media screen and (max-width: 429px) {
