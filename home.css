@@ -157,6 +157,7 @@ h3 {
     margin-bottom: 0px;
     font-size: 20px;
     line-height: 2;
+    font-weight: normal;
 }
 
 @media screen and (max-device-width: 1366px) {
