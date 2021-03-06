@@ -1064,7 +1064,7 @@ span {
 } */
 
 .left-hero {
-    background-color: rgb(18, 18, 18);
+    background: linear-gradient(75deg, white, black);
     /* background-image: url(assets/designhub\ logo\ 7v.jpg); */
     display: flex;
     align-items: center;
