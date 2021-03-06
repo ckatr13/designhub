@@ -41,7 +41,7 @@ h1 {
     font-weight: 700;
     margin: 0px;
     overflow: hidden;
-    background: linear-gradient(to left, #df6363, #dfc6b2, #6394df);
+    background: linear-gradient(to right, #df6363, #dfc6b2, #6394df);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
