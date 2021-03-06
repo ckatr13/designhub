@@ -1152,7 +1152,7 @@ span {
 
 .slider {
     /* margin-left: 75vw; */
-    width: 50vw;
+    width: 100vw;
     height: 100vh;
     box-shadow: 3px 3px 10px rgba(0,0,0,.2);
 }
@@ -1168,7 +1168,7 @@ span {
     display: flex;
     position: relative;
     top: 0;
-    left: -125vw;
+    left: -100vw;
     width: calc(100vw * 6);
 }
 
