@@ -1075,11 +1075,12 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-size: cover;
+    /* background-size: cover; */
     width: 100vw;
     z-index: -1;
     padding-top: 80px;
     padding-bottom: 80px;
+    background: transparent;
 }
 
 .scroll-container {
