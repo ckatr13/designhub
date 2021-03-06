@@ -1168,7 +1168,7 @@ span {
     display: flex;
     position: relative;
     top: 0;
-    left: -110vw;
+    left: -125vw;
     width: calc(100vw * 6);
 }
 
