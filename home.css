@@ -1132,7 +1132,6 @@ span {
 
 .top-hero {
     overflow: hidden;
-    height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -1154,14 +1153,12 @@ span {
 
 .slider {
     width: 100vw;
-    height: 100vh;
     box-shadow: 3px 3px 10px rgba(0,0,0,.2);
     z-index: -1;
 }
 
 .wrapper {
     position: relative;
-    height: 100vh;
     width: 100vw;
     z-index: -1;
 }
@@ -1182,7 +1179,6 @@ span {
 
 .slide {
     width: 100vw;
-    height: 100vh;
     cursor: pointer;
     display: flex;
     flex-direction: column;
