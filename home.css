@@ -24,7 +24,8 @@ html {
 
 body {
     height: 100%;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.5));
+    /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.5)); */
+    background: linear-gradient(-65deg, black, #4b5b6f);
 }
 
 *,
@@ -1070,7 +1071,6 @@ span {
 } */
 
 .left-hero {
-    background: linear-gradient(-65deg, black, #4b5b6f);;
     /* background-image: url(assets/designhub\ logo\ 7v.jpg); */
     display: flex;
     align-items: center;
