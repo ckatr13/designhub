@@ -26,6 +26,8 @@ body {
     height: 100%;
     /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.5)); */
     background: linear-gradient(-65deg, black, #4b5b6f);
+    background-repeat: none;
+    background-position: cover;
 }
 
 *,
@@ -1080,7 +1082,6 @@ span {
     z-index: -1;
     padding-top: 80px;
     padding-bottom: 80px;
-    background: transparent;
 }
 
 .scroll-container {
