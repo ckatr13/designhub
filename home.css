@@ -38,10 +38,10 @@ body {
 h1 {
     font-size: 80px;
     /* color: white; */
-    font-weight: bold;
+    font-weight: 700;
     margin: 0px;
     overflow: hidden;
-    background: linear-gradient(to left, blue, red);
+    background: linear-gradient(to left, #df6363, #dfc6b2, #6394df);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
