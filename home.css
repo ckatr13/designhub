@@ -1048,17 +1048,10 @@ span {
 .hero {
     display: block;
     width: 100%;
-    height: 100%;
     z-index: -1;
 }
 
-.hero-section {
-    width: 100vw;
-    height: 100%;
-    z-index: -1;
-}
-
-@media screen and (max-width: 990px) {
+/* @media screen and (max-width: 990px) {
     .hero-section {
         width: 100vw;
     }
@@ -1068,14 +1061,16 @@ span {
     .hero-section {
         width: 100vw;
     }
-}
+} */
 
 .left-hero {
-    /* background-color: rgb(18, 18, 18); */
-    background-image: url(assets/designhub\ logo\ 7v.jpg);
+    background-color: rgb(18, 18, 18);
+    /* background-image: url(assets/designhub\ logo\ 7v.jpg); */
     display: flex;
     align-items: center;
     background-size: cover;
+    width: 100vw;
+    z-index: -1;
 }
 
 .scroll-container {
@@ -1135,7 +1130,7 @@ span {
     }
   }
 
-.right-hero {
+.top-hero {
     overflow: hidden;
     height: 100vh;
     width: 100vw;
@@ -1145,17 +1140,17 @@ span {
     z-index: -1;
 }
 
-@media screen and (max-width: 990px) {
-    .right-hero {
+/* @media screen and (max-width: 990px) {
+    .top-hero {
         display: none;
     }
 }
 
 @media screen and (max-device-width: 1366px) {
-    .right-hero {
+    .top-hero {
         display: none;
     }
-}
+} */
 
 .slider {
     width: 100vw;
