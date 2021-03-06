@@ -1136,6 +1136,7 @@ span {
     justify-content: center;
     align-items: center;
     z-index: -1;
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 990px) {
@@ -1151,7 +1152,6 @@ span {
 }
 
 .slider {
-    /* margin-left: 75vw; */
     width: 100vw;
     height: 100vh;
     box-shadow: 3px 3px 10px rgba(0,0,0,.2);
