@@ -354,7 +354,7 @@ nav {
 }
 
 .svg {
-    height: 4px;
+    height: 1px;
     width: calc(100% - 40px);
     margin-left: 20px;
 }
@@ -1469,8 +1469,6 @@ li {
 
 .our-work-header {
     height: max-content;
-    background-size: cover;
-    display: flex;
 }
 
 @media screen and (max-width: 862px) {
@@ -1587,19 +1585,17 @@ li {
  }
 
 .project-list-container {
-    display: flex;
-    float: right;
     margin-right: 140px;
     width: 258px;
     margin-top: 20px;
 }
 
-@media screen and (max-width: 862px) {
+/* @media screen and (max-width: 862px) {
     .project-list-container {
         float: left;
 
     }
- }
+ } */
 
 .project-list-group {
     padding: 0px;
