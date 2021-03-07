@@ -1608,7 +1608,7 @@ li {
 .project-list {
     margin-left: 20px;
     margin-bottom: 20px;
-    padding: 6px;
+    padding: 6px 8px;
     cursor: pointer;
     display: flex;
     width: max-content;
