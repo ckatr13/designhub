@@ -249,12 +249,12 @@ function slide(items) {
         if (item == arr[i]) {
           category[i].classList.remove("hide");
         //   circles[i].classList.add("circle");
-          toggleSwitch[i].style.color = "white";
+          toggleSwitch[i].style.color = "black";
         } else {
           category[i].classList.add("hide");
           category[i].style.opacity = "0";
         //   circles[i].classList.remove("circle");
-          toggleSwitch[i].style.color = "gray";
+          toggleSwitch[i].style.color = "white";
         }
       }
       toggleSwitch.forEach(function(el, i) {
