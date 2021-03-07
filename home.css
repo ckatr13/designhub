@@ -43,7 +43,7 @@ h1 {
     font-weight: 700;
     margin: 0px;
     overflow: hidden;
-    background: linear-gradient(45deg, #E06363 1% , #dfc6b2 30%, #dfc6b2 60%, #6394df 99%)
+    background: linear-gradient(45deg, #E06363 1% , #dfc6b2 30%, #dfc6b2 60%, #6394df 99%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     width: max-content;
