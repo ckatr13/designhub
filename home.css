@@ -357,6 +357,7 @@ nav {
     height: 1px;
     width: calc(100% - 40px);
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .svg2 {
