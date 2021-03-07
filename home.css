@@ -688,9 +688,9 @@ button:focus {
     transition: 750ms ease-in-out;
 }
 
-#news, #election, #entertainment, #non-profit, #branding, #sports {
+/* #news, #election, #entertainment, #non-profit, #branding, #sports {
     opacity: 0;
-}
+} */
 
 .space {
     height: 80px;
