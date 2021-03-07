@@ -47,13 +47,16 @@ h1 {
     background: linear-gradient(45deg, #df6363 14% , #dfc6b2 33%, #dfc6b2 60%, #6394df 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    width: max-content;
 }
 
 .h1 {
     overflow: hidden;
     display: block;
-    text-align: center;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 /* .h1-home {
@@ -684,7 +687,7 @@ button:focus {
     grid-template-rows: auto;
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
-    padding-top: 80px;
+    padding-top: 6px;
     transition: 750ms ease-in-out;
 }
 
