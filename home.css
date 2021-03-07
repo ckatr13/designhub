@@ -46,7 +46,7 @@ h1 {
     background: linear-gradient(45deg, #E06363 1% , #dfc6b2 30%, #dfc6b2 60%, #6394df 99%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    width: max-content;
+    width: 460px;
 }
 
 .h1 {
@@ -56,6 +56,10 @@ h1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.big-title {
+    width: 100%;
 }
 
 /* .h1-home {
