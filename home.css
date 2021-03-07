@@ -757,7 +757,7 @@ button:focus {
 
 .project {
     height: 100%;
-    width: 33.33vw;
+    width: calc(33.33vw - 13px);
     overflow: hidden;
 }
 
