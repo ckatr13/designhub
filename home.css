@@ -1606,10 +1606,7 @@ li {
 }
 
 .project-list {
-    /* float: right; */
-    padding: 10px 0px;
-    width: 107px;
-    /* margin-right: 140px; */
+    padding-left: 10px;
     cursor: pointer;
     display: flex;
 }
@@ -1626,13 +1623,8 @@ li {
     padding-right: 10px;
 }
 
-/* #project-item1 {
-    color: white;
-} */
-
 #project-item1 {
     width: 150px;
-    padding-right: 10px;
     color: white;
 }
 
