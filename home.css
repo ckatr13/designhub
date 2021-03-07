@@ -692,9 +692,10 @@ button:focus {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: repeat(3, 1fr);
-    width: 100%;
+    width: calc(100% - 40px);
     padding-top: 6px;
     transition: 750ms ease-in-out;
+    margin: 0px 20px;
 }
 
 /* #news, #election, #entertainment, #non-profit, #branding, #sports {
