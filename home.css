@@ -354,12 +354,9 @@ nav {
 }
 
 .svg {
-    height: 8px;
+    height: 4px;
     width: calc(100% - 40px);
     margin-left: 20px;
-    transition: 0.5s ease-in-out;
-    -webkit-transition: 0.5s ease-in-out;
-    float: right;
 }
 
 .svg2 {
@@ -390,14 +387,14 @@ nav {
     }
 }  */
 
-#line {
+/* #line {
     /* left: calc(100% - 116px); */
     /* left: 140px; */
     transition: 0.5s ease-in-out;
     -webkit-transition: 0.5s ease-in-out;
     /* animation: lineIn 1s ease-in-out 750ms forwards;
-    -webkit-animation: lineIn 1s ease-in-out 750ms forwards; */
-}
+    -webkit-animation: lineIn 1s ease-in-out 750ms forwards; 
+} */
 
 /* @-webkit-keyframes lineIn { 
     0% {
