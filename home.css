@@ -1603,6 +1603,8 @@ li {
     padding: 0px;
     margin: 0px;
     display: flex;
+    flex-wrap: wrap;
+    width: calc(100% - 40px);
 }
 
 .project-list {
