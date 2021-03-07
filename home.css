@@ -1606,13 +1606,11 @@ li {
 }
 
 .project-list {
-    margin-left: 20px;
     margin-bottom: 20px;
     padding: 8px 25px;
     cursor: pointer;
     display: flex;
     width: max-content;
-    /* background-color: white; */
     border-radius: 20px;
 }
 
