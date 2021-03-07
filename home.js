@@ -253,7 +253,7 @@ function slide(items) {
           toggleSwitch[i].style.backgroundColor = "white";
         } else {
           category[i].classList.add("hide");
-          category[i].style.opacity = "0";
+        //   category[i].style.opacity = "0";
         //   circles[i].classList.remove("circle");
           toggleSwitch[i].style.color = "white";
           toggleSwitch[i].style.backgroundColor = "unset";
