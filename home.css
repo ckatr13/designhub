@@ -1602,11 +1602,12 @@ li {
     margin: 0px;
     display: flex;
     flex-wrap: wrap;
-    width: calc(100% - 40px);
+    width: 100%;
 }
 
 .project-list {
     padding-left: 20px;
+    margin-bottom: 20px;
     cursor: pointer;
     display: flex;
     width: max-content;
