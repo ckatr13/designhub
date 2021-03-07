@@ -250,11 +250,13 @@ function slide(items) {
           category[i].classList.remove("hide");
         //   circles[i].classList.add("circle");
           toggleSwitch[i].style.color = "black";
+          toggleSwitch[i].style.backgroundColor = "white";
         } else {
           category[i].classList.add("hide");
           category[i].style.opacity = "0";
         //   circles[i].classList.remove("circle");
           toggleSwitch[i].style.color = "white";
+          toggleSwitch[i].style.backgroundColor = "unset";
         }
       }
       toggleSwitch.forEach(function(el, i) {
