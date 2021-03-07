@@ -52,7 +52,7 @@ h1 {
 .h1 {
     overflow: hidden;
     display: block;
-    width: 100vw;
+    width: max-content;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
