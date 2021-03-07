@@ -1071,14 +1071,13 @@ span {
 } */
 
 .left-hero {
-    /* background-image: url(assets/designhub\ logo\ 7v.jpg); */
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-size: cover; */
     width: 100vw;
     z-index: -1;
     padding-top: 80px;
+    padding-bottom: 60px;
 }
 
 .scroll-container {
@@ -1607,11 +1606,14 @@ li {
 }
 
 .project-list {
-    padding-left: 20px;
+    margin-left: 20px;
     margin-bottom: 20px;
+    padding: 6px;
     cursor: pointer;
     display: flex;
     width: max-content;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .project-list:hover {
