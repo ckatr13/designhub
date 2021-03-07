@@ -1609,6 +1609,7 @@ li {
     padding-left: 10px;
     cursor: pointer;
     display: flex;
+    width: max-content;
 }
 
 .project-list:hover {
@@ -1624,8 +1625,8 @@ li {
 }
 
 #project-item1 {
-    width: 150px;
     color: white;
+    padding-left: 20px;
 }
 
 
