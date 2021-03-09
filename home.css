@@ -1197,10 +1197,10 @@ span {
 .slide {
     height: 100vh;
     cursor: pointer;
-    /* display: flex; */
+    display: flex;
     /* flex-direction: column; */
-    /* justify-content: center;
-    align-items: center; */
+    justify-content: center;
+    align-items: center;
     transition: all 1s ease-in-out;
     position: relative;
     border-radius: 2px;
