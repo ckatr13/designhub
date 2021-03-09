@@ -1208,7 +1208,7 @@ span {
 }
 
 .slides.shifting {
-    transition: left .75s ease-in-out;
+    transition: top .75s ease-in-out;
 }
 
 /* Slideshow container */
