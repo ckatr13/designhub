@@ -1190,7 +1190,7 @@ span {
 }
 
 .clearfix {
-    min-width: 100vw;
+    /* min-width: 100vw; */
     z-index: -1;
 }
 
@@ -1198,7 +1198,7 @@ span {
     height: 100vh;
     cursor: pointer;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     transition: all 1s ease-in-out;
