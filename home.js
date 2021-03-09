@@ -5,7 +5,7 @@ function slide(items) {
     var posInitial = 100,
         slides = items.getElementsByClassName('slide'),
         slidesLength = slides.length,
-        slideSize = items.getElementsByClassName('slide')[0].offsetWidth,
+        slideSize = items.getElementsByClassName('slide')[0].offsetHeight,
         firstSlide = slides[0],
         lastSlide = slides[slidesLength - 1],
         cloneFirst = firstSlide.cloneNode(true),
@@ -20,17 +20,17 @@ function slide(items) {
           items.classList.add('shifting');
           
           if (allowShift) {
-            if (!action) { posInitial = items.offsetLeft; }
+            if (!action) { posInitial = items.offsetTop; }
       
             if (dir == 1) {
-              items.style.left = (posInitial - slideSize) + "px";
+              items.style.top = (posInitial - slideSize) + "px";
               index++;      
             } else if (dir == -1) {
-              items.style.left = (posInitial + slideSize) + "px";
+              items.style.top = (posInitial + slideSize) + "px";
               index--;      
             }
           };
-          posInitial = items.offsetLeft;
+          posInitial = items.offsetTop;
           allowShift = false;
         }
   
@@ -38,12 +38,12 @@ function slide(items) {
           items.classList.remove('shifting');
       
           if (index == -1) {
-            items.style.left = -(slidesLength * slideSize) + "px";
+            items.style.top = -(slidesLength * slideSize) + "px";
             index = slidesLength - 1;
           }
       
           if (index == slidesLength) {
-            items.style.left = -(1 * slideSize) + "px";
+            items.style.top = -(1 * slideSize) + "px";
             index = 0;
           }
           
@@ -54,10 +54,10 @@ function slide(items) {
   
         function start() {
           setInterval(function () { shiftSlide(1)}, 5000);
-          let windowWidth = window.innerWidth; 
+          let windowHeight = window.innerHeight; 
           window.onresize = function () {
-            if (window.innerWidth != windowWidth) {
-              windowWidth = window.innerWidth;
+            if (window.innerHeight != windowHeight) {
+              windowHeight = window.innerHeight;
               location.reload()
             }
           }
