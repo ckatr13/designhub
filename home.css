@@ -21,6 +21,7 @@ html {
     /* font-family: "Montserrat", sans-serif; */
     font-family: 'Helvetica Neue', 'sans-serif';
     font-weight: normal;
+    letter-spacing: 0.75em;
 }
 
 body {
