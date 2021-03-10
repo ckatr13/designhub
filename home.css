@@ -842,6 +842,10 @@ footer {
     justify-content: center;
 }
 
+.footer-headline {
+    font-size: 100px;
+}
+
 /* #favicon-foot {
     width: 50%;
     display: flex;
