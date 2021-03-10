@@ -41,21 +41,20 @@ body {
 /* 2. Global Typography Styles
 ======================================== */
 h1 {
-    font-size: 80px;
+    font-size: 90px;
     font-weight: 700;
     margin: 0px;
     overflow: hidden;
     background: linear-gradient(45deg, #E06363 1% , #dfc6b2 30%, #dfc6b2 60%, #6394df 99%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    width: 690px;
     text-align: center;
 }
 
 .h1 {
     overflow: hidden;
     display: block;
-    width: 690px;
+    width: 710px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -166,13 +165,13 @@ h2 {
 
 h3 {
     color: white;
-    width: 540px;
+    width: 580px;
     /* margin-left: 140px;
     margin-right: 60px;
     margin-top: 50px;
     margin-bottom: 0px; */
     font-size: 20px;
-    font-weight: 300;
+    /* font-weight: 300; */
     text-align: center;
 }
 
@@ -231,7 +230,6 @@ h5 {
 
 h6 {
     font-size: 16px;
-    font-weight: 300;
     width: 100%;
     height: 0px;
 }
@@ -1376,7 +1374,6 @@ ul {
 li {
     display: inline;
     /* padding: 29px 20px; */
-    font-weight: 300;
     color: rgb(92, 92, 92);
 }
 
