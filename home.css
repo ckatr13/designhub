@@ -915,6 +915,12 @@ footer {
     margin-top: -20px;
 }
 
+.footer-line {
+    width: 800px;
+    height: 1px;
+    background-color: black;
+}
+
 .footer-links {
     padding: 0px;
     margin: 0px;
