@@ -912,7 +912,7 @@ footer {
 
 .footer-links-container {
     display: flex;
-    margin-top: -20px;
+    justify-content: center;
 }
 
 .footer-line {
@@ -1380,6 +1380,7 @@ ul {
 
 li {
     display: inline;
+    padding: 30px;
     /* padding: 29px 20px; */
     font-weight: 300;
     color: black;
