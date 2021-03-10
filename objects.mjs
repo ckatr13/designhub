@@ -189,8 +189,8 @@ export const buyProject = new Project(9, buyHash, buyCategory, buyTitle, buyName
 
 const expHash = "#experimental",
       expCategory = ["none"],
-      expTitle = "Experimental",
-      expName = "Misc. DESIGN",
+      expTitle = "EXPERIMENTAL",
+      expName = "MISC. DESIGN",
       expPhoto = "assets/scene 3323 test.jpg",
       expClient = "DESIGNHUB",
       expDesc = "",
@@ -239,8 +239,8 @@ export const foxsocProject = new Project(12, foxsocHash, foxsocCategory, foxsocT
 
 const foxboxHash = "#foxboxing",
       foxboxCategory = ["sports"],
-      foxboxTitle = "FOX",
-      foxboxName = "PREMIER BOXING",
+      foxboxTitle = "FOX PREMIER BOXING",
+      foxboxName = "CONCEPT",
       foxboxPhoto = "assets/download.png",
       foxboxClient = "CAKE STUDIOS / FOX",
       foxboxDesc = "",
@@ -555,8 +555,8 @@ export const wfmjProject = new Project(31, wfmjHash, wfmjCategory, wfmjTitle, wf
 
 const wlsHash = "#wls",
       wlsCategory = ["news", "photography"],
-      wlsTitle = "WLS NEWS",
-      wlsName = "PHOTOSHOOT",
+      wlsTitle = " PHOTOSHOOT",
+      wlsName = "WLS NEWS",
       wlsPhoto = "assets/download (1).png",
       wlsClient = "WLS",
       wlsDesc = "WLS gave us a problem to solve. How do we shoot all of our anchors outside which was a logistical nightmare of schedling. Our solution was to shoot the backdrops to the anchors seperately and feed the images into a 90 inch tv screen. We were able to shoot all of the anchors in a studio in front of this screen. By individualizing the studio lighting to match the images in the screen, the end product was a very convincing fake outdoor shoot.",
