@@ -885,7 +885,7 @@ footer {
 } */
 
 .right-footer {
-    margin-top: -20px;
+    margin-top: -10px;
 }
 
 /* #quick-links {
@@ -963,6 +963,10 @@ footer {
     padding: 10px;
     transition: .5s ease-in-out;
     opacity: 1;
+}
+
+#white {
+    margin-left: -30px;
 }
 
 /* @media screen and (max-width: 868px) {
