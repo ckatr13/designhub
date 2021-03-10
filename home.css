@@ -834,9 +834,8 @@ video {
 
 footer {
     height: 320px;
-    /* padding: 20px; */
     color: white;
-    background-color: rgb(18, 18, 18);
+    background-color: white;
     display: flex;
     justify-content: flex-start;
     overflow-X: hidden;
