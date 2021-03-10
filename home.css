@@ -834,7 +834,7 @@ video {
 
 footer {
     height: 320px;
-    color: white;
+    color: black;
     background-color: white;
     display: flex;
     justify-content: flex-start;
