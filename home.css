@@ -884,9 +884,9 @@ footer {
     }
 } */
 
-/* .right-footer {
-    margin-left: 20px;
-} */
+.right-footer {
+    margin-top: -20px;
+}
 
 /* #quick-links {
     margin-left: 20px;
