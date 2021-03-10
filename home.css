@@ -965,8 +965,8 @@ footer {
     opacity: 1;
 }
 
-#white {
-    margin-left: -30px;
+#white, #white2 {
+    margin-left: -53px;
 }
 
 /* @media screen and (max-width: 868px) {
