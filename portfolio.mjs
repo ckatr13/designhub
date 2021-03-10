@@ -11,7 +11,7 @@ function createProjectList() {
         const newH4 = document.createElement("h4");
         const secondNewH4 = document.createElement("h4");
         const h4Text = document.createTextNode(projectArray[i].title);
-        const h4Text2 = document.createTextNode(projectArray[i].name);
+        // const h4Text2 = document.createTextNode(projectArray[i].name);
 
         newDiv.className = "project";
         newImg.className = "project-photo lazy"
@@ -21,16 +21,13 @@ function createProjectList() {
         newA.href = "project" + projectArray[i].hash;
         newDiv2.className = "project-title-box";
         newH4.className = "project-title";
-        secondNewH4.className = "project-title project-subtitle";
 
         const div = document.getElementById(category).appendChild(newDiv);
         div.appendChild(newImg);
         const a = div.appendChild(newA);
         const div2 = a.appendChild(newDiv2);
         const h4 = div2.appendChild(newH4);
-        const h42 = div2.appendChild(secondNewH4);
         h4.appendChild(h4Text);
-        h42.appendChild(h4Text2);
     }
 
     function makeEl(resolve, reject) {
