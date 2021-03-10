@@ -843,8 +843,9 @@ footer {
 }
 
 .footer-headline {
-    font-size: 80px;
+    font-size: 62px;
     font-weight: bold;
+    margin-top: -26px;
 }
 
 /* #favicon-foot {
@@ -994,7 +995,7 @@ footer {
 .copywrite {
     font-size: 14px;
     color: gray;
-    /* margin-top: 80px; */
+    margin-top: 86px;
 }
 
 /* @media screen and (max-width: 877px) {
