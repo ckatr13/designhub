@@ -916,7 +916,7 @@ footer {
 }
 
 .footer-line {
-    width: 800px;
+    width: 500px;
     height: 1px;
     background-color: black;
 }
@@ -1380,7 +1380,8 @@ ul {
 
 li {
     display: inline;
-    padding-bottom: 30px;
+    padding-bottom: 12px;
+    line-height: 5px;
     /* padding: 29px 20px; */
     font-weight: 300;
     color: black;
