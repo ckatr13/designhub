@@ -10,7 +10,9 @@ function fillHomeProjects(objArr) {
                 const newA = document.createElement("a");
                 const newDiv2 = document.createElement("div");
                 const newH2 = document.createElement("h2");
-                const newTitle = document.createTextNode(objArr[i].title + " " + objArr[i].name);
+                const newH22 = document.createElement("h2");
+                const newTitle = document.createTextNode(objArr[i].title);
+                const newTitle2 = document.createTextNode(objArr[i].name);
 
                 newDiv.className = "project project-column-2";
 
@@ -24,13 +26,16 @@ function fillHomeProjects(objArr) {
                 newDiv2.className = "project-title-box";
 
                 newH2.className = "project-title";
+                newH22.className = "project-title";
 
                 const div = document.getElementById("homeProjectGrid").appendChild(newDiv);
                 div.appendChild(newImg);
                 const a = div.appendChild(newA);
                 const div2 = a.appendChild(newDiv2);
                 const h2 = div2.appendChild(newH2);
+                const h22 = div2.appendChild(newH22);
                 h2.appendChild(newTitle);
+                h22.appendChild(newTitle2);
             })
             resolve();
         } else {
