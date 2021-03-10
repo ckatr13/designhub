@@ -791,6 +791,11 @@ button:focus {
     text-align: center;
     font-weight: 700;
     color: black;
+    margin-top: -30px;
+}
+
+.project-subtitle {
+    margin-top: 30px;
 }
 
 @media screen and (max-width: 862px) {

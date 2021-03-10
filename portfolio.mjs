@@ -21,7 +21,7 @@ function createProjectList() {
         newA.href = "project" + projectArray[i].hash;
         newDiv2.className = "project-title-box";
         newH4.className = "project-title";
-        secondNewH4.className = "project-title";
+        secondNewH4.className = "project-title project-subtitle";
 
         const div = document.getElementById(category).appendChild(newDiv);
         div.appendChild(newImg);
