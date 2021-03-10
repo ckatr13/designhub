@@ -41,7 +41,7 @@ body {
 /* 2. Global Typography Styles
 ======================================== */
 h1 {
-    font-size: 90px;
+    font-size: 100px;
     font-weight: 700;
     margin: 0px;
     overflow: hidden;
@@ -54,7 +54,7 @@ h1 {
 .h1 {
     overflow: hidden;
     display: block;
-    width: 710px;
+    width: 790px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -165,7 +165,7 @@ h2 {
 
 h3 {
     color: white;
-    width: 580px;
+    width: 660px;
     /* margin-left: 140px;
     margin-right: 60px;
     margin-top: 50px;
@@ -622,7 +622,7 @@ nav {
 }
 
 .mobile-link:hover {
-    color: white;
+    color: red;
 }
 
 #link1 {
