@@ -226,7 +226,8 @@ h4 {
 }
 
 .caption-button:hover {
-    color: #df6363;
+    /* color: #df6363; */
+    color: white;
 }
 
 
