@@ -53,7 +53,7 @@ function slide(items) {
         items.addEventListener('transitionend', checkIndex);
   
         function start() {
-          setInterval(function () { shiftSlide(1)}, 5000);
+          setInterval(function () { shiftSlide(1)}, 7000);
           let windowHeight = window.innerHeight; 
           window.onresize = function () {
             if (window.innerHeight != windowHeight) {
