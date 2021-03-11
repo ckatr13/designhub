@@ -141,7 +141,7 @@ h1 {
 } */
 
 h3 {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 300;
     font-style: italic;
     color: white;
@@ -208,9 +208,14 @@ h4 {
 }
 
 .caption-h4 {
-    font-size: 38px;
     font-weight: bold;
     width: 400px;
+    color: white;
+    margin-top: -10px;
+}
+
+.caption-button {
+    font-size: 24px;
     color: white;
 }
 
