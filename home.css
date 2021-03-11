@@ -144,7 +144,7 @@ h3 {
     font-size: 18px;
     font-weight: 300;
     font-style: italic;
-    color: white;
+    color: black;
     margin-top: 0;
     /* margin: 0;
     margin-left: 5px; */
@@ -211,7 +211,7 @@ h4 {
 .caption-h4 {
     font-weight: bold;
     width: 400px;
-    color: white;
+    color: black;
     margin-top: -10px;
     margin-bottom: 12px;
     font-size: 18px;
@@ -219,7 +219,7 @@ h4 {
 
 .caption-button {
     font-size: 16px;
-    color: white;
+    color: black;
     padding: 0px;
     font-weight: 300;
     cursor: pointer;
@@ -1254,7 +1254,8 @@ footer {
 }
 
 .caption-group {
-    background-color: rgb(0, 0, 0, 0.85);
+    /* background-color: rgb(0, 0, 0, 0.85); */
+    background: linear-gradient(45deg, #E06363 1% , #dfc6b2 30%, #dfc6b2 60%, #6394df 99%);
     padding: 20px 80px;
 }
 
