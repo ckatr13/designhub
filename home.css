@@ -1249,6 +1249,7 @@ footer {
     position: absolute;
     top: calc(100vh - 250px);
     margin-left: 100px;
+    z-index: 2;
 }
 
 .slide {
