@@ -212,11 +212,18 @@ h4 {
     width: 400px;
     color: white;
     margin-top: -10px;
+    margin-bottom: 12px;
 }
 
 .caption-button {
     font-size: 24px;
     color: white;
+    padding: 0px;
+    font-weight: 300;
+}
+
+.caption-button:hover {
+    color: #df6363;
 }
 
 
@@ -1240,7 +1247,7 @@ footer {
     align-items: baseline;
     position: absolute;
     top: calc(100vh - 300px);
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 .slide {
