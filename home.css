@@ -1225,7 +1225,7 @@ footer {
     display: flex;
     align-items: baseline;
     position: absolute;
-    top: 80px;
+    top: calc(100vh - 200px);
 }
 
 .slide {
