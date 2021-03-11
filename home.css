@@ -1250,7 +1250,6 @@ footer {
     align-items: baseline;
     position: absolute;
     top: calc(100vh - 216px);
-    margin-left: 100px;
     z-index: 2;
 }
 
