@@ -141,10 +141,11 @@ h1 {
 } */
 
 h3 {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 300;
     font-style: italic;
     color: white;
+    margin-top: 0;
     /* margin: 0;
     margin-left: 5px; */
 }
@@ -213,10 +214,11 @@ h4 {
     color: white;
     margin-top: -10px;
     margin-bottom: 12px;
+    font-size: 18px;
 }
 
 .caption-button {
-    font-size: 24px;
+    font-size: 16px;
     color: white;
     padding: 0px;
     font-weight: 300;
@@ -1247,13 +1249,13 @@ footer {
     display: flex;
     align-items: baseline;
     position: absolute;
-    top: calc(100vh - 250px);
+    top: calc(100vh - 216px);
     margin-left: 100px;
     z-index: 2;
 }
 
 .caption-group {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(223, 99, 99, 0.5);
     padding: 20px;
 }
 
