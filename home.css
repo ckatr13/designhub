@@ -1249,8 +1249,9 @@ footer {
     align-items: baseline;
     position: absolute;
     top: calc(100vh - 250px);
-    left: 0;
+    /* left: 0; */
     z-index: 2;
+    width: 100vw;
 }
 
 .caption-group {
