@@ -141,13 +141,12 @@ h1 {
 } */
 
 h3 {
-    font-size: 32px;
-    font-weight: 600;
-    margin: 0;
-    margin-left: 5px;
+    font-size: 40px;
+    font-weight: 300;
+    font-style: italic;
 }
 
-@media screen and (max-width: 963px) {
+/* @media screen and (max-width: 963px) {
     h2 {
         font-size: 28px;
     }
@@ -156,7 +155,7 @@ h3 {
 @media screen and (max-width: 669px) {
     h2 {
         font-size: 22px;
-    }
+    } */
 }
 
 .white {
@@ -201,8 +200,7 @@ h2 {
 } */
 
 h4 {
-    font-size: 24px;
-    font-weight: 200;
+    font-size: 50px;
 }
 
 
@@ -1220,12 +1218,13 @@ footer {
 }
 
 .caption-container {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     display: flex;
     align-items: baseline;
     position: absolute;
     top: calc(100vh - 200px);
+    margin-left: 200px;
 }
 
 .slide {
