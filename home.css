@@ -1651,9 +1651,9 @@ li {
     border-radius: 20px;
 }
 
-/* .project-list:hover {
-    color: white !important;
-} */
+.project-list:hover {
+    color: #df6363 !important;
+}
 
 .circle {
     fill: white;
