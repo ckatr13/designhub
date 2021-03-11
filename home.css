@@ -1245,12 +1245,11 @@ footer {
 }
 
 .caption-container {
-    width: 100vw;
-    height: 100vh;
     display: flex;
     align-items: baseline;
     position: absolute;
     top: calc(100vh - 250px);
+    left: 0;
     z-index: 2;
 }
 
