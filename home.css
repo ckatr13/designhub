@@ -1224,6 +1224,8 @@ footer {
     height: 100vh;
     display: flex;
     align-items: baseline;
+    position: absolute;
+    top: 80px;
 }
 
 .slide {
