@@ -1255,8 +1255,8 @@ footer {
 }
 
 .caption-group {
-    background-color: rgb(223, 99, 99, 0.5);
-    padding: 20px;
+    background-color: rgb(223, 99, 99, 0.85);
+    padding: 20px 80px;
 }
 
 .slide {
