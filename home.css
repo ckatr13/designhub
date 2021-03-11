@@ -1247,7 +1247,7 @@ footer {
     display: flex;
     align-items: baseline;
     position: absolute;
-    top: calc(100vh - 300px);
+    top: calc(100vh - 250px);
     margin-left: 100px;
 }
 
