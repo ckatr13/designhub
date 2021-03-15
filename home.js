@@ -281,12 +281,12 @@ function slide(items) {
   function setHeight() {
     const el = document.getElementsByClassName("project-photo");
     const a = document.getElementsByClassName("project-photo2");
-    let width =  (window.innerWidth / 4) - 80;
+    let width =  window.innerWidth / 4;
     let width2 = window.innerWidth;
     console.log(width);
   
     for (var i = 0; i < el.length; i++) {
-      el[i].style.height = width / 1.77777778 + "px";
+      el[i].style.height = width - 80 / 1.77777778 + "px";
     } 
   
     for (var i = 0; i < a.length; i++) {
