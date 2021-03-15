@@ -2373,4 +2373,13 @@ span.psw {
 .close-lightbox {
     float: right;
     color: white;
+    background-color: unset;
+    border: none;
+    padding: 24px 30px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.close-lightbox:hover {
+    background-color: unset;
 }
