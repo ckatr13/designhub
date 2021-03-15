@@ -286,7 +286,7 @@ function slide(items) {
     console.log(width);
   
     for (var i = 0; i < el.length; i++) {
-      el[i].style.height = width - 80 / 1.77777778 + "px";
+      el[i].style.height = width / 1.77777778 + "px";
     } 
   
     for (var i = 0; i < a.length; i++) {
