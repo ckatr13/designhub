@@ -281,7 +281,8 @@ function slide(items) {
   function setHeight() {
     const el = document.getElementsByClassName("project-photo");
     const a = document.getElementsByClassName("project-photo2");
-    let width =  window.innerWidth / 4;
+    let w = window.innerWidth / 4;
+    let width =  w - 80;
     let width2 = window.innerWidth;
     console.log(width);
   
