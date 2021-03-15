@@ -2369,3 +2369,8 @@ span.psw {
     margin: 40px;
     overflow-y: scroll;
 }
+
+.close-lightbox {
+    float: right;
+    color: white;
+}
