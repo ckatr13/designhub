@@ -2364,9 +2364,8 @@ span.psw {
 
 .project-lightbox {
     background: linear-gradient(-65deg, black, #4b5b6f);
-    height: calc(100% - 200px);
-    width: calc(100% - 40px);
-    margin-top: 200px;
-    margin-left: 20px;
-    margin-right: 20px;
+    height: calc(100% - 80px);
+    width: calc(100% - 80px);
+    margin: 40px;
+    overflow-y: scroll;
 }
