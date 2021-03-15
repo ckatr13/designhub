@@ -125,4 +125,7 @@ Objects.projectArray.forEach(function(el, i) {
         fillInfo(Objects.projectArray[i]);
         console.log(Objects.projectArray[i]);
     }
+    loadImages(Objects.projectArray[12]);
+    fillInfo(Objects.projectArray[12]);
+    console.log(Objects.projectArray[12]);
 });
