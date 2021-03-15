@@ -283,6 +283,7 @@ function slide(items) {
     const a = document.getElementsByClassName("project-photo2");
     let width =  (window.innerWidth / 4) - 80;
     let width2 = window.innerWidth;
+    console.log(width);
   
     for (var i = 0; i < el.length; i++) {
       el[i].style.height = width / 1.77777778 + "px";
