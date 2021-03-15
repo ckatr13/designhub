@@ -2352,9 +2352,21 @@ span.psw {
 
 
 
-.project-lightbox {
-    background-color: rgba(0, 0, 0, 0.5);
+.project-lightbox-container {
+    background-color: rgba(0, 0, 0, 0.9);
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: fixed;
+    top: 0;
+    z-index: 100;
+    /* display: none; */
+}
+
+.project-lightbox {
+    background: linear-gradient(-65deg, black, #4b5b6f);
+    height: calc(100% - 200px);
+    width: calc(100% - 40px);
+    margin-top: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
