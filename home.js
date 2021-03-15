@@ -279,10 +279,9 @@ function slide(items) {
   // SETTING DEFAULT HIEGHT OF IMAGES
   
   function setHeight() {
-    const el = document.getElementsByClassName("project-photo");
+    const el = document.getElementsByClassName("lightbox-photo");
     const a = document.getElementsByClassName("project-photo2");
-    let w = window.innerWidth / 4;
-    let width =  w - 80;
+    let width =  (window.innerWidth / 4) - 80;
     let width2 = window.innerWidth;
     console.log(width);
   

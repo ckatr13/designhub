@@ -37,7 +37,7 @@ export function imgLoops(projObj) {
         newDiv.className = "project project-detail";
 
         newImg.setAttribute('data-src', projObj.imgArr[i]);
-        newImg.className = "project-photo lazy";
+        newImg.className = "project-lightbox lazy";
         newImg.alt = projObj.alt;
 
         newA.className = "proj-a";
