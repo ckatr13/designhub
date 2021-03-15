@@ -99,6 +99,7 @@ function loadImages(projObj) {
       };
     
     makeImg().then(function() {
+        console.log("working");
         document.addEventListener("DOMContentLoaded", setHeight);
         window.onresize = function () {
           setHeight();
