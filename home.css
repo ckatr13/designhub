@@ -844,7 +844,7 @@ video {
     width: 100%;
 }
 
-.project-photo, .project-photo2, .project-p, .project-lightbox {
+.project-photo, .project-photo2, .project-p, .lightbox-photo {
     width: 100%;
     /* height: auto; */
     display: block;
