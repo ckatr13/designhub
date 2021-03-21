@@ -8,9 +8,9 @@ export function fillInfo(projObj) {
     const name = document.createTextNode(projObj.name);
     document.getElementById("name").appendChild(name);
 
-    document.getElementById("photo").setAttribute('data-src', projObj.photo);
-    document.getElementById("photo").alt = projObj.alt;
-    document.getElementById("photo").classList.add("lazy");
+    // document.getElementById("photo").setAttribute('data-src', projObj.photo);
+    // document.getElementById("photo").alt = projObj.alt;
+    // document.getElementById("photo").classList.add("lazy");
 
     const client = document.createTextNode(projObj.client);
     document.getElementById("client").appendChild(client);
