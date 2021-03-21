@@ -1948,8 +1948,6 @@ li {
 
 .project-grid2 {
     grid-template-columns: repeat(1, 1fr);
-    background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(127, 127, 127));
-    margin-top: 20px;
     display: grid;
     grid-template-rows: auto;
     width: 100%;
@@ -1967,6 +1965,7 @@ li {
 
 .project-detail2 {
     width: 100%;
+    margin-top: 20px;
     /* height: 100%; */
     /* margin: 6px auto; */
     /* display: flex;
