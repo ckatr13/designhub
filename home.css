@@ -1950,6 +1950,11 @@ li {
     grid-template-columns: repeat(1, 1fr);
     background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(127, 127, 127));
     margin: 0;
+    display: grid;
+    grid-template-rows: auto;
+    width: calc(100% - 40px);
+    padding-top: 6px;
+    transition: 750ms ease-in-out;
 }
 
 .project-detail {
