@@ -295,6 +295,18 @@ b {
     font-weight: 700;
 }
 
+#title, #name {
+    width: 464px;
+    background: linear-gradient(45deg, #E06363 1% , #dfc6b2 30%, #dfc6b2 60%, #6394df 99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#desc {
+    margin: 0px 220px;
+    font-size: 14px;
+}
+
 p {
     line-height: 2em;
     font-weight: 400;
@@ -1359,8 +1371,8 @@ header {
     padding-top: 50px;
     padding-bottom: 50px;
     /* background-color: #f9f9f9; */
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
 
 @media screen and (max-width: 963px) {
@@ -1871,6 +1883,10 @@ li {
     margin: 0px;
     padding: 0px;
     text-align: center;
+    font-weight: bold;
+    background: linear-gradient(45deg, #E06363 1% , #dfc6b2 30%, #dfc6b2 60%, #6394df 99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .h4 {
@@ -1887,14 +1903,12 @@ li {
 
 .caption1 {
     /* width: 65%; */
+    text-align: center;
 }
 
 .proj-title {
     width: 100%;
     font-size: 26px;
-    background: linear-gradient(45deg, #E06363 1% , #dfc6b2 30%, #dfc6b2 60%, #6394df 99%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 /* @media screen and (max-width: 515px) {
