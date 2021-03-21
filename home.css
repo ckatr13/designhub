@@ -303,16 +303,12 @@ b {
     -webkit-text-fill-color: transparent;
 }
 
-#title {
-    width: 464px;
-}
-
 #name {
     width: 230px;
 }
 
 #desc {
-    width: 464px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
     margin-top: -6px;
@@ -1922,7 +1918,7 @@ li {
 
 .proj-title {
     width: 100%;
-    font-size: 30px;
+    font-size: 32px;
 }
 
 /* @media screen and (max-width: 515px) {
