@@ -312,8 +312,10 @@ b {
 }
 
 #desc {
-    margin: 0px 220px;
-    margin-top: 10px;
+    width: 464px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -6px;
     font-size: 14px;
     line-height: normal;
     font-weight: 300;
