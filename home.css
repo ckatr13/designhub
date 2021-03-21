@@ -296,15 +296,27 @@ b {
 }
 
 #title, #name {
-    width: 464px;
+    margin-left: auto;
+    margin-right: auto;
     background: linear-gradient(45deg, #E06363 1% , #dfc6b2 30%, #dfc6b2 60%, #6394df 99%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
+#title {
+    width: 464px;
+}
+
+#name {
+    width: 230px;
+}
+
 #desc {
     margin: 0px 220px;
+    margin-top: 10px;
     font-size: 14px;
+    line-height: normal;
+    font-weight: 300;
 }
 
 p {
@@ -1880,10 +1892,10 @@ li {
 }
 
 .h3 {
-    margin: 0px;
+    margin-top: -14px;
     padding: 0px;
     text-align: center;
-    font-weight: bold;
+    font-weight: 400;
     background: linear-gradient(45deg, #E06363 1% , #dfc6b2 30%, #dfc6b2 60%, #6394df 99%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
