@@ -815,10 +815,7 @@ button:focus {
     text-align: center;
     font-weight: 700;
     color: black;
-    font-size: 26px;
-    background: linear-gradient(45deg, #E06363 1% , #dfc6b2 30%, #dfc6b2 60%, #6394df 99%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size:
     /* margin-top: -30px; */
 }
 
@@ -1894,6 +1891,10 @@ li {
 
 .proj-title {
     width: 100%;
+    font-size: 26px;
+    background: linear-gradient(45deg, #E06363 1% , #dfc6b2 30%, #dfc6b2 60%, #6394df 99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* @media screen and (max-width: 515px) {
