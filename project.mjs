@@ -22,8 +22,13 @@ export function fillInfo(projObj) {
         const newLi = document.createElement("li");
         newLi.className = "li client";
         const li = document.getElementById("services").appendChild(newLi);
-        const s = document.createTextNode(projObj.services[i]);
-        li.appendChild(s);
+        const s = document.createTextNode(projObj.services[i] + "/");
+        const lastS = document.createTextNode(projObj.services[i]);
+        if(projObj.services[i] < projObj.services.length) {
+            li.appendChild(s);
+        } else {
+            li.appendChild(s);
+        }
     })
 }
 
