@@ -1461,8 +1461,8 @@ ul {
 
 li {
     display: inline;
-    padding-bottom: 12px;
-    line-height: 5px;
+    /* padding-bottom: 12px;
+    line-height: 5px; */
     /* padding: 29px 20px; */
     font-weight: 300;
     color: black;
@@ -1939,7 +1939,7 @@ li {
 
 .li {
     display: block;
-    color: gray;
+    color: white;
     font-weight: 300;
 }
 
