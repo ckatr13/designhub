@@ -1917,7 +1917,8 @@ li {
 
 .ul {
     margin: 0px;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
 }
 
 .caption1 {
