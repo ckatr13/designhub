@@ -24,10 +24,10 @@ export function fillInfo(projObj) {
         const li = document.getElementById("services").appendChild(newLi);
         const s = document.createTextNode(projObj.services[i] + "/");
         const lastS = document.createTextNode(projObj.services[i]);
-        if(projObj.services[i] < projObj.services.length) {
+        if(projObj.services[i] + 1 < projObj.services.length) {
             li.appendChild(s);
         } else {
-            li.appendChild(s);
+            li.appendChild(lastS);
         }
     })
 }
