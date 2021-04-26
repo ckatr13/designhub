@@ -1904,7 +1904,6 @@ li {
     font-size: 14px;
     text-align: center;
     font-weight: normal;
-    width: 100%;
 }
 
 .h4 {
@@ -1956,7 +1955,7 @@ li {
 
 
 .caption2 {
-    padding-right: 10vw;
+    /* padding-right: 10vw; */
     /* margin-top: -80px; */
     height: 100%;
 }
