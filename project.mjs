@@ -24,8 +24,8 @@ export function fillInfo(projObj) {
         const li = document.getElementById("services").appendChild(newLi);
         const s = document.createTextNode(projObj.services[i] + "/");
         const lastS = document.createTextNode(projObj.services[i]);
-        console.log(projObj.services[i].indexOf(i));
-        if(projObj.services[i].indexOf(i) < projObj.services.length - 1) {
+        console.log(projObj.services.indexOf(services[i]));
+        if(projObj.services.indexOf(services[i]) < projObj.services.length - 1) {
             li.appendChild(s);
         } else {
             li.appendChild(lastS);
