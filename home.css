@@ -1897,8 +1897,8 @@ li {
     color: white;
     font-size: 16px;
     /* background: linear-gradient(45deg, #E06363 1% , #dfc6b2 30%, #dfc6b2 60%, #6394df 99%); */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
 }
 
 .h4 {
