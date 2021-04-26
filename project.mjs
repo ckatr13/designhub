@@ -24,7 +24,7 @@ export function fillInfo(projObj) {
         const li = document.getElementById("services").appendChild(newLi);
         const s = document.createTextNode(projObj.services[i]);
         const lastS = document.createTextNode(projObj.services[i]);
-        const space = document.createTextNode(" / ");
+        const space = document.createTextNode(" /  ");
         if(projObj.services.indexOf(el) < projObj.services.length - 1) {
             li.appendChild(s);
             li.appendChild(space);
