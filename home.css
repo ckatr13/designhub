@@ -141,7 +141,7 @@ h1 {
 } */
 
 h3 {
-    font-size: 20px;
+    font-size: 32px;
     font-weight: 300;
     /* font-style: italic; */
     color: black;
@@ -304,11 +304,11 @@ b {
 }
 
 #name {
-    width: 254px;
+    width: 400px;
 }
 
 #desc {
-    width: 500px;
+    width: 720px;
     margin-left: auto;
     margin-right: auto;
     margin-top: -6px;
@@ -1889,7 +1889,7 @@ li {
 }
 
 .h3 {
-    margin-top: -14px;
+    margin-top: -24px;
     padding: 0px;
     text-align: center;
     font-weight: 400;
@@ -1927,7 +1927,7 @@ li {
 
 .proj-title {
     width: 100%;
-    font-size: 36px;
+    font-size: 46px;
 }
 
 /* @media screen and (max-width: 515px) {
