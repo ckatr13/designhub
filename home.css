@@ -143,7 +143,7 @@ h1 {
 h3 {
     font-size: 18px;
     font-weight: 300;
-    font-style: italic;
+    /* font-style: italic; */
     color: black;
     margin-top: 0;
     /* margin: 0;
@@ -304,7 +304,7 @@ b {
 }
 
 #name {
-    width: 230px;
+    width: 232px;
 }
 
 #desc {
@@ -1379,7 +1379,7 @@ footer {
 header {
     width: 100%;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     /* background-color: #f9f9f9; */
     /* display: flex;
     justify-content: center; */
