@@ -2406,7 +2406,7 @@ span.psw {
 }
 
 .project-lightbox {
-    background: linear-gradient(45deg, #262e34, #546172);
+    background: linear-gradient(315deg, #546172 #262e34);
     height: calc(100% - 80px);
     width: calc(100% - 80px);
     margin: 40px;
