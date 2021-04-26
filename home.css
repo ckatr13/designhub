@@ -308,11 +308,11 @@ b {
 }
 
 #desc {
-    width: 720px;
+    width: 790px;
     margin-left: auto;
     margin-right: auto;
     margin-top: -6px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: normal;
     font-weight: 300;
 }
@@ -1900,7 +1900,7 @@ li {
 
 .client {
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     font-weight: 300;
     line-height: 6px;
@@ -2418,7 +2418,7 @@ span.psw {
     color: white;
     background-color: unset;
     border: none;
-    padding: 24px 30px;
+    padding: 14px 24px;
     font-size: 24px;
     font-weight: 300;
     position: fixed;
