@@ -1917,6 +1917,7 @@ li {
 
 .ul {
     margin: 0px;
+    display: inline-block;
 }
 
 .caption1 {
