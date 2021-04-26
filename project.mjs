@@ -20,7 +20,7 @@ export function fillInfo(projObj) {
 
     projObj.services.forEach(function(el, i) {
         const newLi = document.createElement("li");
-        newLi.className = "li";
+        newLi.className = "li client";
         const li = document.getElementById("services").appendChild(newLi);
         const s = document.createTextNode(projObj.services[i]);
         li.appendChild(s);
