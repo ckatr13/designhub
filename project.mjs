@@ -25,13 +25,11 @@ export function fillInfo(projObj) {
         const s = document.createTextNode(projObj.services[i]);
         const lastS = document.createTextNode(projObj.services[i]);
         const space = document.createTextNode(" / ");
-        const space2 = document.createTextNode(" ");
         if(projObj.services.indexOf(el) < projObj.services.length - 1) {
             li.appendChild(s);
             li.appendChild(space);
         } else {
-            li.appendChild(space2);
-            li.appendChild(s;
+            li.appendChild(s);
         }
     })
 }
