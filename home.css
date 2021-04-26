@@ -1961,6 +1961,7 @@ li {
     /* padding-right: 10vw; */
     /* margin-top: -80px; */
     height: 100%;
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 515px) {
