@@ -332,6 +332,7 @@ function slide(items) {
 
     // LightBox Functions
   const lightbox = document.getElementById("project-lightbox-container");
+  const projects = document.querySelector("project");
 
   function closeLightbox() {
     console.log(lightbox);
@@ -339,7 +340,6 @@ function slide(items) {
   }
 
   function openLightbox() {
-    const projects = document.querySelector("project");
     console.log(projects);
     projects.forEach(proj => {
       if(proj.href === projectArray[i].hash) {
@@ -347,3 +347,13 @@ function slide(items) {
       }
     })
   }
+
+  projects.forEach(function(el) {
+    el.addEventListener('click', openLightbox);
+  });
+
+  // function handleOpen(event) {
+  //   if(event.target.id === "project" + i) {
+
+  //   }
+  // }
