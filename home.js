@@ -331,9 +331,19 @@ function slide(items) {
   }
 
     // LightBox Functions
+  const lightbox = document.getElementById("project-lightbox-container");
 
   function closeLightbox() {
-    const lightbox = document.getElementById("project-lightbox-container");
     console.log(lightbox);
     lightbox.style.display = "none";
+  }
+
+  function openLightbox() {
+    const projects = document.querySelector("project");
+    console.log(projects);
+    projects.forEach(proj => {
+      if(proj.href === projectArray[i].hash) {
+        lightbox.style.display = "block";
+      }
+    })
   }
