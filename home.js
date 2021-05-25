@@ -334,6 +334,7 @@ function slide(items) {
 
   function closeLightbox() {
     const lightboxes = document.querySelector("project-lightbox-container");
+    console.log(lightboxes);
     lightboxes.forEach(lightbox => {
       lightbox.style.display = "none";
     });
