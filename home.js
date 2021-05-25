@@ -348,9 +348,9 @@ function slide(items) {
     })
   }
 
-  projects.forEach(function(el) {
-    el.addEventListener('click', openLightbox);
-  });
+  // projects.forEach(function(el) {
+  //   el.addEventListener('click', openLightbox);
+  // });
 
   // function handleOpen(event) {
   //   if(event.target.id === "project" + i) {

@@ -92,6 +92,10 @@ function createProjectList() {
       };
     
     makeImg().then(function() {
+        const projects = document.querySelector("project");
+        projects.forEach(function(el) {
+            el.addEventListener('click', openLightbox);
+          });
         document.addEventListener("DOMContentLoaded", setHeight2);
         window.onresize = function () {
           setHeight2();
