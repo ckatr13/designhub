@@ -19,7 +19,7 @@ function createProjectList() {
         newImg.alt = projectArray[i].alt;
         newA.className = "proj-a";
         newA.href = projectArray[i].hash;
-        newA.onClick = openLightbox();
+        // newA.onClick = openLightbox();
         newDiv2.className = "project-title-box";
         newH4.className = "project-title";
 
