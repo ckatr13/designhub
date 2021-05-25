@@ -329,3 +329,12 @@ function slide(items) {
       } 
     }
   }
+
+    // LightBox Functions
+
+  function closeLightbox() {
+    const lightboxes = document.getElementsByClassName("project-lightbox-container");
+    lightboxes.forEach(lightbox => {
+      lightbox.style.display = "none";
+    });
+  }
