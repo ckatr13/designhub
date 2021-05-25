@@ -333,7 +333,7 @@ function slide(items) {
     // LightBox Functions
 
   function closeLightbox() {
-    const lightboxes = document.getElementsByClassName("project-lightbox-container");
+    const lightboxes = document.querySelector("project-lightbox-container");
     lightboxes.forEach(lightbox => {
       lightbox.style.display = "none";
     });
