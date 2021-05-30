@@ -99,9 +99,10 @@ function createProjectList() {
         for(let i = 0; i < projects.length; i++) {
             for(let i = 0; i < projA.length; i++) { 
                 projA[i].addEventListener('click', function() {
-                    console.log(projA[i]);
+                    lightbox.style.display = "block";
+                    console.log("event added");
                     if(projA[i].href === projectArray[i].hash) {
-                        lightbox.style.display = "block";
+                        console.log(projA[i]);
                     }
                 })
             }
