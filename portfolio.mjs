@@ -93,6 +93,7 @@ function createProjectList() {
     
     makeImg().then(function() {
         const projects = document.querySelector("project");
+        console.log(openLightbox);
         projects.forEach(function(el) {
             el.addEventListener('click', openLightbox);
           });
