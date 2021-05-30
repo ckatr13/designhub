@@ -96,19 +96,18 @@ function createProjectList() {
         const projA = document.getElementsByClassName("proj-a");
         const lightbox = document.getElementById("project-lightbox-container");
         console.log(projects[0]);
-        for(let i = 0; i < projects.length; i++) {
+        // for(let i = 0; i < projects.length; i++) {
             for(let i = 0; i < projA.length; i++) { 
                 projA[i].addEventListener('click', function() {
                     lightbox.style.display = "block";
                     console.log("event added");
-                    console.log(projectArray[i].hash);
-                    console.log(projA[i].href);
                     if(projA[i].href === "https://ckatr13.github.io/designhub/" + projectArray[i].hash) {
                         console.log("opened specific project");
+
                     }
                 })
             }
-        }
+        // }
 
         // projects.forEach(project => {
         //     console.log(project);
