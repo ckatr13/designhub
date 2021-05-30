@@ -103,8 +103,8 @@ function createProjectList() {
                     console.log("event added");
                     console.log(projectArray[i].hash);
                     console.log(projA[i].href);
-                    if(projA[i].href === projectArray[i].hash) {
-                        console.log(projA[i]);
+                    if(projA[i].href === "https://ckatr13.github.io/designhub/" + projectArray[i].hash) {
+                        console.log("opened specific project");
                     }
                 })
             }
