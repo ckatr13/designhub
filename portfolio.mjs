@@ -96,30 +96,16 @@ function createProjectList() {
         const projA = document.getElementsByClassName("proj-a");
         const lightbox = document.getElementById("project-lightbox-container");
         console.log(projects[0]);
-        // for(let i = 0; i < projects.length; i++) {
-            for(let i = 0; i < projA.length; i++) { 
-                projA[i].addEventListener('click', function() {
-                    lightbox.style.display = "block";
-                    console.log("event added");
-                    if(projA[i].href === "https://ckatr13.github.io/designhub/" + projectArray[i].hash) {
-                        console.log("opened specific project");
+        for(let i = 0; i < projA.length; i++) { 
+            projA[i].addEventListener('click', function() {
+                lightbox.style.display = "block";
+                console.log("event added");
+                    // if(projA[i].href === "https://ckatr13.github.io/designhub/" + projectArray[i].hash) {
+                    //     console.log("opened specific project");
 
-                    }
-                })
-            }
-        // }
-
-        // projects.forEach(project => {
-        //     console.log(project);
-        //     projA.forEach(proj => {
-        //         proj.addEventListener('click', function() {
-        //             console.log(project);
-        //             if(project.href === projectArray[i].hash) {
-        //                 lightbox.style.display = "block";
-        //             }
-        //         })
-        //     })
-        // });
+                    // }
+            })
+        }
 
         document.addEventListener("DOMContentLoaded", setHeight2);
         window.onresize = function () {
