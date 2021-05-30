@@ -98,15 +98,15 @@ function createProjectList() {
         console.log(projects[0]);
         for(let i = 0; i < projects.length; i++) {
             console.log(projects[i]);
-            projA.forEach(proj => {
-                proj.addEventListener('click', function() {
-                    console.log(proj);
-                    if(proj.href === projectArray[i].hash) {
+            for(let i = 0; i < projA.length; i++) { 
+                projA[i].addEventListener('click', function() {
+                    console.log(projA[i]);
+                    if(projA[i].href === projectArray[i].hash) {
                         lightbox.style.display = "block";
                     }
                 })
-            })
-        }
+            }
+
         // projects.forEach(project => {
         //     console.log(project);
         //     projA.forEach(proj => {
