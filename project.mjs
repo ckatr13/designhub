@@ -25,9 +25,9 @@ export function fillInfo(projObj) {
         const s = document.createTextNode(projObj.services[i] + "\xa0" + "/" + "\xa0");
         const lastS = document.createTextNode(projObj.services[i]);
         if(projObj.services.indexOf(el) < projObj.services.length - 1) {
-            li.childNode = s;
+            li.childNodes = s;
         } else {
-            li.childNode = lastS;
+            li.childNodes = lastS;
         }
     })
 }
