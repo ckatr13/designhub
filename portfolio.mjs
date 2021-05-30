@@ -121,7 +121,7 @@ function createProjectList() {
               }
             });
           });
-    }, 0)).catch(function(rejectionReason) {
+    }, 5000)).catch(function(rejectionReason) {
         console.log(rejectionReason);
     })
 };
