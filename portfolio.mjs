@@ -91,7 +91,7 @@ function createProjectList() {
         return new Promise(makeEl)
       };
     
-    makeImg().then(function() {
+    makeImg().then(setTimeout(function() {
         const projects = document.querySelectorAll("proj-a");
         const lightbox = document.getElementById("project-lightbox-container");
         console.log(projects[0]);
@@ -121,7 +121,7 @@ function createProjectList() {
               }
             });
           });
-    }).catch(function(rejectionReason) {
+    }, 0).catch(function(rejectionReason) {
         console.log(rejectionReason);
     })
 };
