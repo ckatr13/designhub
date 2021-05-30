@@ -131,7 +131,7 @@ export function loadImages(projObj) {
 //         fillInfo(Objects.projectArray[i]);
 //         console.log(Objects.projectArray[i]);
 //     }
-});
+// });
 
 // loadImages(Objects.projectArray[12]);
 // fillInfo(Objects.projectArray[12]);
