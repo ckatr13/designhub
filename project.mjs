@@ -110,6 +110,7 @@ export function loadImages(projObj) {
           setHeight();
         };
         document.addEventListener("DOMContentLoaded", function () {
+            console.log("yall!");
             yall({
                 events: {
                     load: function (event) {
