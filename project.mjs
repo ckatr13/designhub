@@ -92,7 +92,7 @@ export function imgLoops(projObj) {
 export function loadImages(projObj) {
     function makeEl(resolve, reject) {
         if(document.getElementById("overviewGrid")) {
-            imgLoops(projObj);
+            Project.imgLoops(projObj);
             resolve();
         } else {
             reject("Something Went Wrong")
@@ -125,12 +125,12 @@ export function loadImages(projObj) {
     })
 }
 
-Objects.projectArray.forEach(function(el, i) {
-    if (window.location.hash === Objects.projectArray[i].hash) {
-        loadImages(Objects.projectArray[i]);
-        fillInfo(Objects.projectArray[i]);
-        console.log(Objects.projectArray[i]);
-    }
+// Objects.projectArray.forEach(function(el, i) {
+//     if (window.location.hash === Objects.projectArray[i].hash) {
+//         loadImages(Objects.projectArray[i]);
+//         fillInfo(Objects.projectArray[i]);
+//         console.log(Objects.projectArray[i]);
+//     }
 });
 
 // loadImages(Objects.projectArray[12]);
