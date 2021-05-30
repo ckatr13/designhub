@@ -338,22 +338,3 @@ function slide(items) {
     console.log(lightbox);
     lightbox.style.display = "none";
   }
-
-  // function openLightbox() {
-  //   console.log(projects);
-  //   projects.forEach(proj => {
-  //     if(proj.href === projectArray[i].hash) {
-  //       lightbox.style.display = "block";
-  //     }
-  //   })
-  // }
-
-  // projects.forEach(function(el) {
-  //   el.addEventListener('click', openLightbox);
-  // });
-
-  // function handleOpen(event) {
-  //   if(event.target.id === "project" + i) {
-
-  //   }
-  // }
