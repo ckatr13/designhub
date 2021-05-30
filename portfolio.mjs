@@ -93,8 +93,8 @@ function createProjectList() {
     
     makeImg().then(function() {
         const projects = document.getElementsByClassName("proj-a");
-        console.log(projects);
-        projects.forEach(function(el) {
+        console.log(projects.outerHTML);
+        projects.outerHTML.forEach(function(el) {
             el.addEventListener('click', openLightbox);
           });
         document.addEventListener("DOMContentLoaded", setHeight2);
