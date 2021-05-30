@@ -20,7 +20,6 @@ function createProjectList() {
         newA.className = "proj-a";
         newA.href = projectArray[i].hash;
         newA.id = "project" + i;
-        newA.onclick = openLightbox;
         newDiv2.className = "project-title-box";
         newH4.className = "project-title";
 
@@ -95,9 +94,6 @@ function createProjectList() {
     makeImg().then(function() {
         const projects = document.querySelectorAll("project");
         console.log(projects);
-        // projects.forEach(function(el) {
-        //     el.addEventListener('click', openLightbox);
-        //   });
         function openLightbox() {
             console.log(projects);
             projects.forEach(proj => {
@@ -106,6 +102,9 @@ function createProjectList() {
               }
             })
           }
+        projects.forEach(function(el) {
+            el.addEventListener('click', openLightbox);
+        });
         document.addEventListener("DOMContentLoaded", setHeight2);
         window.onresize = function () {
           setHeight2();
