@@ -95,8 +95,6 @@ function createProjectList() {
         const projects = document.getElementsByClassName("project-title-box");
         const lightbox = document.getElementById("project-lightbox-container");
         console.log(projects[0]);
-        console.log(projects.innerHTML[0]);
-        console.log(projects.outerHTML[0]);
         projects.forEach(project => {
             console.log(project);
             el.addEventListener('click', function() {
