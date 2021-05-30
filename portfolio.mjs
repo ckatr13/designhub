@@ -22,6 +22,7 @@ function createProjectList() {
         newDiv2.id = "project" + i;
         newDiv2.className = "project-title-box";
         newH4.className = "project-title";
+        newH4.id = "H" + i;
 
         const div = document.getElementById(category).appendChild(newDiv);
         div.appendChild(newImg);
@@ -102,7 +103,7 @@ function createProjectList() {
                 console.log("event added");
                 console.log(event.target.id);
                 for(let j = 0; j < projects.length; j++) {
-                    if(event.target.id === "project" + j) {
+                    if(event.target.id === "project" + j || event.target.id === "H" + j) {
                         console.log("condition worked");
                     }
                 }
