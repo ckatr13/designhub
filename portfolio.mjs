@@ -106,6 +106,7 @@ function createProjectList() {
                     }
                 })
             }
+        }
 
         // projects.forEach(project => {
         //     console.log(project);
