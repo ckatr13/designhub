@@ -112,11 +112,10 @@ function createProjectList() {
                     }
                 }
             })
-        }
-
-        document.addEventListener("DOMContentLoaded", setHeight2);
-        window.onresize = function () {
-          setHeight2();
+        }}).then(function() {
+            document.addEventListener("DOMContentLoaded", setHeight2);
+            window.onresize = function () {
+            setHeight2();
         };
         document.addEventListener("DOMContentLoaded", function () {
             yall({
