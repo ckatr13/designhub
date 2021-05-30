@@ -91,7 +91,7 @@ function createProjectList() {
         return new Promise(makeEl)
       };
     
-    makeImg().then(setTimeout(function() {
+    makeImg().then(function() {
         const projects = document.getElementsByClassName("project-title-box");
         const projA = document.getElementsByClassName("proj-a");
         const lightbox = document.getElementById("project-lightbox-container");
@@ -100,12 +100,12 @@ function createProjectList() {
             projA[i].addEventListener('click', function() {
                 lightbox.style.display = "block";
                 console.log("event added");
+                for(let j = 0; j < projects.length; j++) {
+                    if(event.target.id === "project" + j) {
+                        console.log("condition worked");
+                    }
+                }
             })
-        }
-        for(let j = 0; j < projects.length; j++) {
-            if(event.target.id === "project" + j) {
-                console.log("condition worked");
-            }
         }
 
         document.addEventListener("DOMContentLoaded", setHeight2);
@@ -123,7 +123,7 @@ function createProjectList() {
               }
             });
           });
-    }, 5000)).catch(function(rejectionReason) {
+    }).catch(function(rejectionReason) {
         console.log(rejectionReason);
     })
 };
