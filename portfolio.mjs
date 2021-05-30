@@ -93,15 +93,18 @@ function createProjectList() {
     
     makeImg().then(setTimeout(function() {
         const projects = document.getElementsByClassName("project-title-box");
+        const projA = document.getElementsByClassName("proj-a");
         const lightbox = document.getElementById("project-lightbox-container");
         console.log(projects[0]);
         projects.forEach(project => {
             console.log(project);
-            el.addEventListener('click', function() {
-                console.log(project);
-                if(project.href === projectArray[i].hash) {
-                    lightbox.style.display = "block";
-                }
+            projA.forEach(proj => {
+                proj.addEventListener('click', function() {
+                    console.log(project);
+                    if(project.href === projectArray[i].hash) {
+                        lightbox.style.display = "block";
+                    }
+                })
             })
         });
 
