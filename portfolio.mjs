@@ -96,8 +96,8 @@ function createProjectList() {
         const projA = document.getElementsByClassName("proj-a");
         const lightbox = document.getElementById("project-lightbox-container");
         console.log(projects[0]);
-        projects.forEach(project => {
-            console.log(project);
+        for(let i = 0; i < projects.length; i++) {
+            console.log(project[i]);
             projA.forEach(proj => {
                 proj.addEventListener('click', function() {
                     console.log(project);
@@ -106,7 +106,18 @@ function createProjectList() {
                     }
                 })
             })
-        });
+        }
+        // projects.forEach(project => {
+        //     console.log(project);
+        //     projA.forEach(proj => {
+        //         proj.addEventListener('click', function() {
+        //             console.log(project);
+        //             if(project.href === projectArray[i].hash) {
+        //                 lightbox.style.display = "block";
+        //             }
+        //         })
+        //     })
+        // });
 
         document.addEventListener("DOMContentLoaded", setHeight2);
         window.onresize = function () {
