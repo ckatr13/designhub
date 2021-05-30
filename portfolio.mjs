@@ -97,11 +97,10 @@ function createProjectList() {
         const lightbox = document.getElementById("project-lightbox-container");
         console.log(projects[0]);
         for(let i = 0; i < projects.length; i++) {
-            console.log(projects[i]);
             for(let i = 0; i < projA.length; i++) { 
                 projA[i].addEventListener('click', function() {
-                    console.log(projA[i]);
                     if(projA[i].href === projectArray[i].hash) {
+                        console.log(projA[i]);
                         lightbox.style.display = "block";
                     }
                 })
