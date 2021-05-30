@@ -20,6 +20,7 @@ function createProjectList() {
         newA.className = "proj-a";
         newA.href = projectArray[i].hash;
         newA.id = "project" + i;
+        newA.onclick = openLightbox;
         newDiv2.className = "project-title-box";
         newH4.className = "project-title";
 
@@ -92,11 +93,11 @@ function createProjectList() {
       };
     
     makeImg().then(function() {
-        const projects = document.getElementsByClassName("proj-a");
-        console.log(projects.outerHTML);
-        projects.outerHTML.forEach(function(el) {
-            el.addEventListener('click', openLightbox);
-          });
+        // const projects = document.getElementsByClassName("proj-a");
+        // console.log(projects.outerHTML);
+        // projects.forEach(function(el) {
+        //     el.addEventListener('click', openLightbox);
+        //   });
         document.addEventListener("DOMContentLoaded", setHeight2);
         window.onresize = function () {
           setHeight2();
