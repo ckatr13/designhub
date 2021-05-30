@@ -105,13 +105,9 @@ function createProjectList() {
                 for(let j = 0; j < projects.length; j++) {
                     if(event.target.id === "project" + j || event.target.id === "H" + j) {
                         console.log("condition worked");
-                        Objects.projectArray.forEach(function(el, i) {
-                            if (window.location.hash === Objects.projectArray[i].hash) {
-                                loadImages(Objects.projectArray[i]);
-                                fillInfo(Objects.projectArray[i]);
-                                console.log(Objects.projectArray[i]);
-                            }
-                        });
+                            loadImages(Objects.projectArray[j]);
+                            fillInfo(Objects.projectArray[j]);
+                            console.log(Objects.projectArray[j]);
                     }
                 }
             })
