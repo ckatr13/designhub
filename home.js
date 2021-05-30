@@ -339,14 +339,14 @@ function slide(items) {
     lightbox.style.display = "none";
   }
 
-  function openLightbox() {
-    console.log(projects);
-    projects.forEach(proj => {
-      if(proj.href === projectArray[i].hash) {
-        lightbox.style.display = "block";
-      }
-    })
-  }
+  // function openLightbox() {
+  //   console.log(projects);
+  //   projects.forEach(proj => {
+  //     if(proj.href === projectArray[i].hash) {
+  //       lightbox.style.display = "block";
+  //     }
+  //   })
+  // }
 
   // projects.forEach(function(el) {
   //   el.addEventListener('click', openLightbox);

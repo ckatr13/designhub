@@ -93,11 +93,19 @@ function createProjectList() {
       };
     
     makeImg().then(function() {
-        // const projects = document.getElementsByClassName("proj-a");
-        // console.log(projects.outerHTML);
+        const projects = document.querySelectorAll("project");
+        console.log(projects);
         // projects.forEach(function(el) {
         //     el.addEventListener('click', openLightbox);
         //   });
+        function openLightbox() {
+            console.log(projects);
+            projects.forEach(proj => {
+              if(proj.href === projectArray[i].hash) {
+                lightbox.style.display = "block";
+              }
+            })
+          }
         document.addEventListener("DOMContentLoaded", setHeight2);
         window.onresize = function () {
           setHeight2();
