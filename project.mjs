@@ -89,7 +89,7 @@ export function imgLoops(projObj) {
     })
 }
 
-function loadImages(projObj) {
+export function loadImages(projObj) {
     function makeEl(resolve, reject) {
         if(document.getElementById("overviewGrid")) {
             imgLoops(projObj);
