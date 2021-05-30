@@ -97,16 +97,15 @@ function createProjectList() {
         console.log(projects[0]);
         console.log(projects.innerHTML[0]);
         console.log(projects.outerHTML[0]);
-        function openLightbox() {
-            console.log(projects);
-            projects.forEach(proj => {
-              if(proj.href === projectArray[i].hash) {
-                lightbox.style.display = "block";
-              }
-            })
-          }
         projects.forEach(function(el) {
-            el.addEventListener('click', openLightbox);
+            el.addEventListener('click', function() {
+                console.log(projects);
+                projects.forEach(proj => {
+                  if(proj.href === projectArray[i].hash) {
+                    lightbox.style.display = "block";
+                  }
+                })
+            });
         });
         document.addEventListener("DOMContentLoaded", setHeight2);
         window.onresize = function () {
