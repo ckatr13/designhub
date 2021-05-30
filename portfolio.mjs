@@ -94,7 +94,9 @@ function createProjectList() {
     makeImg().then(setTimeout(function() {
         const projects = document.getElementsByClassName("proj-a");
         const lightbox = document.getElementById("project-lightbox-container");
-        console.log(projects.outerHTML);
+        console.log(projects[0]);
+        console.log(projects.innerHTML[0]);
+        console.log(projects.outerHTML[0]);
         function openLightbox() {
             console.log(projects);
             projects.forEach(proj => {
