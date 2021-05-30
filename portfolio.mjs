@@ -92,9 +92,9 @@ function createProjectList() {
       };
     
     makeImg().then(setTimeout(function() {
-        const projects = document.querySelectorAll("proj-a");
+        const projects = document.getElementsByClassName("proj-a");
         const lightbox = document.getElementById("project-lightbox-container");
-        console.log(projects[0]);
+        console.log(projects);
         function openLightbox() {
             console.log(projects);
             projects.forEach(proj => {
