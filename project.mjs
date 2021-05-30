@@ -3,31 +3,31 @@ import yall from './node_modules/yall-js/dist/yall.min.mjs';
 
 export function fillInfo(projObj) {
     const title = document.createTextNode(projObj.title);
-    document.getElementById("title").appendChild(title);
+    document.getElementById("title").innerHTML = title;
 
     const name = document.createTextNode(projObj.name);
-    document.getElementById("name").appendChild(name);
+    document.getElementById("name").innerHTML = name);
 
     // document.getElementById("photo").setAttribute('data-src', projObj.photo);
     // document.getElementById("photo").alt = projObj.alt;
     // document.getElementById("photo").classList.add("lazy");
 
     const client = document.createTextNode(projObj.client);
-    document.getElementById("client").appendChild(client);
+    document.getElementById("client").innerHTML = client;
 
     const desc = document.createTextNode(projObj.description);
-    document.getElementById("desc").appendChild(desc);
+    document.getElementById("desc").innerHTML = desc;
 
     projObj.services.forEach(function(el, i) {
         const newLi = document.createElement("li");
         newLi.className = "li client";
-        const li = document.getElementById("services").appendChild(newLi);
+        const li = document.getElementById("services").innerHTML = newLi;
         const s = document.createTextNode(projObj.services[i] + "\xa0" + "/" + "\xa0");
         const lastS = document.createTextNode(projObj.services[i]);
         if(projObj.services.indexOf(el) < projObj.services.length - 1) {
-            li.appendChild(s);
+            li.innerHTML = s;
         } else {
-            li.appendChild(lastS);
+            li.innerHTML = lastS;
         }
     })
 }
