@@ -100,11 +100,12 @@ function createProjectList() {
             projA[i].addEventListener('click', function() {
                 lightbox.style.display = "block";
                 console.log("event added");
-                    // if(projA[i].href === "https://ckatr13.github.io/designhub/" + projectArray[i].hash) {
-                    //     console.log("opened specific project");
-
-                    // }
             })
+        }
+        for(let j = 0; j < projects.length; j++) {
+            if(event.target.id === "project" + j) {
+                console.log("condition worked");
+            }
         }
 
         document.addEventListener("DOMContentLoaded", setHeight2);
