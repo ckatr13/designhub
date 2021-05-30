@@ -100,8 +100,8 @@ function createProjectList() {
             projA[i].addEventListener('click', function() {
                 lightbox.style.display = "block";
                 console.log("event added");
+                console.log(event.target.id);
                 for(let j = 0; j < projects.length; j++) {
-                    console.log(event.target.id);
                     if(event.target.id === "project" + j) {
                         console.log("condition worked");
                     }
