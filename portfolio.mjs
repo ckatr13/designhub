@@ -101,6 +101,7 @@ function createProjectList() {
                 lightbox.style.display = "block";
                 console.log("event added");
                 for(let j = 0; j < projects.length; j++) {
+                    console.log(event.target.id);
                     if(event.target.id === "project" + j) {
                         console.log("condition worked");
                     }
