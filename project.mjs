@@ -3,20 +3,20 @@ import yall from './node_modules/yall-js/dist/yall.min.mjs';
 
 export function fillInfo(projObj) {
     const title = document.createTextNode(projObj.title);
-    document.getElementById("title").innerHTML = title;
+    document.getElementById("title").innerHTML = projObj.title;
 
     const name = document.createTextNode(projObj.name);
-    document.getElementById("name").innerHTML = name;
+    document.getElementById("name").innerHTML = projObj.name;
 
     // document.getElementById("photo").setAttribute('data-src', projObj.photo);
     // document.getElementById("photo").alt = projObj.alt;
     // document.getElementById("photo").classList.add("lazy");
 
     const client = document.createTextNode(projObj.client);
-    document.getElementById("client").innerHTML = client;
+    document.getElementById("client").innerHTML = projObj.client;
 
     const desc = document.createTextNode(projObj.description);
-    document.getElementById("desc").innerHTML = desc;
+    document.getElementById("desc").innerHTML = projObj.description;
 
     projObj.services.forEach(function(el, i) {
         const newLi = document.createElement("li");
