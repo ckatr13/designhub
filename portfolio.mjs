@@ -112,13 +112,23 @@ function createProjectList() {
                     }
                 }
             })
-        }}).then(function() {
+        }}).then(function() {        
+            document.addEventListener("click", function () {
+                yall({
+                    events: {
+                        load: function (event) {
+                            if(!event.target.classList.contains("hide2")) {
+                            event.target.style.opacity = "1";
+                            }
+                        }
+                    }
+                });
+            });
             document.addEventListener("DOMContentLoaded", setHeight2);
             window.onresize = function () {
             setHeight2();
         };
         document.addEventListener("DOMContentLoaded", function () {
-            console.log("yall!");
             yall({
               events: {
                 load: function (event) {
