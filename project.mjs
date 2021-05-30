@@ -6,7 +6,7 @@ export function fillInfo(projObj) {
     document.getElementById("title").innerHTML = title;
 
     const name = document.createTextNode(projObj.name);
-    document.getElementById("name").innerHTML = name);
+    document.getElementById("name").innerHTML = name;
 
     // document.getElementById("photo").setAttribute('data-src', projObj.photo);
     // document.getElementById("photo").alt = projObj.alt;
