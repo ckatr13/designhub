@@ -102,6 +102,7 @@ function createProjectList() {
                     lightbox.style.display = "block";
                     console.log("event added");
                     console.log(projectArray[i].hash);
+                    console.log(projA[i].href);
                     if(projA[i].href === projectArray[i].hash) {
                         console.log(projA[i]);
                     }
