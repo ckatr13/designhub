@@ -1,4 +1,5 @@
 import * as Objects from './objects.mjs';
+import * as Project from './project.mjs';
 import yall from './node_modules/yall-js/dist/yall.min.mjs';
 
 function createProjectList() {
@@ -105,9 +106,9 @@ function createProjectList() {
                 for(let j = 0; j < projects.length; j++) {
                     if(event.target.id === "project" + j || event.target.id === "H" + j) {
                         console.log("condition worked");
-                            loadImages(Objects.projectArray[j]);
-                            fillInfo(Objects.projectArray[j]);
-                            console.log(Objects.projectArray[j]);
+                        Project.loadImages(Objects.projectArray[j]);
+                        Project.fillInfo(Objects.projectArray[j]);
+                        console.log(Objects.projectArray[j]);
                     }
                 }
             })
