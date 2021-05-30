@@ -118,6 +118,7 @@ function createProjectList() {
             setHeight2();
         };
         document.addEventListener("DOMContentLoaded", function () {
+            console.log("yall!");
             yall({
               events: {
                 load: function (event) {
