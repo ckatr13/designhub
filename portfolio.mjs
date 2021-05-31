@@ -112,9 +112,7 @@ function createProjectList() {
                     }
                 }
             })
-        }}).then(function() {
-            lightbox.scrollTop = 0;
-            window.scrollTop = 0;    
+        }}).then(function() {  
             document.addEventListener("click", function () {
                 yall({
                     events: {
@@ -141,6 +139,8 @@ function createProjectList() {
               }
             });
           });
+        lightbox.scrollTop = 0;
+        window.scrollTop = 0;  
     }).catch(function(rejectionReason) {
         console.log(rejectionReason);
     })
