@@ -241,7 +241,7 @@ function slide(items) {
     const toggleSwitch = document.querySelectorAll(".project-list"),
           category = document.getElementsByClassName("portfolio-grid"),
         //   circles = document.getElementsByClassName("toggle"),
-          hashArray = ["", "#_news", "#_election", "#_entertainment", "#_corporate",
+          hashArray = ["", "#portfolio", "#_news", "#_election", "#_entertainment", "#_corporate",
             "#_branding", "#cell_animation", "#_sports", "#_photography", "#ar_vr"];
   
     function toggle(item, arr) {
