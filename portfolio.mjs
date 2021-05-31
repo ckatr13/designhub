@@ -101,8 +101,7 @@ function createProjectList() {
         for(let i = 0; i < projA.length; i++) { 
             projA[i].addEventListener('click', function() {
                 lightbox.style.display = "block";
-                lightbox.scroll({top:0,behavior:'smooth'});
-                window.scrollTop = 0; 
+                document.getElementById("project-lightbox").scrollTop = 0;
                 console.log("event added");
                 console.log(event.target.id);
                 for(let j = 0; j < projects.length; j++) {
