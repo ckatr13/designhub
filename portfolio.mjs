@@ -105,7 +105,6 @@ function createProjectList() {
                 window.scrollTop = 0; 
                 document.body.scrollTop = 0; // For Safari
                 document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-                lightbox.body.scrollTop = 0; // For Safari
                 lightbox.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
                 console.log("event added");
                 console.log(event.target.id);
