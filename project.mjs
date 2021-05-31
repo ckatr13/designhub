@@ -21,7 +21,7 @@ export function fillInfo(projObj) {
     if(document.getElementById("services").hasChildNodes()) {
         document.getElementById("services").innerHTML = "";
     };
-    
+
     projObj.services.forEach(function(el, i) {
         const newLi = document.createElement("li");
         newLi.className = "li client";
@@ -37,6 +37,11 @@ export function fillInfo(projObj) {
 }
 
 export function imgLoops(projObj) {
+
+    if(document.getElementById("overviewGrid").hasChildNodes()) {
+        document.getElementById("overviewGrid").innerHTML = "";
+    };
+
     projObj.imgArr.forEach(function(el, i) {
         const newImg = document.createElement("img");
         const newDiv = document.createElement("div");
@@ -59,6 +64,10 @@ export function imgLoops(projObj) {
         let a = div.appendChild(newA);
         a.appendChild(newDiv2);
     });
+
+    if(document.getElementById("photoGallery").hasChildNodes()) {
+        document.getElementById("photoGallery").innerHTML = "";
+    };
 
     projObj.videoArr.forEach(function(el, i) {
         const newDiv = document.createElement("div");
