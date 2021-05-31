@@ -101,6 +101,10 @@ function createProjectList() {
         for(let i = 0; i < projA.length; i++) { 
             projA[i].addEventListener('click', function() {
                 lightbox.style.display = "block";
+                lightbox.scrollTop = 0;
+                window.scrollTop = 0; 
+                document.body.scrollTop = 0; // For Safari
+                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
                 console.log("event added");
                 console.log(event.target.id);
                 for(let j = 0; j < projects.length; j++) {
@@ -127,8 +131,6 @@ function createProjectList() {
             document.addEventListener("DOMContentLoaded", setHeight2);
             window.onresize = function () {
             setHeight2();
-            lightbox.scrollTop = 0;
-            window.scrollTop = 0; 
         };
         document.addEventListener("DOMContentLoaded", function () {
             yall({
