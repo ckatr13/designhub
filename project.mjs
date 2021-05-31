@@ -25,12 +25,12 @@ export function fillInfo(projObj) {
             document.getElementById("services").innerHTML = "";
         };
         const li = document.getElementById("services").appendChild(newLi);
-        // const s = document.createTextNode(projObj.services[i] + "\xa0" + "/" + "\xa0");
-        // const lastS = document.createTextNode(projObj.services[i]);
+        const s = document.createTextNode(projObj.services[i] + "\xa0" + "/" + "\xa0");
+        const lastS = document.createTextNode(projObj.services[i]);
         if(projObj.services.indexOf(el) < projObj.services.length - 1) {
-            li.innerHTML = projObj.services[i] + "\xa0" + "/" + "\xa0";
+            li.appendChild(s)
         } else {
-            li.innerHTML = projObj.services[i];
+            li.appendChild(lastS)
         }
     })
 }
