@@ -18,12 +18,13 @@ export function fillInfo(projObj) {
     // const desc = document.createTextNode(projObj.description);
     document.getElementById("desc").innerHTML = projObj.description;
 
+    if(document.getElementById("services").hasChildNodes()) {
+        document.getElementById("services").innerHTML = "";
+    };
+    
     projObj.services.forEach(function(el, i) {
         const newLi = document.createElement("li");
         newLi.className = "li client";
-        if(document.getElementById("services").hasChildNodes()) {
-            document.getElementById("services").innerHTML = "";
-        };
         const li = document.getElementById("services").appendChild(newLi);
         const s = document.createTextNode(projObj.services[i] + "\xa0" + "/" + "\xa0");
         const lastS = document.createTextNode(projObj.services[i]);
