@@ -241,7 +241,7 @@ function slide(items) {
     const toggleSwitch = document.querySelectorAll(".project-list"),
           category = document.getElementsByClassName("portfolio-grid"),
         //   circles = document.getElementsByClassName("toggle"),
-          hashArray = ["", "#portfolio", "#_news", "#_election", "#_entertainment", "#_corporate",
+          hashArray = ["", "#_news", "#_election", "#_entertainment", "#_corporate",
             "#_branding", "#cell_animation", "#_sports", "#_photography", "#ar_vr"];
   
     function toggle(item, arr) {
@@ -270,6 +270,8 @@ function slide(items) {
   
     if(window.event) {
       toggle(window.event.target.closest(".project-list"), toggleSwitch);
+    } else if(window.location.hash === "#portfolio") {
+      toggle("", hashArray);
     } else {
       toggle(window.location.hash, hashArray);
     }
