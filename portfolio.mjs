@@ -127,6 +127,8 @@ function createProjectList() {
             document.addEventListener("DOMContentLoaded", setHeight2);
             window.onresize = function () {
             setHeight2();
+            lightbox.scrollTop = 0;
+            window.scrollTop = 0; 
         };
         document.addEventListener("DOMContentLoaded", function () {
             yall({
@@ -138,9 +140,7 @@ function createProjectList() {
                 }
               }
             });
-          });
-        lightbox.scrollTop = 0;
-        window.scrollTop = 0;  
+          }); 
     }).catch(function(rejectionReason) {
         console.log(rejectionReason);
     })
