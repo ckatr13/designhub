@@ -2,8 +2,8 @@ import * as Objects from './objects.mjs';
 import yall from './node_modules/yall-js/dist/yall.min.mjs';
 
 export function fillInfo(projObj) {
-    const title = document.createTextNode(projObj.title);
-    document.getElementById("title").innerHTML = title;
+    // const title = document.createTextNode(projObj.title);
+    document.getElementById("title").innerHTML = projObj.title;
 
     // const name = document.createTextNode(projObj.name);
     document.getElementById("name").innerHTML = projObj.name;
@@ -21,7 +21,10 @@ export function fillInfo(projObj) {
     projObj.services.forEach(function(el, i) {
         const newLi = document.createElement("li");
         newLi.className = "li client";
-        const li = document.getElementById("services").innerHTML = newLi;
+        if(document.getElementById("services").hasChildNodes()) {
+            document.getElementById("services").innerHTML = "";
+        };
+        const li = document.getElementById("services").appendChild(newLi);
         // const s = document.createTextNode(projObj.services[i] + "\xa0" + "/" + "\xa0");
         // const lastS = document.createTextNode(projObj.services[i]);
         if(projObj.services.indexOf(el) < projObj.services.length - 1) {
