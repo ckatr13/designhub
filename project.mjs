@@ -118,7 +118,7 @@ export function loadImages(projObj) {
     
     makeImg().then(function() {
         console.log("working");
-        document.addEventListener("DOMContentLoaded", setHeight);
+        document.addEventListener("click", setHeight);
         window.onresize = function () {
           setHeight();
         };
