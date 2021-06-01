@@ -638,16 +638,17 @@ nav {
 }
 
 .mobile-link {
-    margin-bottom: 48px;
-    display: block;
+    /* margin-bottom: 48px; */
+    /* display: block; */
     cursor: pointer;
-    color: rgb(146, 146, 146);
-    margin-left: 60px;
-    opacity: 0;
+    /* color: rgb(146, 146, 146); */
+    color: black;
+    /* margin-left: 60px; */
+    /* opacity: 0; */
     transition: .5s ease-in-out;
-    margin-left: 150px;
+    /* margin-left: 150px; */
     height: 0px;
-    font-weight: 600;
+    /* font-weight: 600; */
 }
 
 @media screen and (max-width: 450px) {
