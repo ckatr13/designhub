@@ -982,6 +982,7 @@ footer {
 
 .footer-links {
     padding: 0px;
+    padding-bottom: 24px;
     margin: 0px;
     display: flex;
     /* margin-right: 20px; */
