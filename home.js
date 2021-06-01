@@ -242,7 +242,7 @@ function slide(items) {
           category = document.getElementsByClassName("portfolio-grid"),
         //   circles = document.getElementsByClassName("toggle"),
           hashArray = ["", "#_news", "#_election", "#_entertainment", "#_corporate",
-            "#_branding", "#cell_animation", "#_sports", "#_photography", "#ar_vr"];
+            "#_branding", "#cell_animation", "#_sports", "#_photography", "#ar_vr", "#ux"];
   
     function toggle(item, arr) {
       for (i=0; i < toggleSwitch.length; i++) {
