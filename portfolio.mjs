@@ -83,6 +83,11 @@ function createProjectList() {
                     group(i, "ar-vr");
                 }
             }); 
+            projectArray.forEach(function(el, i) {
+                if (projectArray[i].category.includes("ux")) {
+                    group(i, "ux");
+                }
+            }); 
             resolve();
         } else {
             reject("Something Went Wrong");
