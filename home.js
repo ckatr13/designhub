@@ -333,10 +333,9 @@ function slide(items) {
   }
 
     // LightBox Functions
-  const lightbox = document.getElementById("project-lightbox-container");
-  const projects = document.querySelector("project");
 
   function closeLightbox() {
+    const lightbox = document.getElementById("project-lightbox-container");
     console.log(lightbox);
     lightbox.style.display = "none";
   }
