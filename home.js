@@ -283,7 +283,7 @@ function slide(items) {
   function setHeight() {
     const el = document.getElementsByClassName("lightbox-photo");
     const a = document.getElementsByClassName("project-photo2");
-    let width =  (window.innerWidth / 4) - 140;
+    let width =  (window.innerWidth / 4) - 35;
     let width2 = window.innerWidth - 140;
     console.log(width);
   
